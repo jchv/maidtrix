@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrixserverlib/spec"
 )
 
 func TestValidRoomIDs(t *testing.T) {

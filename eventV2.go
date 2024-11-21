@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"unicode/utf8"
 
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/tidwall/gjson"
 	"github.com/tidwall/sjson"
 	"golang.org/x/crypto/ed25519"

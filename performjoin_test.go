@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/matrix-org/gomatrix"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrix"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/stretchr/testify/assert"
 	ed255192 "golang.org/x/crypto/ed25519"
 )

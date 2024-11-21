@@ -19,7 +19,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/tidwall/sjson"
 	"golang.org/x/crypto/ed25519"
 )

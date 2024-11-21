@@ -107,9 +107,9 @@ jobs:
           REPOSITORY: ${{ github.event.pull_request.head.repo.full_name }}
           PULL_SHA: ${{ github.event.pull_request.head.sha }}
           # Replace matrix-org/gomatrixserverlib with the repository sending the pull request
-        run: go mod edit -replace "github.com/matrix-org/gomatrixserverlib=github.com/${REPOSITORY}@${PULL_SHA}" && go mod tidy
+        run: go mod edit -replace "github.com/jchv/gomatrixserverlib=github.com/${REPOSITORY}@${PULL_SHA}" && go mod tidy
       - if: github.ref_name == 'main'
-        run: go get github.com/matrix-org/gomatrixserverlib@${{ github.sha }} && go mod tidy
+        run: go get github.com/jchv/gomatrixserverlib@${{ github.sha }} && go mod tidy
       - run: go test ./...
         env:
           POSTGRES_HOST: localhost

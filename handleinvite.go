@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/crypto/ed25519"

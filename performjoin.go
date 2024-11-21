@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/sirupsen/logrus"
 )
 

@@ -11,8 +11,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/matrix-org/gomatrixserverlib"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/matrix-org/util"
 	"golang.org/x/crypto/ed25519"
 )

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrixserverlib/spec"
 )
 
 // TopologicalOrder represents how to sort a list of events, used primarily in ReverseTopologicalOrdering

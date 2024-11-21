@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/crypto/ed25519"
 )

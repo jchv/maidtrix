@@ -23,7 +23,7 @@ import (
 	"unicode/utf16"
 	"unicode/utf8"
 
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/tidwall/gjson"
 )
 

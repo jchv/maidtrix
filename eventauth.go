@@ -22,7 +22,7 @@ import (
 
 	"golang.org/x/crypto/ed25519"
 
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/matrix-org/util"
 )
 

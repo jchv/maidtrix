@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/matrix-org/gomatrix"
-	"github.com/matrix-org/gomatrixserverlib"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrix"
+	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"golang.org/x/crypto/ed25519"
 )
 

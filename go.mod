@@ -1,8 +1,8 @@
-module github.com/matrix-org/gomatrixserverlib
+module github.com/jchv/gomatrixserverlib
 
 require (
 	github.com/google/go-cmp v0.5.9
-	github.com/matrix-org/gomatrix v0.0.0-20210324163249-be2af5ef2e16
+	github.com/jchv/gomatrix v0.0.0-20241121081858-79a20bb85ed7
 	github.com/matrix-org/util v0.0.0-20200807132607-55161520e1d4
 	github.com/miekg/dns v1.1.50
 	github.com/sirupsen/logrus v1.9.0
