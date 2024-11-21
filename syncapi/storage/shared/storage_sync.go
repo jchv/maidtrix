@@ -6,15 +6,15 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/tidwall/gjson"
 
-	"github.com/matrix-org/dendrite/internal/eventutil"
-	"github.com/matrix-org/dendrite/roomserver/api"
-	rstypes "github.com/matrix-org/dendrite/roomserver/types"
-	"github.com/matrix-org/dendrite/syncapi/synctypes"
-	"github.com/matrix-org/dendrite/syncapi/types"
-	userapi "github.com/matrix-org/dendrite/userapi/api"
+	"github.com/jchv/dendrite/internal/eventutil"
+	"github.com/jchv/dendrite/roomserver/api"
+	rstypes "github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/dendrite/syncapi/synctypes"
+	"github.com/jchv/dendrite/syncapi/types"
+	userapi "github.com/jchv/dendrite/userapi/api"
 )
 
 type DatabaseTransaction struct {

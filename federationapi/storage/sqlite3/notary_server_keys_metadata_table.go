@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/matrix-org/dendrite/federationapi/storage/tables"
-	"github.com/matrix-org/dendrite/internal"
-	"github.com/matrix-org/dendrite/internal/sqlutil"
-	"github.com/matrix-org/gomatrixserverlib"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/federationapi/storage/tables"
+	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib/spec"
 )
 
 const notaryServerKeysMetadataSchema = `

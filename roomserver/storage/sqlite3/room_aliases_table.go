@@ -19,9 +19,9 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/matrix-org/dendrite/internal"
-	"github.com/matrix-org/dendrite/internal/sqlutil"
-	"github.com/matrix-org/dendrite/roomserver/storage/tables"
+	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/roomserver/storage/tables"
 )
 
 const roomAliasesSchema = `

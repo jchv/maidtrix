@@ -5,9 +5,9 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/matrix-org/dendrite/roomserver/storage/tables"
-	"github.com/matrix-org/dendrite/roomserver/types"
-	"github.com/matrix-org/gomatrixserverlib"
+	"github.com/jchv/dendrite/roomserver/storage/tables"
+	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/gomatrixserverlib"
 )
 
 type MembershipUpdater struct {

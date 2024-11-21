@@ -7,18 +7,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/matrix-org/gomatrixserverlib"
-	"github.com/matrix-org/gomatrixserverlib/fclient"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib/fclient"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 
-	fedapi "github.com/matrix-org/dendrite/federationapi/api"
-	"github.com/matrix-org/dendrite/internal"
-	"github.com/matrix-org/dendrite/roomserver/api"
-	"github.com/matrix-org/dendrite/roomserver/state"
-	"github.com/matrix-org/dendrite/roomserver/storage"
-	"github.com/matrix-org/dendrite/roomserver/types"
+	fedapi "github.com/jchv/dendrite/federationapi/api"
+	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/dendrite/roomserver/api"
+	"github.com/jchv/dendrite/roomserver/state"
+	"github.com/jchv/dendrite/roomserver/storage"
+	"github.com/jchv/dendrite/roomserver/types"
 )
 
 type parsedRespState struct {

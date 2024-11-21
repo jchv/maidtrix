@@ -20,10 +20,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/matrix-org/dendrite/internal"
-	"github.com/matrix-org/dendrite/internal/sqlutil"
-	"github.com/matrix-org/dendrite/userapi/storage/sqlite3/deltas"
-	"github.com/matrix-org/dendrite/userapi/storage/tables"
+	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/userapi/storage/sqlite3/deltas"
+	"github.com/jchv/dendrite/userapi/storage/tables"
 )
 
 var keyChangesSchema = `

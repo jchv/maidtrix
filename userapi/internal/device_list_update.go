@@ -25,20 +25,20 @@ import (
 	"sync"
 	"time"
 
-	"github.com/matrix-org/dendrite/federationapi/statistics"
-	rsapi "github.com/matrix-org/dendrite/roomserver/api"
-	"github.com/matrix-org/gomatrixserverlib/fclient"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/federationapi/statistics"
+	rsapi "github.com/jchv/dendrite/roomserver/api"
+	"github.com/jchv/gomatrixserverlib/fclient"
+	"github.com/jchv/gomatrixserverlib/spec"
 
-	"github.com/matrix-org/gomatrix"
-	"github.com/matrix-org/gomatrixserverlib"
+	"github.com/jchv/gomatrix"
+	"github.com/jchv/gomatrixserverlib"
 	"github.com/matrix-org/util"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"
 
-	fedsenderapi "github.com/matrix-org/dendrite/federationapi/api"
-	"github.com/matrix-org/dendrite/setup/process"
-	"github.com/matrix-org/dendrite/userapi/api"
+	fedsenderapi "github.com/jchv/dendrite/federationapi/api"
+	"github.com/jchv/dendrite/setup/process"
+	"github.com/jchv/dendrite/userapi/api"
 )
 
 var (

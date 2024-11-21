@@ -22,7 +22,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/sirupsen/logrus"
 	"github.com/yggdrasil-network/yggquic"
 

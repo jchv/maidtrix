@@ -17,12 +17,12 @@ package internal
 import (
 	"context"
 
-	"github.com/matrix-org/dendrite/federationapi/storage/shared/receipt"
-	"github.com/matrix-org/dendrite/internal"
-	"github.com/matrix-org/dendrite/relayapi/api"
-	"github.com/matrix-org/gomatrixserverlib"
-	"github.com/matrix-org/gomatrixserverlib/fclient"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/federationapi/storage/shared/receipt"
+	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/dendrite/relayapi/api"
+	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib/fclient"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/sirupsen/logrus"
 )
 

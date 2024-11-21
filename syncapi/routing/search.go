@@ -22,20 +22,20 @@ import (
 	"time"
 
 	"github.com/blevesearch/bleve/v2/search"
-	"github.com/matrix-org/gomatrixserverlib"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 	"github.com/tidwall/gjson"
 
-	"github.com/matrix-org/dendrite/clientapi/httputil"
-	"github.com/matrix-org/dendrite/internal/fulltext"
-	"github.com/matrix-org/dendrite/internal/sqlutil"
-	roomserverAPI "github.com/matrix-org/dendrite/roomserver/api"
-	"github.com/matrix-org/dendrite/roomserver/types"
-	"github.com/matrix-org/dendrite/syncapi/storage"
-	"github.com/matrix-org/dendrite/syncapi/synctypes"
-	"github.com/matrix-org/dendrite/userapi/api"
+	"github.com/jchv/dendrite/clientapi/httputil"
+	"github.com/jchv/dendrite/internal/fulltext"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
+	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/dendrite/syncapi/storage"
+	"github.com/jchv/dendrite/syncapi/synctypes"
+	"github.com/jchv/dendrite/userapi/api"
 )
 
 // nolint:gocyclo

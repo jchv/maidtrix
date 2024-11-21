@@ -24,14 +24,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/matrix-org/dendrite/clientapi/auth/authtypes"
-	"github.com/matrix-org/dendrite/internal/eventutil"
-	"github.com/matrix-org/dendrite/roomserver/api"
-	"github.com/matrix-org/dendrite/roomserver/types"
-	"github.com/matrix-org/dendrite/setup/config"
-	userapi "github.com/matrix-org/dendrite/userapi/api"
-	"github.com/matrix-org/gomatrixserverlib"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/clientapi/auth/authtypes"
+	"github.com/jchv/dendrite/internal/eventutil"
+	"github.com/jchv/dendrite/roomserver/api"
+	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/dendrite/setup/config"
+	userapi "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib/spec"
 )
 
 // MembershipRequest represents the body of an incoming POST request

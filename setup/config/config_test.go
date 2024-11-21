@@ -19,8 +19,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/matrix-org/gomatrixserverlib/fclient"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrixserverlib/fclient"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v2"
 )

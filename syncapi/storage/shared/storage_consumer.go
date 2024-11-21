@@ -22,19 +22,19 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	rstypes "github.com/matrix-org/dendrite/roomserver/types"
-	userapi "github.com/matrix-org/dendrite/userapi/api"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	rstypes "github.com/jchv/dendrite/roomserver/types"
+	userapi "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/gomatrixserverlib/spec"
 
-	"github.com/matrix-org/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib"
 	"github.com/sirupsen/logrus"
 
-	"github.com/matrix-org/dendrite/internal/eventutil"
-	"github.com/matrix-org/dendrite/internal/sqlutil"
-	"github.com/matrix-org/dendrite/roomserver/api"
-	"github.com/matrix-org/dendrite/syncapi/storage/tables"
-	"github.com/matrix-org/dendrite/syncapi/synctypes"
-	"github.com/matrix-org/dendrite/syncapi/types"
+	"github.com/jchv/dendrite/internal/eventutil"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/roomserver/api"
+	"github.com/jchv/dendrite/syncapi/storage/tables"
+	"github.com/jchv/dendrite/syncapi/synctypes"
+	"github.com/jchv/dendrite/syncapi/types"
 )
 
 // Database is a temporary struct until we have made syncserver.go the same for both pq/sqlite

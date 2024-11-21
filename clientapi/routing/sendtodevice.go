@@ -18,11 +18,11 @@ import (
 
 	"github.com/matrix-org/util"
 
-	"github.com/matrix-org/dendrite/clientapi/httputil"
-	"github.com/matrix-org/dendrite/clientapi/producers"
-	"github.com/matrix-org/dendrite/internal/transactions"
-	userapi "github.com/matrix-org/dendrite/userapi/api"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/clientapi/httputil"
+	"github.com/jchv/dendrite/clientapi/producers"
+	"github.com/jchv/dendrite/internal/transactions"
+	userapi "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/gomatrixserverlib/spec"
 )
 
 // SendToDevice handles PUT /_matrix/client/r0/sendToDevice/{eventType}/{txnId}

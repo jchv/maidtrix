@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/matrix-org/dendrite/internal/sqlutil"
-	"github.com/matrix-org/dendrite/setup/config"
-	"github.com/matrix-org/dendrite/userapi/storage/sqlite3"
-	"github.com/matrix-org/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/dendrite/userapi/storage/sqlite3"
+	"github.com/jchv/gomatrixserverlib"
 )
 
 func NewUserDatabase(

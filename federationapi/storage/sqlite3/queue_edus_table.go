@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/matrix-org/dendrite/federationapi/storage/sqlite3/deltas"
-	"github.com/matrix-org/dendrite/internal"
-	"github.com/matrix-org/dendrite/internal/sqlutil"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/federationapi/storage/sqlite3/deltas"
+	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/gomatrixserverlib/spec"
 )
 
 const queueEDUsSchema = `

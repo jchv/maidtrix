@@ -21,16 +21,16 @@ import (
 	"fmt"
 
 	"github.com/getsentry/sentry-go"
-	"github.com/matrix-org/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib"
 	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 
-	"github.com/matrix-org/dendrite/internal"
-	"github.com/matrix-org/dendrite/internal/sqlutil"
-	"github.com/matrix-org/dendrite/roomserver/api"
-	"github.com/matrix-org/dendrite/roomserver/state"
-	"github.com/matrix-org/dendrite/roomserver/storage/shared"
-	"github.com/matrix-org/dendrite/roomserver/types"
+	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/roomserver/api"
+	"github.com/jchv/dendrite/roomserver/state"
+	"github.com/jchv/dendrite/roomserver/storage/shared"
+	"github.com/jchv/dendrite/roomserver/types"
 )
 
 // updateLatestEvents updates the list of latest events for this room in the database and writes the

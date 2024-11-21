@@ -7,13 +7,13 @@ import (
 	"github.com/matrix-org/util"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/matrix-org/dendrite/internal/sqlutil"
-	"github.com/matrix-org/dendrite/roomserver/storage/postgres"
-	"github.com/matrix-org/dendrite/roomserver/storage/sqlite3"
-	"github.com/matrix-org/dendrite/roomserver/storage/tables"
-	"github.com/matrix-org/dendrite/roomserver/types"
-	"github.com/matrix-org/dendrite/setup/config"
-	"github.com/matrix-org/dendrite/test"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/roomserver/storage/postgres"
+	"github.com/jchv/dendrite/roomserver/storage/sqlite3"
+	"github.com/jchv/dendrite/roomserver/storage/tables"
+	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/dendrite/test"
 )
 
 func mustCreateInviteTable(t *testing.T, dbType test.DBType) (tables.Invites, func()) {

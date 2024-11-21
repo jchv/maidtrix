@@ -17,19 +17,19 @@ package consumers
 import (
 	"context"
 
-	"github.com/matrix-org/gomatrixserverlib"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/nats-io/nats.go"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/matrix-org/dendrite/internal/pushgateway"
-	"github.com/matrix-org/dendrite/userapi/storage"
+	"github.com/jchv/dendrite/internal/pushgateway"
+	"github.com/jchv/dendrite/userapi/storage"
 
-	"github.com/matrix-org/dendrite/setup/config"
-	"github.com/matrix-org/dendrite/setup/jetstream"
-	"github.com/matrix-org/dendrite/setup/process"
-	"github.com/matrix-org/dendrite/userapi/producers"
-	"github.com/matrix-org/dendrite/userapi/util"
+	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/dendrite/setup/jetstream"
+	"github.com/jchv/dendrite/setup/process"
+	"github.com/jchv/dendrite/userapi/producers"
+	"github.com/jchv/dendrite/userapi/util"
 )
 
 // OutputReceiptEventConsumer consumes events that originated in the clientAPI.

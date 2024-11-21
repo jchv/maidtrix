@@ -20,13 +20,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/matrix-org/dendrite/federationapi/storage/shared/receipt"
-	"github.com/matrix-org/dendrite/federationapi/storage/tables"
-	"github.com/matrix-org/dendrite/federationapi/types"
-	"github.com/matrix-org/dendrite/internal/caching"
-	"github.com/matrix-org/dendrite/internal/sqlutil"
-	"github.com/matrix-org/gomatrixserverlib"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/federationapi/storage/shared/receipt"
+	"github.com/jchv/dendrite/federationapi/storage/tables"
+	"github.com/jchv/dendrite/federationapi/types"
+	"github.com/jchv/dendrite/internal/caching"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib/spec"
 )
 
 type Database struct {

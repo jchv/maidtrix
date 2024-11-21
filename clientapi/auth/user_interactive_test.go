@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/matrix-org/dendrite/setup/config"
-	"github.com/matrix-org/dendrite/userapi/api"
-	"github.com/matrix-org/gomatrixserverlib/fclient"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/gomatrixserverlib/fclient"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/matrix-org/util"
 )
 

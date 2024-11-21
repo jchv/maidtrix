@@ -7,10 +7,10 @@ import (
 	"encoding/base64"
 	"encoding/json"
 
-	"github.com/matrix-org/dendrite/internal/sqlutil"
-	"github.com/matrix-org/dendrite/roomserver/types"
-	"github.com/matrix-org/dendrite/setup/config"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/matrix-org/util"
 )
 

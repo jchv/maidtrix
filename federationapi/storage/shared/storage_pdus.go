@@ -21,9 +21,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/matrix-org/dendrite/federationapi/storage/shared/receipt"
-	"github.com/matrix-org/dendrite/roomserver/types"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/federationapi/storage/shared/receipt"
+	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/gomatrixserverlib/spec"
 )
 
 // AssociatePDUWithDestination creates an association that the

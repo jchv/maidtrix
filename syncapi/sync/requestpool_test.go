@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/matrix-org/dendrite/setup/config"
-	"github.com/matrix-org/dendrite/syncapi/synctypes"
-	"github.com/matrix-org/dendrite/syncapi/types"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/dendrite/syncapi/synctypes"
+	"github.com/jchv/dendrite/syncapi/types"
+	"github.com/jchv/gomatrixserverlib/spec"
 )
 
 type dummyPublisher struct {

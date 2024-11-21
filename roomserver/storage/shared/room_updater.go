@@ -5,9 +5,9 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/matrix-org/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib"
 
-	"github.com/matrix-org/dendrite/roomserver/types"
+	"github.com/jchv/dendrite/roomserver/types"
 )
 
 type RoomUpdater struct {

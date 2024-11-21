@@ -7,12 +7,12 @@ import (
 	"net/http"
 	"testing"
 
-	rsapi "github.com/matrix-org/dendrite/roomserver/api"
-	"github.com/matrix-org/dendrite/roomserver/types"
-	"github.com/matrix-org/dendrite/setup/config"
-	uapi "github.com/matrix-org/dendrite/userapi/api"
-	"github.com/matrix-org/gomatrixserverlib"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	rsapi "github.com/jchv/dendrite/roomserver/api"
+	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/dendrite/setup/config"
+	uapi "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/matrix-org/util"
 	"gotest.tools/v3/assert"
 )

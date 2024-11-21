@@ -3,9 +3,9 @@ package streams
 import (
 	"context"
 
-	"github.com/matrix-org/dendrite/internal/eventutil"
-	"github.com/matrix-org/dendrite/syncapi/storage"
-	"github.com/matrix-org/dendrite/syncapi/types"
+	"github.com/jchv/dendrite/internal/eventutil"
+	"github.com/jchv/dendrite/syncapi/storage"
+	"github.com/jchv/dendrite/syncapi/types"
 )
 
 type NotificationDataStreamProvider struct {

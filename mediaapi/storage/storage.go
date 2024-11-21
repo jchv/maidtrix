@@ -20,10 +20,10 @@ package storage
 import (
 	"fmt"
 
-	"github.com/matrix-org/dendrite/internal/sqlutil"
-	"github.com/matrix-org/dendrite/mediaapi/storage/postgres"
-	"github.com/matrix-org/dendrite/mediaapi/storage/sqlite3"
-	"github.com/matrix-org/dendrite/setup/config"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/mediaapi/storage/postgres"
+	"github.com/jchv/dendrite/mediaapi/storage/sqlite3"
+	"github.com/jchv/dendrite/setup/config"
 )
 
 // NewMediaAPIDatasource opens a database connection.

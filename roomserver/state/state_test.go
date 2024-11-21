@@ -19,7 +19,7 @@ package state
 import (
 	"testing"
 
-	"github.com/matrix-org/dendrite/roomserver/types"
+	"github.com/jchv/dendrite/roomserver/types"
 )
 
 func TestFindDuplicateStateKeys(t *testing.T) {

@@ -18,9 +18,9 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/matrix-org/dendrite/federationapi/types"
-	"github.com/matrix-org/gomatrixserverlib"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/federationapi/types"
+	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib/spec"
 )
 
 type NotaryID int64

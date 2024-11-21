@@ -19,8 +19,8 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/matrix-org/dendrite/clientapi/auth/authtypes"
-	"github.com/matrix-org/dendrite/setup/config"
+	"github.com/jchv/dendrite/clientapi/auth/authtypes"
+	"github.com/jchv/dendrite/setup/config"
 	"github.com/matrix-org/util"
 )
 

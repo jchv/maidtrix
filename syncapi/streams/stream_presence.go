@@ -22,11 +22,11 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"github.com/matrix-org/dendrite/syncapi/notifier"
-	"github.com/matrix-org/dendrite/syncapi/storage"
-	"github.com/matrix-org/dendrite/syncapi/synctypes"
-	"github.com/matrix-org/dendrite/syncapi/types"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/syncapi/notifier"
+	"github.com/jchv/dendrite/syncapi/storage"
+	"github.com/jchv/dendrite/syncapi/synctypes"
+	"github.com/jchv/dendrite/syncapi/types"
+	"github.com/jchv/gomatrixserverlib/spec"
 )
 
 type PresenceStreamProvider struct {

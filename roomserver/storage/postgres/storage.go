@@ -24,11 +24,11 @@ import (
 	// Import the postgres database driver.
 	_ "github.com/lib/pq"
 
-	"github.com/matrix-org/dendrite/internal/caching"
-	"github.com/matrix-org/dendrite/internal/sqlutil"
-	"github.com/matrix-org/dendrite/roomserver/storage/postgres/deltas"
-	"github.com/matrix-org/dendrite/roomserver/storage/shared"
-	"github.com/matrix-org/dendrite/setup/config"
+	"github.com/jchv/dendrite/internal/caching"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/roomserver/storage/postgres/deltas"
+	"github.com/jchv/dendrite/roomserver/storage/shared"
+	"github.com/jchv/dendrite/setup/config"
 )
 
 // A Database is used to store room events and stream offsets.

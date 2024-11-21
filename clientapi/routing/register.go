@@ -30,24 +30,24 @@ import (
 	"sync"
 	"time"
 
-	"github.com/matrix-org/dendrite/internal"
+	"github.com/jchv/dendrite/internal"
 	"github.com/tidwall/gjson"
 
-	"github.com/matrix-org/dendrite/internal/eventutil"
-	"github.com/matrix-org/dendrite/setup/config"
+	"github.com/jchv/dendrite/internal/eventutil"
+	"github.com/jchv/dendrite/setup/config"
 
-	"github.com/matrix-org/gomatrixserverlib"
-	"github.com/matrix-org/gomatrixserverlib/spec"
-	"github.com/matrix-org/gomatrixserverlib/tokens"
+	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrixserverlib/tokens"
 	"github.com/matrix-org/util"
 	"github.com/prometheus/client_golang/prometheus"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/matrix-org/dendrite/clientapi/auth"
-	"github.com/matrix-org/dendrite/clientapi/auth/authtypes"
-	"github.com/matrix-org/dendrite/clientapi/httputil"
-	"github.com/matrix-org/dendrite/clientapi/userutil"
-	userapi "github.com/matrix-org/dendrite/userapi/api"
+	"github.com/jchv/dendrite/clientapi/auth"
+	"github.com/jchv/dendrite/clientapi/auth/authtypes"
+	"github.com/jchv/dendrite/clientapi/httputil"
+	"github.com/jchv/dendrite/clientapi/userutil"
+	userapi "github.com/jchv/dendrite/userapi/api"
 )
 
 var (

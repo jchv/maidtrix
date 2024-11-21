@@ -7,10 +7,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/matrix-org/dendrite/roomserver/types"
-	"github.com/matrix-org/dendrite/syncapi/synctypes"
-	"github.com/matrix-org/gomatrixserverlib"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/dendrite/syncapi/synctypes"
+	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib/spec"
 )
 
 type FakeRoomserverAPI struct{}

@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/matrix-org/dendrite/test"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/test"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -10,8 +10,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/matrix-org/dendrite/federationapi/storage"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/federationapi/storage"
+	"github.com/jchv/gomatrixserverlib/spec"
 )
 
 // Statistics contains information about all of the remote federated

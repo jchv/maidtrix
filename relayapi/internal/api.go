@@ -17,12 +17,12 @@ package internal
 import (
 	"sync"
 
-	"github.com/matrix-org/dendrite/federationapi/producers"
-	"github.com/matrix-org/dendrite/relayapi/storage"
-	rsAPI "github.com/matrix-org/dendrite/roomserver/api"
-	"github.com/matrix-org/gomatrixserverlib"
-	"github.com/matrix-org/gomatrixserverlib/fclient"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/federationapi/producers"
+	"github.com/jchv/dendrite/relayapi/storage"
+	rsAPI "github.com/jchv/dendrite/roomserver/api"
+	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib/fclient"
+	"github.com/jchv/gomatrixserverlib/spec"
 )
 
 type RelayInternalAPI struct {

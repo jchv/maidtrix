@@ -15,18 +15,18 @@
 package relayapi
 
 import (
-	"github.com/matrix-org/dendrite/federationapi/producers"
-	"github.com/matrix-org/dendrite/internal/caching"
-	"github.com/matrix-org/dendrite/internal/httputil"
-	"github.com/matrix-org/dendrite/internal/sqlutil"
-	"github.com/matrix-org/dendrite/relayapi/api"
-	"github.com/matrix-org/dendrite/relayapi/internal"
-	"github.com/matrix-org/dendrite/relayapi/routing"
-	"github.com/matrix-org/dendrite/relayapi/storage"
-	rsAPI "github.com/matrix-org/dendrite/roomserver/api"
-	"github.com/matrix-org/dendrite/setup/config"
-	"github.com/matrix-org/gomatrixserverlib"
-	"github.com/matrix-org/gomatrixserverlib/fclient"
+	"github.com/jchv/dendrite/federationapi/producers"
+	"github.com/jchv/dendrite/internal/caching"
+	"github.com/jchv/dendrite/internal/httputil"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/relayapi/api"
+	"github.com/jchv/dendrite/relayapi/internal"
+	"github.com/jchv/dendrite/relayapi/routing"
+	"github.com/jchv/dendrite/relayapi/storage"
+	rsAPI "github.com/jchv/dendrite/roomserver/api"
+	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib/fclient"
 	"github.com/sirupsen/logrus"
 )
 

@@ -15,7 +15,7 @@
 package internal
 
 import (
-	"github.com/matrix-org/dendrite/setup/config"
+	"github.com/jchv/dendrite/setup/config"
 	"github.com/sirupsen/logrus"
 )
 

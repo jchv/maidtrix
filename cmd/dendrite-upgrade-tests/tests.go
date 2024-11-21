@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/Masterminds/semver/v3"
-	"github.com/matrix-org/gomatrix"
-	"github.com/matrix-org/gomatrixserverlib"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrix"
+	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib/spec"
 )
 
 const userPassword = "this_is_a_long_password"

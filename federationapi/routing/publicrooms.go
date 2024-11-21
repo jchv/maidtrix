@@ -6,13 +6,13 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/matrix-org/gomatrixserverlib"
-	"github.com/matrix-org/gomatrixserverlib/fclient"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib/fclient"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/matrix-org/util"
 
-	"github.com/matrix-org/dendrite/clientapi/httputil"
-	roomserverAPI "github.com/matrix-org/dendrite/roomserver/api"
+	"github.com/jchv/dendrite/clientapi/httputil"
+	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
 )
 
 type PublicRoomReq struct {

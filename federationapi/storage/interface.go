@@ -18,12 +18,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/matrix-org/gomatrixserverlib"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib/spec"
 
-	"github.com/matrix-org/dendrite/federationapi/storage/shared/receipt"
-	"github.com/matrix-org/dendrite/federationapi/types"
-	rstypes "github.com/matrix-org/dendrite/roomserver/types"
+	"github.com/jchv/dendrite/federationapi/storage/shared/receipt"
+	"github.com/jchv/dendrite/federationapi/types"
+	rstypes "github.com/jchv/dendrite/roomserver/types"
 )
 
 type Database interface {

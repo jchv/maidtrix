@@ -3,8 +3,8 @@ package streams
 import (
 	"context"
 
-	"github.com/matrix-org/dendrite/syncapi/storage"
-	"github.com/matrix-org/dendrite/syncapi/types"
+	"github.com/jchv/dendrite/syncapi/storage"
+	"github.com/jchv/dendrite/syncapi/types"
 )
 
 type StreamProvider interface {

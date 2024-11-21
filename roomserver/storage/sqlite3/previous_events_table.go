@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/matrix-org/dendrite/internal/sqlutil"
-	"github.com/matrix-org/dendrite/roomserver/storage/sqlite3/deltas"
-	"github.com/matrix-org/dendrite/roomserver/storage/tables"
-	"github.com/matrix-org/dendrite/roomserver/types"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/roomserver/storage/sqlite3/deltas"
+	"github.com/jchv/dendrite/roomserver/storage/tables"
+	"github.com/jchv/dendrite/roomserver/types"
 )
 
 // TODO: previous_reference_sha256 was NOT NULL before but it broke sytest because

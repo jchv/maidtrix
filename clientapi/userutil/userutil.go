@@ -17,9 +17,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/matrix-org/dendrite/setup/config"
-	"github.com/matrix-org/gomatrixserverlib"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib/spec"
 )
 
 // ParseUsernameParam extracts localpart from usernameParam.

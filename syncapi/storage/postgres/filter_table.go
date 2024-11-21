@@ -19,10 +19,10 @@ import (
 	"database/sql"
 	"encoding/json"
 
-	"github.com/matrix-org/dendrite/internal/sqlutil"
-	"github.com/matrix-org/dendrite/syncapi/storage/tables"
-	"github.com/matrix-org/dendrite/syncapi/synctypes"
-	"github.com/matrix-org/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/syncapi/storage/tables"
+	"github.com/jchv/dendrite/syncapi/synctypes"
+	"github.com/jchv/gomatrixserverlib"
 )
 
 const filterSchema = `

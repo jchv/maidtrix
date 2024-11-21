@@ -18,12 +18,12 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/matrix-org/dendrite/federationapi/storage/shared"
-	"github.com/matrix-org/dendrite/federationapi/storage/sqlite3/deltas"
-	"github.com/matrix-org/dendrite/internal/caching"
-	"github.com/matrix-org/dendrite/internal/sqlutil"
-	"github.com/matrix-org/dendrite/setup/config"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/federationapi/storage/shared"
+	"github.com/jchv/dendrite/federationapi/storage/sqlite3/deltas"
+	"github.com/jchv/dendrite/internal/caching"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/gomatrixserverlib/spec"
 )
 
 // Database stores information needed by the federation sender

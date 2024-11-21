@@ -17,10 +17,10 @@ package auth
 import (
 	"context"
 
-	"github.com/matrix-org/dendrite/clientapi/auth/authtypes"
-	"github.com/matrix-org/dendrite/clientapi/httputil"
-	"github.com/matrix-org/dendrite/internal"
-	"github.com/matrix-org/dendrite/setup/config"
+	"github.com/jchv/dendrite/clientapi/auth/authtypes"
+	"github.com/jchv/dendrite/clientapi/httputil"
+	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/dendrite/setup/config"
 	"github.com/matrix-org/util"
 )
 

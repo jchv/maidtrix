@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/matrix-org/dendrite/internal"
+	"github.com/jchv/dendrite/internal"
 )
 
 type httpClient struct {

@@ -20,11 +20,11 @@ import (
 
 	"github.com/lib/pq"
 
-	"github.com/matrix-org/dendrite/internal"
-	"github.com/matrix-org/dendrite/internal/eventutil"
-	"github.com/matrix-org/dendrite/internal/sqlutil"
-	"github.com/matrix-org/dendrite/syncapi/storage/tables"
-	"github.com/matrix-org/dendrite/syncapi/types"
+	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/dendrite/internal/eventutil"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/syncapi/storage/tables"
+	"github.com/jchv/dendrite/syncapi/types"
 )
 
 func NewPostgresNotificationDataTable(db *sql.DB) (tables.NotificationData, error) {

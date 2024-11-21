@@ -23,12 +23,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/matrix-org/dendrite/clientapi/auth/authtypes"
-	clienthttputil "github.com/matrix-org/dendrite/clientapi/httputil"
-	"github.com/matrix-org/dendrite/cmd/dendrite-demo-pinecone/defaults"
-	userapi "github.com/matrix-org/dendrite/userapi/api"
-	"github.com/matrix-org/gomatrixserverlib/fclient"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/clientapi/auth/authtypes"
+	clienthttputil "github.com/jchv/dendrite/clientapi/httputil"
+	"github.com/jchv/dendrite/cmd/dendrite-demo-pinecone/defaults"
+	userapi "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/gomatrixserverlib/fclient"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/matrix-org/util"
 
 	pineconeRouter "github.com/matrix-org/pinecone/router"

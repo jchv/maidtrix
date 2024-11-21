@@ -33,18 +33,18 @@ import (
 	"time"
 
 	sentryhttp "github.com/getsentry/sentry-go/http"
-	"github.com/matrix-org/gomatrixserverlib/fclient"
+	"github.com/jchv/gomatrixserverlib/fclient"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
 	"github.com/gorilla/mux"
 	"github.com/kardianos/minwinsvc"
-	"github.com/matrix-org/dendrite/internal"
-	"github.com/matrix-org/dendrite/internal/httputil"
+	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/dendrite/internal/httputil"
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/matrix-org/dendrite/setup/config"
-	"github.com/matrix-org/dendrite/setup/process"
+	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/dendrite/setup/process"
 )
 
 //go:embed static/*.gotmpl

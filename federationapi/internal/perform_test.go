@@ -19,14 +19,14 @@ import (
 	"crypto/ed25519"
 	"testing"
 
-	"github.com/matrix-org/dendrite/federationapi/api"
-	"github.com/matrix-org/dendrite/federationapi/queue"
-	"github.com/matrix-org/dendrite/federationapi/statistics"
-	"github.com/matrix-org/dendrite/setup/config"
-	"github.com/matrix-org/dendrite/setup/process"
-	"github.com/matrix-org/dendrite/test"
-	"github.com/matrix-org/gomatrixserverlib/fclient"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/federationapi/api"
+	"github.com/jchv/dendrite/federationapi/queue"
+	"github.com/jchv/dendrite/federationapi/statistics"
+	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/dendrite/setup/process"
+	"github.com/jchv/dendrite/test"
+	"github.com/jchv/gomatrixserverlib/fclient"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/stretchr/testify/assert"
 )
 

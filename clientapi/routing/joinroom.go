@@ -19,13 +19,13 @@ import (
 	"net/http"
 	"time"
 
-	appserviceAPI "github.com/matrix-org/dendrite/appservice/api"
-	"github.com/matrix-org/dendrite/clientapi/httputil"
-	"github.com/matrix-org/dendrite/internal/eventutil"
-	roomserverAPI "github.com/matrix-org/dendrite/roomserver/api"
-	"github.com/matrix-org/dendrite/userapi/api"
-	"github.com/matrix-org/gomatrix"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	appserviceAPI "github.com/jchv/dendrite/appservice/api"
+	"github.com/jchv/dendrite/clientapi/httputil"
+	"github.com/jchv/dendrite/internal/eventutil"
+	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
+	"github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/gomatrix"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/matrix-org/util"
 )
 

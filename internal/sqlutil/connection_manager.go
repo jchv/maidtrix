@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/matrix-org/dendrite/setup/config"
-	"github.com/matrix-org/dendrite/setup/process"
+	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/dendrite/setup/process"
 )
 
 type Connections struct {

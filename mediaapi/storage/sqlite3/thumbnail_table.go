@@ -20,11 +20,11 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/matrix-org/dendrite/internal"
-	"github.com/matrix-org/dendrite/internal/sqlutil"
-	"github.com/matrix-org/dendrite/mediaapi/storage/tables"
-	"github.com/matrix-org/dendrite/mediaapi/types"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/mediaapi/storage/tables"
+	"github.com/jchv/dendrite/mediaapi/types"
+	"github.com/jchv/gomatrixserverlib/spec"
 )
 
 const thumbnailSchema = `

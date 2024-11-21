@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/matrix-org/dendrite/setup/config"
-	"github.com/matrix-org/gomatrixserverlib/fclient"
+	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/gomatrixserverlib/fclient"
 )
 
 type yggroundtripper struct {

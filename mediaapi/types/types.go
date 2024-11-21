@@ -17,8 +17,8 @@ package types
 import (
 	"sync"
 
-	"github.com/matrix-org/dendrite/setup/config"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/gomatrixserverlib/spec"
 )
 
 // FileSizeBytes is a file size in bytes

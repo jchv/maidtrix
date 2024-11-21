@@ -4,15 +4,15 @@ import (
 	"context"
 	"crypto/ed25519"
 
-	"github.com/matrix-org/gomatrixserverlib"
-	"github.com/matrix-org/gomatrixserverlib/fclient"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib/fclient"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/matrix-org/util"
 
-	asAPI "github.com/matrix-org/dendrite/appservice/api"
-	fsAPI "github.com/matrix-org/dendrite/federationapi/api"
-	"github.com/matrix-org/dendrite/roomserver/types"
-	userapi "github.com/matrix-org/dendrite/userapi/api"
+	asAPI "github.com/jchv/dendrite/appservice/api"
+	fsAPI "github.com/jchv/dendrite/federationapi/api"
+	"github.com/jchv/dendrite/roomserver/types"
+	userapi "github.com/jchv/dendrite/userapi/api"
 )
 
 // ErrInvalidID is an error returned if the userID is invalid

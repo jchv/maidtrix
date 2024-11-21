@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	federationAPI "github.com/matrix-org/dendrite/federationapi/api"
-	relayServerAPI "github.com/matrix-org/dendrite/relayapi/api"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	federationAPI "github.com/jchv/dendrite/federationapi/api"
+	relayServerAPI "github.com/jchv/dendrite/relayapi/api"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"gotest.tools/v3/poll"

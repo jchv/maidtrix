@@ -18,8 +18,8 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/matrix-org/dendrite/mediaapi/types"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/mediaapi/types"
+	"github.com/jchv/gomatrixserverlib/spec"
 )
 
 type Thumbnails interface {

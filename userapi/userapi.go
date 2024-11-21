@@ -17,23 +17,23 @@ package userapi
 import (
 	"time"
 
-	fedsenderapi "github.com/matrix-org/dendrite/federationapi/api"
-	"github.com/matrix-org/dendrite/federationapi/statistics"
-	"github.com/matrix-org/dendrite/internal/pushgateway"
-	"github.com/matrix-org/dendrite/internal/sqlutil"
-	"github.com/matrix-org/dendrite/setup/config"
-	"github.com/matrix-org/dendrite/setup/process"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	fedsenderapi "github.com/jchv/dendrite/federationapi/api"
+	"github.com/jchv/dendrite/federationapi/statistics"
+	"github.com/jchv/dendrite/internal/pushgateway"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/dendrite/setup/process"
+	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/sirupsen/logrus"
 
-	rsapi "github.com/matrix-org/dendrite/roomserver/api"
-	"github.com/matrix-org/dendrite/setup/jetstream"
-	"github.com/matrix-org/dendrite/userapi/api"
-	"github.com/matrix-org/dendrite/userapi/consumers"
-	"github.com/matrix-org/dendrite/userapi/internal"
-	"github.com/matrix-org/dendrite/userapi/producers"
-	"github.com/matrix-org/dendrite/userapi/storage"
-	"github.com/matrix-org/dendrite/userapi/util"
+	rsapi "github.com/jchv/dendrite/roomserver/api"
+	"github.com/jchv/dendrite/setup/jetstream"
+	"github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/dendrite/userapi/consumers"
+	"github.com/jchv/dendrite/userapi/internal"
+	"github.com/jchv/dendrite/userapi/producers"
+	"github.com/jchv/dendrite/userapi/storage"
+	"github.com/jchv/dendrite/userapi/util"
 )
 
 // NewInternalAPI returns a concrete implementation of the internal API. Callers

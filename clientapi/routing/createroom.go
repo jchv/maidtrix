@@ -22,15 +22,15 @@ import (
 	"strings"
 	"time"
 
-	appserviceAPI "github.com/matrix-org/dendrite/appservice/api"
-	roomserverAPI "github.com/matrix-org/dendrite/roomserver/api"
-	roomserverVersion "github.com/matrix-org/dendrite/roomserver/version"
-	"github.com/matrix-org/dendrite/userapi/api"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	appserviceAPI "github.com/jchv/dendrite/appservice/api"
+	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
+	roomserverVersion "github.com/jchv/dendrite/roomserver/version"
+	"github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/gomatrixserverlib/spec"
 
-	"github.com/matrix-org/dendrite/clientapi/httputil"
-	"github.com/matrix-org/dendrite/setup/config"
-	"github.com/matrix-org/gomatrixserverlib"
+	"github.com/jchv/dendrite/clientapi/httputil"
+	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/gomatrixserverlib"
 	"github.com/matrix-org/util"
 	log "github.com/sirupsen/logrus"
 )

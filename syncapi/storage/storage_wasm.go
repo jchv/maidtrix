@@ -18,9 +18,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/matrix-org/dendrite/internal/sqlutil"
-	"github.com/matrix-org/dendrite/setup/config"
-	"github.com/matrix-org/dendrite/syncapi/storage/sqlite3"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/dendrite/syncapi/storage/sqlite3"
 )
 
 // NewPublicRoomsServerDatabase opens a database connection.

@@ -17,7 +17,7 @@ package fulltext
 import (
 	"time"
 
-	"github.com/matrix-org/dendrite/setup/config"
+	"github.com/jchv/dendrite/setup/config"
 )
 
 type Search struct{}

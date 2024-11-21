@@ -15,20 +15,20 @@
 package clientapi
 
 import (
-	"github.com/matrix-org/dendrite/internal/httputil"
-	"github.com/matrix-org/dendrite/setup/config"
-	"github.com/matrix-org/dendrite/setup/process"
-	userapi "github.com/matrix-org/dendrite/userapi/api"
-	"github.com/matrix-org/gomatrixserverlib/fclient"
+	"github.com/jchv/dendrite/internal/httputil"
+	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/dendrite/setup/process"
+	userapi "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/gomatrixserverlib/fclient"
 
-	appserviceAPI "github.com/matrix-org/dendrite/appservice/api"
-	"github.com/matrix-org/dendrite/clientapi/api"
-	"github.com/matrix-org/dendrite/clientapi/producers"
-	"github.com/matrix-org/dendrite/clientapi/routing"
-	federationAPI "github.com/matrix-org/dendrite/federationapi/api"
-	"github.com/matrix-org/dendrite/internal/transactions"
-	roomserverAPI "github.com/matrix-org/dendrite/roomserver/api"
-	"github.com/matrix-org/dendrite/setup/jetstream"
+	appserviceAPI "github.com/jchv/dendrite/appservice/api"
+	"github.com/jchv/dendrite/clientapi/api"
+	"github.com/jchv/dendrite/clientapi/producers"
+	"github.com/jchv/dendrite/clientapi/routing"
+	federationAPI "github.com/jchv/dendrite/federationapi/api"
+	"github.com/jchv/dendrite/internal/transactions"
+	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
+	"github.com/jchv/dendrite/setup/jetstream"
 )
 
 // AddPublicRoutes sets up and registers HTTP handlers for the ClientAPI component.

@@ -22,8 +22,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/matrix-org/dendrite/clientapi/auth/authtypes"
-	userapi "github.com/matrix-org/dendrite/userapi/api"
+	"github.com/jchv/dendrite/clientapi/auth/authtypes"
+	userapi "github.com/jchv/dendrite/userapi/api"
 )
 
 // AppServiceInternalAPI is used to query user and room alias data from application

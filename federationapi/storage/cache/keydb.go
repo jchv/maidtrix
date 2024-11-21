@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/matrix-org/dendrite/internal/caching"
-	"github.com/matrix-org/gomatrixserverlib"
-	"github.com/matrix-org/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/caching"
+	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/gomatrixserverlib/spec"
 )
 
 // A Database implements gomatrixserverlib.KeyDatabase and is used to store
