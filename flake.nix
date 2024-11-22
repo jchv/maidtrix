@@ -19,7 +19,7 @@
         dendrite = pkgs.buildGoModule {
           name = "dendrite";
           src = self;
-          vendorHash = "";
+          vendorHash = "sha256-P+F3TkA8627GlXeNg1PTwvpQ+xQYxUk2px0lyqQFV+Q=";
         };
         format = pkgs.writeShellApplication {
           name = "format";
