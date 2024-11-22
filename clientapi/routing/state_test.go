@@ -7,12 +7,12 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	rsapi "github.com/jchv/dendrite/roomserver/api"
 	"github.com/jchv/dendrite/roomserver/types"
 	"github.com/jchv/dendrite/setup/config"
 	uapi "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 	"gotest.tools/v3/assert"
 )

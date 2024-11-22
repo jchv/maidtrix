@@ -21,11 +21,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jchv/dendrite/syncapi/synctypes"
-	"github.com/jchv/dendrite/userapi/types"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/syncapi/synctypes"
+	"github.com/jchv/dendrite/userapi/types"
 
 	clientapi "github.com/jchv/dendrite/clientapi/api"
 	"github.com/jchv/dendrite/clientapi/auth/authtypes"

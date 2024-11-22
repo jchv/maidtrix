@@ -19,11 +19,11 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/lib/pq"
 	"github.com/jchv/dendrite/internal"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/roomserver/storage/tables"
 	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/lib/pq"
 )
 
 const eventStateKeysSchema = `

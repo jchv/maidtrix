@@ -23,10 +23,10 @@ import (
 	"github.com/jchv/dendrite/internal"
 	"github.com/jchv/dendrite/internal/caching"
 	"github.com/jchv/dendrite/internal/httputil"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/setup/jetstream"
 	"github.com/jchv/dendrite/setup/process"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"
 

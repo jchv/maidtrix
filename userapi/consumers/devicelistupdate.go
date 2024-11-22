@@ -19,9 +19,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/jchv/dendrite/userapi/internal"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/userapi/internal"
 	"github.com/nats-io/nats.go"
 	"github.com/sirupsen/logrus"
 

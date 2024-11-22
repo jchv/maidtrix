@@ -23,10 +23,10 @@ import (
 	"strings"
 
 	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/roomserver/storage/tables"
 	"github.com/jchv/dendrite/roomserver/types"
-	"github.com/jchv/dendrite/internal/matrixserver"
 )
 
 const roomsSchema = `

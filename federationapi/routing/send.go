@@ -27,10 +27,10 @@ import (
 
 	"github.com/jchv/dendrite/federationapi/producers"
 	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/roomserver/api"
 	"github.com/jchv/dendrite/setup/config"
 	userAPI "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 const (

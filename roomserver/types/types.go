@@ -22,9 +22,9 @@ import (
 	"strings"
 	"sync"
 
-	userapi "github.com/jchv/dendrite/userapi/api"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	userapi "github.com/jchv/dendrite/userapi/api"
 	"github.com/matrix-org/util"
 	"golang.org/x/crypto/blake2b"
 )

@@ -22,11 +22,11 @@ import (
 
 	"github.com/tidwall/gjson"
 
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/syncapi/notifier"
 	"github.com/jchv/dendrite/syncapi/storage"
 	"github.com/jchv/dendrite/syncapi/synctypes"
 	"github.com/jchv/dendrite/syncapi/types"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 type PresenceStreamProvider struct {

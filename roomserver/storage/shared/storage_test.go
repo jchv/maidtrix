@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/roomserver/types"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/roomserver/types"
 	"github.com/stretchr/testify/assert"
 	ed255192 "golang.org/x/crypto/ed25519"
 

@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/userapi/storage/postgres"
 	"github.com/jchv/dendrite/userapi/storage/sqlite3"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/setup/config"

@@ -23,8 +23,8 @@ import (
 	"strconv"
 	"time"
 
-	syncAPITypes "github.com/jchv/dendrite/syncapi/types"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	syncAPITypes "github.com/jchv/dendrite/syncapi/types"
 
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/nats-io/nats.go"

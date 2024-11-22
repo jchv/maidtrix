@@ -23,9 +23,9 @@ import (
 	"sync"
 	"time"
 
-	userapi "github.com/jchv/dendrite/userapi/api"
 	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	userapi "github.com/jchv/dendrite/userapi/api"
 
 	"github.com/Arceliar/phony"
 	"github.com/getsentry/sentry-go"

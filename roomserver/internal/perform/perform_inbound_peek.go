@@ -17,6 +17,7 @@ package perform
 import (
 	"context"
 
+	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/roomserver/api"
 	"github.com/jchv/dendrite/roomserver/internal/helpers"
 	"github.com/jchv/dendrite/roomserver/internal/input"
@@ -24,7 +25,6 @@ import (
 	"github.com/jchv/dendrite/roomserver/state"
 	"github.com/jchv/dendrite/roomserver/storage"
 	"github.com/jchv/dendrite/roomserver/types"
-	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/matrix-org/util"
 )
 

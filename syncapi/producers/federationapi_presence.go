@@ -18,9 +18,9 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/setup/jetstream"
 	"github.com/jchv/dendrite/syncapi/types"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/nats-io/nats.go"
 )
 

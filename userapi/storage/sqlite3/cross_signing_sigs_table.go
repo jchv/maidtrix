@@ -20,12 +20,12 @@ import (
 	"fmt"
 
 	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/userapi/storage/sqlite3/deltas"
 	"github.com/jchv/dendrite/userapi/storage/tables"
 	"github.com/jchv/dendrite/userapi/types"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 var crossSigningSigsSchema = `

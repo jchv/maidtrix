@@ -13,12 +13,12 @@ import (
 	"github.com/jchv/dendrite/federationapi/storage"
 	"github.com/jchv/dendrite/federationapi/storage/cache"
 	"github.com/jchv/dendrite/internal/caching"
-	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/internal/matrix"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
+	"github.com/jchv/dendrite/setup/config"
 	"github.com/sirupsen/logrus"
 )
 

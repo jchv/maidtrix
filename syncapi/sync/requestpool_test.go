@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/syncapi/synctypes"
 	"github.com/jchv/dendrite/syncapi/types"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 type dummyPublisher struct {

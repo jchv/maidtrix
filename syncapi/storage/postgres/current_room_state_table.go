@@ -21,16 +21,16 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/lib/pq"
 	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	rstypes "github.com/jchv/dendrite/roomserver/types"
 	"github.com/jchv/dendrite/syncapi/storage/postgres/deltas"
 	"github.com/jchv/dendrite/syncapi/storage/tables"
 	"github.com/jchv/dendrite/syncapi/synctypes"
 	"github.com/jchv/dendrite/syncapi/types"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/lib/pq"
 )
 
 const currentRoomStateSchema = `

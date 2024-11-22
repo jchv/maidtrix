@@ -19,8 +19,8 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/lib/pq"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/lib/pq"
 	"github.com/sirupsen/logrus"
 
 	"github.com/jchv/dendrite/internal"

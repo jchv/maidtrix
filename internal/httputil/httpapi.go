@@ -33,8 +33,8 @@ import (
 
 	"github.com/jchv/dendrite/clientapi/auth"
 	"github.com/jchv/dendrite/internal"
-	userapi "github.com/jchv/dendrite/userapi/api"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	userapi "github.com/jchv/dendrite/userapi/api"
 )
 
 // BasicAuth is used for authorization on /metrics handlers

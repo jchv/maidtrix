@@ -21,8 +21,8 @@ import (
 
 	"github.com/jchv/dendrite/federationapi/types"
 	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/internal/sqlutil"
 )
 
 const outboundPeeksSchema = `

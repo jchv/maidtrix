@@ -26,9 +26,9 @@ import (
 	"github.com/jchv/dendrite/clientapi/auth/authtypes"
 	clienthttputil "github.com/jchv/dendrite/clientapi/httputil"
 	"github.com/jchv/dendrite/cmd/dendrite-demo-pinecone/defaults"
-	userapi "github.com/jchv/dendrite/userapi/api"
 	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	userapi "github.com/jchv/dendrite/userapi/api"
 	"github.com/matrix-org/util"
 
 	pineconeRouter "github.com/matrix-org/pinecone/router"

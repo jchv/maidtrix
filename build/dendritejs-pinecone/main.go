@@ -31,6 +31,7 @@ import (
 	"github.com/jchv/dendrite/federationapi"
 	"github.com/jchv/dendrite/internal/caching"
 	"github.com/jchv/dendrite/internal/httputil"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/roomserver"
 	"github.com/jchv/dendrite/setup"
@@ -38,7 +39,6 @@ import (
 	"github.com/jchv/dendrite/setup/jetstream"
 	"github.com/jchv/dendrite/setup/process"
 	"github.com/jchv/dendrite/userapi"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
 	"github.com/jchv/dendrite/internal/matrixserver"
 

@@ -22,8 +22,8 @@ import (
 	"strings"
 
 	"github.com/blevesearch/bleve/v2"
-	"github.com/jchv/dendrite/setup/process"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/setup/process"
 
 	// side effect imports to allow all possible languages
 	_ "github.com/blevesearch/bleve/v2/analysis/lang/ar"

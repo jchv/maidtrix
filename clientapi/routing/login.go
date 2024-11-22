@@ -21,9 +21,9 @@ import (
 	"github.com/jchv/dendrite/clientapi/auth"
 	"github.com/jchv/dendrite/clientapi/auth/authtypes"
 	"github.com/jchv/dendrite/clientapi/userutil"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/setup/config"
 	userapi "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 )
 

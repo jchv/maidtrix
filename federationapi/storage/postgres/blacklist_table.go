@@ -18,8 +18,8 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/internal/sqlutil"
 )
 
 const blacklistSchema = `

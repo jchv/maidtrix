@@ -20,11 +20,11 @@ import (
 	"fmt"
 
 	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/userapi/storage/tables"
 	"github.com/jchv/dendrite/userapi/types"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 var crossSigningKeysSchema = `

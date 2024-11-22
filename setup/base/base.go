@@ -37,9 +37,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
 	"github.com/gorilla/mux"
-	"github.com/kardianos/minwinsvc"
 	"github.com/jchv/dendrite/internal"
 	"github.com/jchv/dendrite/internal/httputil"
+	"github.com/kardianos/minwinsvc"
 
 	"github.com/sirupsen/logrus"
 

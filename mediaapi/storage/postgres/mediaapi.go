@@ -17,10 +17,10 @@ package postgres
 
 import (
 	// Import the postgres database driver.
-	_ "github.com/lib/pq"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/mediaapi/storage/shared"
 	"github.com/jchv/dendrite/setup/config"
+	_ "github.com/lib/pq"
 )
 
 // NewDatabase opens a postgres database.

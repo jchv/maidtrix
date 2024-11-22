@@ -3,11 +3,11 @@ package streams
 import (
 	"context"
 
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/syncapi/storage"
 	"github.com/jchv/dendrite/syncapi/synctypes"
 	"github.com/jchv/dendrite/syncapi/types"
 	userapi "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 type AccountDataStreamProvider struct {

@@ -18,9 +18,9 @@ import (
 	"context"
 	"crypto/ed25519"
 
-	"github.com/jchv/dendrite/roomserver/api"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/roomserver/api"
 
 	"github.com/jchv/dendrite/roomserver/state"
 	"github.com/jchv/dendrite/roomserver/storage/shared"

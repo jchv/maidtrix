@@ -20,11 +20,11 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/lib/pq"
 	"github.com/jchv/dendrite/internal"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/userapi/api"
 	"github.com/jchv/dendrite/userapi/storage/tables"
+	"github.com/lib/pq"
 )
 
 var oneTimeKeysSchema = `

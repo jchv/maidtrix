@@ -19,9 +19,9 @@ import (
 
 	"github.com/jchv/dendrite/clientapi/httputil"
 	"github.com/jchv/dendrite/clientapi/producers"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
 	userapi "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 type typingContentJSON struct {

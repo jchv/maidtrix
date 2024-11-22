@@ -22,12 +22,12 @@ import (
 	"sort"
 
 	fs "github.com/jchv/dendrite/federationapi/api"
-	roomserver "github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/roomserver/types"
-	userapi "github.com/jchv/dendrite/userapi/api"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	roomserver "github.com/jchv/dendrite/roomserver/api"
+	"github.com/jchv/dendrite/roomserver/types"
+	userapi "github.com/jchv/dendrite/userapi/api"
 	"github.com/matrix-org/util"
 	"github.com/tidwall/gjson"
 )

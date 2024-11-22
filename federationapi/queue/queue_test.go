@@ -23,10 +23,10 @@ import (
 	"time"
 
 	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/test/testrig"
 	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/test/testrig"
 	"gotest.tools/v3/poll"
 
 	"github.com/jchv/dendrite/internal/matrixserver"

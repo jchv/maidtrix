@@ -16,13 +16,13 @@ package mediaapi
 
 import (
 	"github.com/jchv/dendrite/internal/httputil"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/mediaapi/routing"
 	"github.com/jchv/dendrite/mediaapi/storage"
 	"github.com/jchv/dendrite/setup/config"
 	userapi "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/sirupsen/logrus"
 )
 

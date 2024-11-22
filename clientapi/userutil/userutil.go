@@ -17,9 +17,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/setup/config"
 )
 
 // ParseUsernameParam extracts localpart from usernameParam.

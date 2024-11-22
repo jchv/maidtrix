@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lib/pq"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/lib/pq"
 	"github.com/sirupsen/logrus"
 )
 

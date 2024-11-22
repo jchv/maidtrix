@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/pushgateway"
 	"github.com/jchv/dendrite/userapi/api"
 	"github.com/jchv/dendrite/userapi/storage"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	log "github.com/sirupsen/logrus"
 )
 

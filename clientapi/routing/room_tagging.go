@@ -20,9 +20,9 @@ import (
 
 	"github.com/jchv/dendrite/clientapi/httputil"
 	"github.com/jchv/dendrite/clientapi/producers"
-	"github.com/jchv/dendrite/userapi/api"
 	"github.com/jchv/dendrite/internal/matrix"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/userapi/api"
 	"github.com/matrix-org/util"
 )
 

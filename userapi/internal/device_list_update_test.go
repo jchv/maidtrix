@@ -30,10 +30,10 @@ import (
 	api2 "github.com/jchv/dendrite/federationapi/api"
 	"github.com/jchv/dendrite/federationapi/statistics"
 	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/internal/sqlutil"
 
 	roomserver "github.com/jchv/dendrite/roomserver/api"
 	"github.com/jchv/dendrite/setup/config"

@@ -18,9 +18,9 @@ import (
 	"context"
 	"strings"
 
-	keytypes "github.com/jchv/dendrite/userapi/types"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	keytypes "github.com/jchv/dendrite/userapi/types"
 	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 	"github.com/tidwall/gjson"

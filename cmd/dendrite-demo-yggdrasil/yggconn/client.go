@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/internal/matrixserver/fclient"
+	"github.com/jchv/dendrite/setup/config"
 )
 
 type yggroundtripper struct {

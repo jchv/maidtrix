@@ -20,8 +20,8 @@ import (
 	"net/http"
 
 	"github.com/jchv/dendrite/clientapi/httputil"
-	userapi "github.com/jchv/dendrite/userapi/api"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	userapi "github.com/jchv/dendrite/userapi/api"
 	"github.com/matrix-org/util"
 )
 

@@ -19,11 +19,11 @@ import (
 
 	fedsenderapi "github.com/jchv/dendrite/federationapi/api"
 	"github.com/jchv/dendrite/federationapi/statistics"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/pushgateway"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/setup/process"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/sirupsen/logrus"
 
 	rsapi "github.com/jchv/dendrite/roomserver/api"

@@ -20,6 +20,8 @@ import (
 	"fmt"
 
 	federationAPI "github.com/jchv/dendrite/federationapi/api"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/roomserver/api"
 	"github.com/jchv/dendrite/roomserver/internal/helpers"
 	"github.com/jchv/dendrite/roomserver/internal/input"
@@ -28,8 +30,6 @@ import (
 	"github.com/jchv/dendrite/roomserver/storage/shared"
 	"github.com/jchv/dendrite/roomserver/types"
 	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 )
 

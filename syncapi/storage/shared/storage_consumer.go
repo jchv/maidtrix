@@ -22,9 +22,9 @@ import (
 
 	"github.com/tidwall/gjson"
 
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	rstypes "github.com/jchv/dendrite/roomserver/types"
 	userapi "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/sirupsen/logrus"

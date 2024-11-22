@@ -9,6 +9,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/roomserver/api"
 	rstypes "github.com/jchv/dendrite/roomserver/types"
@@ -17,8 +19,6 @@ import (
 	"github.com/jchv/dendrite/syncapi/synctypes"
 	"github.com/jchv/dendrite/syncapi/types"
 	"github.com/jchv/dendrite/test"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/stretchr/testify/assert"
 	"github.com/tidwall/gjson"
 )

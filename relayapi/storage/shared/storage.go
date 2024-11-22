@@ -22,10 +22,10 @@ import (
 
 	"github.com/jchv/dendrite/federationapi/storage/shared/receipt"
 	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/relayapi/storage/tables"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/relayapi/storage/tables"
 )
 
 type Database struct {

@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/internal/matrixserver/fclient"
+	"github.com/jchv/dendrite/setup/config"
 	"nhooyr.io/websocket"
 
 	pineconeRouter "github.com/matrix-org/pinecone/router"

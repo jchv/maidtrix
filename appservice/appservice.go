@@ -18,9 +18,9 @@ import (
 	"context"
 	"sync"
 
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/setup/jetstream"
 	"github.com/jchv/dendrite/setup/process"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/sirupsen/logrus"
 
 	appserviceAPI "github.com/jchv/dendrite/appservice/api"

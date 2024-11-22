@@ -6,6 +6,7 @@ import (
 	"database/sql"
 	"testing"
 
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/roomserver/storage/postgres"
 	"github.com/jchv/dendrite/roomserver/storage/sqlite3"
@@ -13,7 +14,6 @@ import (
 	"github.com/jchv/dendrite/roomserver/types"
 	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/test"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/stretchr/testify/assert"
 	ed255192 "golang.org/x/crypto/ed25519"
 )

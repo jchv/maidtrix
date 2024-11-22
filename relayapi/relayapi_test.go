@@ -27,13 +27,13 @@ import (
 	"github.com/jchv/dendrite/cmd/dendrite-demo-yggdrasil/signing"
 	"github.com/jchv/dendrite/internal/caching"
 	"github.com/jchv/dendrite/internal/httputil"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/relayapi"
 	"github.com/jchv/dendrite/test"
 	"github.com/jchv/dendrite/test/testrig"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/stretchr/testify/assert"
 )
 

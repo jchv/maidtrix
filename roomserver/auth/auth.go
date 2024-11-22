@@ -15,9 +15,9 @@ package auth
 import (
 	"context"
 
-	"github.com/jchv/dendrite/roomserver/api"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/roomserver/api"
 )
 
 // TODO: This logic should live in gomatrixserverlib

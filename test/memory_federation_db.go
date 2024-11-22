@@ -23,9 +23,9 @@ import (
 
 	"github.com/jchv/dendrite/federationapi/storage/shared/receipt"
 	"github.com/jchv/dendrite/federationapi/types"
-	rstypes "github.com/jchv/dendrite/roomserver/types"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	rstypes "github.com/jchv/dendrite/roomserver/types"
 )
 
 var nidMutex sync.Mutex

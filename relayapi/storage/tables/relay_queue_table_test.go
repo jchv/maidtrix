@@ -21,14 +21,14 @@ import (
 	"testing"
 	"time"
 
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/relayapi/storage/postgres"
 	"github.com/jchv/dendrite/relayapi/storage/sqlite3"
 	"github.com/jchv/dendrite/relayapi/storage/tables"
 	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/test"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/stretchr/testify/assert"
 )
 

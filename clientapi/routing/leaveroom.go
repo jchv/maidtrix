@@ -17,9 +17,9 @@ package routing
 import (
 	"net/http"
 
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
 	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 )
 

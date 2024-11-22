@@ -20,11 +20,11 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/lib/pq"
 	"github.com/jchv/dendrite/internal"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/roomserver/storage/tables"
 	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/lib/pq"
 	"github.com/matrix-org/util"
 )
 

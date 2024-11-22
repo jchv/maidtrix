@@ -15,10 +15,10 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/jchv/dendrite/setup/process"
-	"github.com/jchv/dendrite/syncapi/synctypes"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/setup/process"
+	"github.com/jchv/dendrite/syncapi/synctypes"
 
 	"github.com/jchv/dendrite/internal/hooks"
 	"github.com/jchv/dendrite/internal/httputil"

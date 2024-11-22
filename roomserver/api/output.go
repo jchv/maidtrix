@@ -15,9 +15,9 @@
 package api
 
 import (
-	"github.com/jchv/dendrite/roomserver/types"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/roomserver/types"
 )
 
 // An OutputType is a type of roomserver output.

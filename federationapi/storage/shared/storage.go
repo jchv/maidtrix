@@ -24,9 +24,9 @@ import (
 	"github.com/jchv/dendrite/federationapi/storage/tables"
 	"github.com/jchv/dendrite/federationapi/types"
 	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/internal/sqlutil"
 )
 
 type Database struct {

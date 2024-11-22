@@ -18,10 +18,10 @@ import (
 	"time"
 
 	"github.com/jchv/dendrite/internal/httputil"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/setup/process"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/sirupsen/logrus"
 
 	federationAPI "github.com/jchv/dendrite/federationapi/api"

@@ -21,9 +21,9 @@ import (
 
 	appserviceAPI "github.com/jchv/dendrite/appservice/api"
 	"github.com/jchv/dendrite/internal/eventutil"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/setup/config"
 	userapi "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 )
 

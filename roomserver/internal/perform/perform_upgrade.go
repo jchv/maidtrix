@@ -21,11 +21,11 @@ import (
 	"time"
 
 	"github.com/jchv/dendrite/internal/eventutil"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/roomserver/api"
 	"github.com/jchv/dendrite/roomserver/types"
 	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 )

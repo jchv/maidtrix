@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 
 	"github.com/jchv/dendrite/internal/caching"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/syncapi/storage"
 	"github.com/jchv/dendrite/syncapi/synctypes"
 	"github.com/jchv/dendrite/syncapi/types"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 type TypingStreamProvider struct {

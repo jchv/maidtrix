@@ -9,13 +9,13 @@ import (
 	"time"
 
 	"github.com/jchv/dendrite/internal/caching"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/roomserver"
 	"github.com/jchv/dendrite/roomserver/types"
 	"github.com/jchv/dendrite/setup/jetstream"
 	"github.com/jchv/dendrite/test/testrig"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/crypto/bcrypt"
 

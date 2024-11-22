@@ -6,11 +6,11 @@ import (
 	"math"
 	"testing"
 
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	rsapi "github.com/jchv/dendrite/roomserver/api"
 	"github.com/jchv/dendrite/roomserver/types"
 	"github.com/jchv/dendrite/syncapi/storage"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"gotest.tools/v3/assert"
 )
 

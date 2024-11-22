@@ -22,6 +22,7 @@ import (
 	"github.com/nats-io/nats.go"
 	log "github.com/sirupsen/logrus"
 
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/setup/jetstream"
 	"github.com/jchv/dendrite/setup/process"
@@ -29,7 +30,6 @@ import (
 	"github.com/jchv/dendrite/syncapi/storage"
 	"github.com/jchv/dendrite/syncapi/streams"
 	"github.com/jchv/dendrite/syncapi/types"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 // OutputReceiptEventConsumer consumes events that originated in the EDU server.

@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/roomserver/api"
 	"github.com/jchv/dendrite/roomserver/types"
 	"github.com/jchv/dendrite/syncapi/synctypes"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
 	"github.com/jchv/dendrite/internal/matrixserver"
 )

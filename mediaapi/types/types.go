@@ -17,8 +17,8 @@ package types
 import (
 	"sync"
 
-	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/setup/config"
 )
 
 // FileSizeBytes is a file size in bytes

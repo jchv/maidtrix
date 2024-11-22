@@ -9,10 +9,10 @@ import (
 
 	"github.com/jchv/dendrite/federationapi/statistics"
 	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/setup/jetstream"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/setup/jetstream"
 
 	"github.com/jchv/dendrite/appservice"
 	"github.com/jchv/dendrite/roomserver"

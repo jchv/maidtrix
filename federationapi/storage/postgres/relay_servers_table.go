@@ -18,10 +18,10 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/lib/pq"
 	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/lib/pq"
 )
 
 const relayServersSchema = `

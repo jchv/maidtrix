@@ -26,9 +26,9 @@ import (
 	"time"
 
 	"github.com/jchv/dendrite/federationapi/statistics"
-	rsapi "github.com/jchv/dendrite/roomserver/api"
 	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	rsapi "github.com/jchv/dendrite/roomserver/api"
 
 	"github.com/jchv/dendrite/internal/matrix"
 	"github.com/jchv/dendrite/internal/matrixserver"

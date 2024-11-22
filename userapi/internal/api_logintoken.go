@@ -19,8 +19,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/jchv/dendrite/userapi/api"
 	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/userapi/api"
 	"github.com/matrix-org/util"
 )
 

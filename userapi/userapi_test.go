@@ -24,11 +24,11 @@ import (
 
 	api2 "github.com/jchv/dendrite/appservice/api"
 	"github.com/jchv/dendrite/clientapi/auth/authtypes"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/userapi/producers"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/userapi/producers"
 	"github.com/matrix-org/util"
 	"github.com/nats-io/nats.go"
 	"golang.org/x/crypto/bcrypt"

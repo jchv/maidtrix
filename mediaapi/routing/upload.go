@@ -26,14 +26,14 @@ import (
 	"path"
 	"strings"
 
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/mediaapi/fileutils"
 	"github.com/jchv/dendrite/mediaapi/storage"
 	"github.com/jchv/dendrite/mediaapi/thumbnailer"
 	"github.com/jchv/dendrite/mediaapi/types"
 	"github.com/jchv/dendrite/setup/config"
 	userapi "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 	log "github.com/sirupsen/logrus"
 )

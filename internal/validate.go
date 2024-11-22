@@ -21,9 +21,9 @@ import (
 	"regexp"
 
 	"github.com/jchv/dendrite/clientapi/userutil"
-	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/setup/config"
 	"github.com/matrix-org/util"
 )
 

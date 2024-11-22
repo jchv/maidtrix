@@ -22,9 +22,9 @@ import (
 
 	"github.com/jchv/dendrite/clientapi/auth"
 	"github.com/jchv/dendrite/clientapi/httputil"
-	"github.com/jchv/dendrite/userapi/api"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/userapi/api"
 	"github.com/matrix-org/util"
 	"github.com/tidwall/gjson"
 )

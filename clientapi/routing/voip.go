@@ -25,9 +25,9 @@ import (
 	"github.com/jchv/dendrite/internal/matrix"
 	"github.com/matrix-org/util"
 
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 // RequestTurnServer implements:

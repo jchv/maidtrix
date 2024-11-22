@@ -40,6 +40,7 @@ import (
 	"github.com/jchv/dendrite/federationapi/producers"
 	"github.com/jchv/dendrite/internal/caching"
 	"github.com/jchv/dendrite/internal/httputil"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/relayapi"
 	relayAPI "github.com/jchv/dendrite/relayapi/api"
@@ -51,7 +52,6 @@ import (
 	"github.com/jchv/dendrite/setup/process"
 	"github.com/jchv/dendrite/userapi"
 	userAPI "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/sirupsen/logrus"
 
 	pineconeConnections "github.com/matrix-org/pinecone/connections"

@@ -16,10 +16,10 @@ package clientapi
 
 import (
 	"github.com/jchv/dendrite/internal/httputil"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/setup/process"
 	userapi "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 
 	appserviceAPI "github.com/jchv/dendrite/appservice/api"
 	"github.com/jchv/dendrite/clientapi/api"

@@ -19,10 +19,10 @@ import (
 
 	"github.com/jchv/dendrite/federationapi/storage/shared/receipt"
 	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/relayapi/api"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/relayapi/api"
 	"github.com/sirupsen/logrus"
 )
 

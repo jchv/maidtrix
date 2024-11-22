@@ -20,11 +20,11 @@ import (
 	"sync"
 
 	"github.com/google/uuid"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
 	"github.com/jchv/dendrite/roomserver/types"
 	userapi "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 	log "github.com/sirupsen/logrus"
 )

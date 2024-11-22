@@ -22,8 +22,8 @@ import (
 
 	"github.com/jchv/dendrite/federationapi/storage/sqlite3/deltas"
 	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/internal/sqlutil"
 )
 
 const queueEDUsSchema = `

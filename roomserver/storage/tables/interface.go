@@ -6,9 +6,9 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/jchv/dendrite/roomserver/api"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/roomserver/api"
 	"github.com/tidwall/gjson"
 
 	"github.com/jchv/dendrite/roomserver/types"

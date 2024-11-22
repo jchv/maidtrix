@@ -21,11 +21,11 @@ import (
 
 	"github.com/jchv/dendrite/federationapi/queue"
 	"github.com/jchv/dendrite/federationapi/statistics"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/setup/process"
 	"github.com/jchv/dendrite/test"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/stretchr/testify/assert"
 )
 

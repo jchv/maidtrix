@@ -8,11 +8,11 @@ import (
 
 	"github.com/jchv/dendrite/federationapi/storage"
 	"github.com/jchv/dendrite/internal/caching"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/test"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 	"github.com/stretchr/testify/assert"
 )

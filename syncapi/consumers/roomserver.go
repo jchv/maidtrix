@@ -24,6 +24,7 @@ import (
 
 	"github.com/getsentry/sentry-go"
 	"github.com/jchv/dendrite/internal/fulltext"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/roomserver/api"
 	rstypes "github.com/jchv/dendrite/roomserver/types"
@@ -36,7 +37,6 @@ import (
 	"github.com/jchv/dendrite/syncapi/streams"
 	"github.com/jchv/dendrite/syncapi/synctypes"
 	"github.com/jchv/dendrite/syncapi/types"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/nats-io/nats.go"
 	"github.com/sirupsen/logrus"
 	log "github.com/sirupsen/logrus"

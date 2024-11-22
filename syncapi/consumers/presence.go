@@ -18,6 +18,7 @@ import (
 	"context"
 	"strconv"
 
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/setup/jetstream"
 	"github.com/jchv/dendrite/setup/process"
@@ -26,7 +27,6 @@ import (
 	"github.com/jchv/dendrite/syncapi/streams"
 	"github.com/jchv/dendrite/syncapi/types"
 	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/nats-io/nats.go"
 	"github.com/sirupsen/logrus"
 )

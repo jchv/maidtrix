@@ -22,8 +22,8 @@ import (
 	"github.com/matrix-org/util"
 
 	"github.com/jchv/dendrite/clientapi/httputil"
-	"github.com/jchv/dendrite/userapi/api"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/userapi/api"
 )
 
 type uploadKeysRequest struct {

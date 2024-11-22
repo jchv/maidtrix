@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/lib/pq"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/lib/pq"
 )
 
 var serverNamesTables = []string{

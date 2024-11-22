@@ -22,10 +22,10 @@ import (
 	"github.com/sirupsen/logrus"
 
 	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/userapi/api"
 	"github.com/jchv/dendrite/userapi/storage/tables"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 // See https://matrix.org/docs/spec/client_server/r0.6.1#get-matrix-client-r0-pushers

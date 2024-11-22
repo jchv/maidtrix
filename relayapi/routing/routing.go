@@ -22,11 +22,11 @@ import (
 	"github.com/getsentry/sentry-go"
 	"github.com/gorilla/mux"
 	"github.com/jchv/dendrite/internal/httputil"
-	relayInternal "github.com/jchv/dendrite/relayapi/internal"
-	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	relayInternal "github.com/jchv/dendrite/relayapi/internal"
+	"github.com/jchv/dendrite/setup/config"
 	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 )

@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/syncapi/synctypes"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/dendrite/syncapi/synctypes"
 	"github.com/matrix-org/util"
 	"golang.org/x/crypto/bcrypt"
 

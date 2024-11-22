@@ -21,8 +21,8 @@ import (
 	"time"
 
 	federationAPI "github.com/jchv/dendrite/federationapi/api"
-	relayServerAPI "github.com/jchv/dendrite/relayapi/api"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	relayServerAPI "github.com/jchv/dendrite/relayapi/api"
 	"github.com/sirupsen/logrus"
 )
 

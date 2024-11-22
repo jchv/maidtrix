@@ -27,9 +27,9 @@ import (
 	"github.com/sirupsen/logrus"
 
 	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/userapi/storage"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 type phoneHomeStats struct {

@@ -21,11 +21,11 @@ import (
 	"strings"
 
 	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/syncapi/storage/sqlite3/deltas"
 	"github.com/jchv/dendrite/syncapi/storage/tables"
 	"github.com/jchv/dendrite/syncapi/types"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 const receiptsSchema = `

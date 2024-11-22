@@ -10,6 +10,8 @@ import (
 	"time"
 
 	"github.com/jchv/dendrite/internal/caching"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/roomserver/state"
 	"github.com/jchv/dendrite/roomserver/storage"
@@ -17,8 +19,6 @@ import (
 	"github.com/jchv/dendrite/setup"
 	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/setup/process"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 // This is a utility for inspecting state snapshots and running state resolution

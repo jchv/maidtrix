@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/userapi/api"
 	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/dendrite/userapi/api"
 	"github.com/matrix-org/util"
 )
 

@@ -22,11 +22,11 @@ import (
 
 	"github.com/jchv/dendrite/clientapi/httputil"
 	"github.com/jchv/dendrite/clientapi/producers"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/setup/jetstream"
 	"github.com/jchv/dendrite/syncapi/types"
 	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 	"github.com/nats-io/nats.go"
 	log "github.com/sirupsen/logrus"

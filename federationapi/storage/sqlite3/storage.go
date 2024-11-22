@@ -21,9 +21,9 @@ import (
 	"github.com/jchv/dendrite/federationapi/storage/shared"
 	"github.com/jchv/dendrite/federationapi/storage/sqlite3/deltas"
 	"github.com/jchv/dendrite/internal/caching"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 // Database stores information needed by the federation sender

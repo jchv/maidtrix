@@ -8,8 +8,8 @@ import (
 	"golang.org/x/crypto/bcrypt"
 	"gopkg.in/yaml.v2"
 
-	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/setup/config"
 )
 
 func main() {

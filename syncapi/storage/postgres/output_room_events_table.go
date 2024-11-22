@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/lib/pq"
 	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/roomserver/api"
 	rstypes "github.com/jchv/dendrite/roomserver/types"
@@ -31,7 +31,7 @@ import (
 	"github.com/jchv/dendrite/syncapi/storage/tables"
 	"github.com/jchv/dendrite/syncapi/synctypes"
 	"github.com/jchv/dendrite/syncapi/types"
-	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/lib/pq"
 )
 
 const outputRoomEventsSchema = `

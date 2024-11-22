@@ -19,8 +19,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/lib/pq"
 	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/lib/pq"
 	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 )

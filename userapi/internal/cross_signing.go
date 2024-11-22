@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/userapi/types"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/dendrite/userapi/types"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/crypto/curve25519"
 )

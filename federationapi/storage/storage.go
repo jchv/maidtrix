@@ -24,9 +24,9 @@ import (
 	"github.com/jchv/dendrite/federationapi/storage/postgres"
 	"github.com/jchv/dendrite/federationapi/storage/sqlite3"
 	"github.com/jchv/dendrite/internal/caching"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 // NewDatabase opens a new database

@@ -23,9 +23,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/jchv/dendrite/roomserver/storage/tables"
 	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/roomserver/storage/tables"
 	"github.com/sirupsen/logrus"
 )
 

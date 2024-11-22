@@ -1,8 +1,8 @@
 package caching
 
 import (
-	"github.com/jchv/dendrite/roomserver/types"
 	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/roomserver/types"
 )
 
 // FederationCache contains the subset of functions needed for

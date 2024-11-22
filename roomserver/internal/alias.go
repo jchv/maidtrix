@@ -23,11 +23,11 @@ import (
 
 	asAPI "github.com/jchv/dendrite/appservice/api"
 	"github.com/jchv/dendrite/internal/eventutil"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/roomserver/api"
 	"github.com/jchv/dendrite/roomserver/internal/helpers"
 	"github.com/jchv/dendrite/roomserver/types"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/tidwall/gjson"
 	"github.com/tidwall/sjson"
 )

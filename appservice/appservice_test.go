@@ -18,10 +18,10 @@ import (
 	"github.com/jchv/dendrite/clientapi/auth/authtypes"
 	"github.com/jchv/dendrite/federationapi/statistics"
 	"github.com/jchv/dendrite/internal/httputil"
+	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/jchv/dendrite/roomserver/types"
 	"github.com/jchv/dendrite/syncapi"
 	uapi "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/matrix-org/util"
 	"github.com/nats-io/nats.go"
 	"github.com/stretchr/testify/assert"
@@ -31,6 +31,7 @@ import (
 	"github.com/jchv/dendrite/appservice/api"
 	"github.com/jchv/dendrite/appservice/consumers"
 	"github.com/jchv/dendrite/internal/caching"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/roomserver"
 	rsapi "github.com/jchv/dendrite/roomserver/api"
@@ -38,7 +39,6 @@ import (
 	"github.com/jchv/dendrite/setup/jetstream"
 	"github.com/jchv/dendrite/test"
 	"github.com/jchv/dendrite/userapi"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
 	"github.com/jchv/dendrite/test/testrig"
 )

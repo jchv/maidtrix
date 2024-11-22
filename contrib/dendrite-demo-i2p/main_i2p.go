@@ -31,10 +31,10 @@ import (
 	"github.com/eyedeekay/onramp"
 	sentryhttp "github.com/getsentry/sentry-go/http"
 	"github.com/gorilla/mux"
-	"github.com/kardianos/minwinsvc"
 	"github.com/jchv/dendrite/internal"
 	"github.com/jchv/dendrite/internal/httputil"
 	"github.com/jchv/dendrite/setup/process"
+	"github.com/kardianos/minwinsvc"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/sirupsen/logrus"
 

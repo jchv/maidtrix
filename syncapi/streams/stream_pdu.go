@@ -7,6 +7,7 @@ import (
 	"time"
 
 	"github.com/jchv/dendrite/internal/caching"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
 	rstypes "github.com/jchv/dendrite/roomserver/types"
 	"github.com/jchv/dendrite/syncapi/internal"
@@ -14,10 +15,9 @@ import (
 	"github.com/jchv/dendrite/syncapi/synctypes"
 	"github.com/jchv/dendrite/syncapi/types"
 	userapi "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
-	"github.com/jchv/dendrite/syncapi/notifier"
 	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/syncapi/notifier"
 	"github.com/sirupsen/logrus"
 )
 

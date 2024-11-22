@@ -21,11 +21,11 @@ import (
 	"time"
 
 	"github.com/jchv/dendrite/clientapi/userutil"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/userapi/api"
 	"github.com/jchv/dendrite/userapi/storage/postgres/deltas"
 	"github.com/jchv/dendrite/userapi/storage/tables"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
 	log "github.com/sirupsen/logrus"
 )

@@ -21,10 +21,10 @@ import (
 	"time"
 
 	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/mediaapi/storage/tables"
 	"github.com/jchv/dendrite/mediaapi/types"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 const thumbnailSchema = `
