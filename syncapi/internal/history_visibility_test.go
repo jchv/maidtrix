@@ -9,8 +9,8 @@ import (
 	rsapi "github.com/jchv/dendrite/roomserver/api"
 	"github.com/jchv/dendrite/roomserver/types"
 	"github.com/jchv/dendrite/syncapi/storage"
-	"github.com/jchv/gomatrixserverlib"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"gotest.tools/v3/assert"
 )
 

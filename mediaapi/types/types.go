@@ -18,7 +18,7 @@ import (
 	"sync"
 
 	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 // FileSizeBytes is a file size in bytes

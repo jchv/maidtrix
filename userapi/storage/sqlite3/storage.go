@@ -22,7 +22,7 @@ import (
 
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
 	"github.com/jchv/dendrite/userapi/storage/shared"
 	"github.com/jchv/dendrite/userapi/storage/sqlite3/deltas"

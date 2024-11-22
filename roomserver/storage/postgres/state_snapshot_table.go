@@ -21,7 +21,7 @@ import (
 	"fmt"
 
 	"github.com/lib/pq"
-	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/matrix-org/util"
 
 	"github.com/jchv/dendrite/internal/sqlutil"

@@ -19,7 +19,7 @@ import (
 	"testing"
 
 	"github.com/jchv/dendrite/setup/process"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 
 	"github.com/jchv/dendrite/internal/fulltext"

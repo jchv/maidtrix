@@ -24,8 +24,8 @@ import (
 	"sync"
 
 	"github.com/jchv/dendrite/roomserver/storage/tables"
-	"github.com/jchv/gomatrixserverlib"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/sirupsen/logrus"
 )
 

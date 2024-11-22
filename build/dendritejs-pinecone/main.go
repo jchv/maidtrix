@@ -38,9 +38,9 @@ import (
 	"github.com/jchv/dendrite/setup/jetstream"
 	"github.com/jchv/dendrite/setup/process"
 	"github.com/jchv/dendrite/userapi"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
-	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/matrixserver"
 
 	"github.com/sirupsen/logrus"
 

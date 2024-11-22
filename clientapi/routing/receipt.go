@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/jchv/dendrite/clientapi/producers"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
 	userapi "github.com/jchv/dendrite/userapi/api"
 	"github.com/matrix-org/util"

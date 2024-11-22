@@ -1,6 +1,6 @@
 package caching
 
-import "github.com/jchv/gomatrixserverlib/fclient"
+import "github.com/jchv/dendrite/internal/matrixserver/fclient"
 
 // RoomHierarchy cache caches responses to federated room hierarchy requests (A.K.A. 'space summaries')
 type RoomHierarchyCache interface {

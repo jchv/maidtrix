@@ -24,7 +24,7 @@ import (
 	"github.com/jchv/dendrite/roomserver/state"
 	"github.com/jchv/dendrite/roomserver/storage"
 	"github.com/jchv/dendrite/roomserver/types"
-	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/matrix-org/util"
 )
 

@@ -26,11 +26,11 @@ import (
 	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
 	roomserverVersion "github.com/jchv/dendrite/roomserver/version"
 	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
 	"github.com/jchv/dendrite/clientapi/httputil"
 	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/matrix-org/util"
 	log "github.com/sirupsen/logrus"
 )

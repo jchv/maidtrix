@@ -51,7 +51,7 @@ import (
 	"github.com/jchv/dendrite/setup/process"
 	"github.com/jchv/dendrite/userapi"
 	userAPI "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/sirupsen/logrus"
 
 	pineconeConnections "github.com/matrix-org/pinecone/connections"

@@ -24,7 +24,7 @@ import (
 	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/userapi/storage/postgres/deltas"
 	"github.com/jchv/dendrite/userapi/storage/shared"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
 	// Import the postgres database driver.
 	_ "github.com/lib/pq"

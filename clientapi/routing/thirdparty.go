@@ -22,7 +22,7 @@ import (
 
 	appserviceAPI "github.com/jchv/dendrite/appservice/api"
 	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 // Protocols implements

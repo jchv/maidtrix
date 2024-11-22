@@ -14,7 +14,7 @@ import (
 	"github.com/jchv/dendrite/setup/jetstream"
 	"github.com/jchv/dendrite/test"
 	"github.com/jchv/dendrite/test/testrig"
-	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/matrixserver"
 )
 
 func TestSingleTransactionOnInput(t *testing.T) {

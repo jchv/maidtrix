@@ -24,9 +24,9 @@ import (
 
 	rstypes "github.com/jchv/dendrite/roomserver/types"
 	userapi "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
-	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/sirupsen/logrus"
 
 	"github.com/jchv/dendrite/internal/eventutil"

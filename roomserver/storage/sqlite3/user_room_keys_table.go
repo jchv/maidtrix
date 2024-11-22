@@ -25,7 +25,7 @@ import (
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/roomserver/storage/tables"
 	"github.com/jchv/dendrite/roomserver/types"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 const userRoomKeysSchema = `

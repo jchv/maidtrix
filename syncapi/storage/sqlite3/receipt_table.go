@@ -25,7 +25,7 @@ import (
 	"github.com/jchv/dendrite/syncapi/storage/sqlite3/deltas"
 	"github.com/jchv/dendrite/syncapi/storage/tables"
 	"github.com/jchv/dendrite/syncapi/types"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 const receiptsSchema = `

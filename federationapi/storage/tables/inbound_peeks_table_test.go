@@ -11,7 +11,7 @@ import (
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/test"
-	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/matrix-org/util"
 	"github.com/stretchr/testify/assert"
 )

@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/jchv/gomatrixserverlib/fclient"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 
 	"github.com/jchv/dendrite/clientapi/api"

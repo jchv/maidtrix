@@ -20,7 +20,7 @@ import (
 	"net/url"
 
 	"github.com/gorilla/mux"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 // URLDecodeMapValues is a function that iterates through each of the items in a

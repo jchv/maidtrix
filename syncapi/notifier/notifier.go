@@ -24,7 +24,7 @@ import (
 	rstypes "github.com/jchv/dendrite/roomserver/types"
 	"github.com/jchv/dendrite/syncapi/storage"
 	"github.com/jchv/dendrite/syncapi/types"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	log "github.com/sirupsen/logrus"
 )
 

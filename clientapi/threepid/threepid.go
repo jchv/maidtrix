@@ -25,8 +25,8 @@ import (
 	"strings"
 
 	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/gomatrixserverlib/fclient"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 // EmailAssociationRequest represents the request defined at https://matrix.org/docs/spec/client_server/r0.2.0.html#post-matrix-client-r0-register-email-requesttoken

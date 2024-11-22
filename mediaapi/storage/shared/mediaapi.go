@@ -22,7 +22,7 @@ import (
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/mediaapi/storage/tables"
 	"github.com/jchv/dendrite/mediaapi/types"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 type Database struct {

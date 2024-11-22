@@ -25,11 +25,11 @@ import (
 	"github.com/jchv/dendrite/internal/caching"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/test/testrig"
-	"github.com/jchv/gomatrixserverlib/fclient"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"gotest.tools/v3/poll"
 
-	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/jchv/dendrite/federationapi/statistics"

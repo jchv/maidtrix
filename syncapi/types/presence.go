@@ -18,7 +18,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 type Presence uint8

@@ -8,8 +8,8 @@ import (
 
 	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/gomatrixserverlib/fclient"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 )
 

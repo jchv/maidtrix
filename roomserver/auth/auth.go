@@ -16,8 +16,8 @@ import (
 	"context"
 
 	"github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/gomatrixserverlib"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 // TODO: This logic should live in gomatrixserverlib

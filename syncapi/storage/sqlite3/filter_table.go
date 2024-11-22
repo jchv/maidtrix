@@ -23,7 +23,7 @@ import (
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/syncapi/storage/tables"
 	"github.com/jchv/dendrite/syncapi/synctypes"
-	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/matrixserver"
 )
 
 const filterSchema = `

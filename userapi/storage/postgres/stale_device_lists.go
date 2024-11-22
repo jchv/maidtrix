@@ -22,11 +22,11 @@ import (
 	"github.com/lib/pq"
 
 	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
 	"github.com/jchv/dendrite/internal"
 	"github.com/jchv/dendrite/userapi/storage/tables"
-	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/matrixserver"
 )
 
 var staleDeviceListsSchema = `

@@ -9,8 +9,8 @@ import (
 
 	"github.com/jchv/dendrite/roomserver/types"
 	"github.com/jchv/dendrite/syncapi/synctypes"
-	"github.com/jchv/gomatrixserverlib"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 type FakeRoomserverAPI struct{}

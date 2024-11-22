@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 func TestMonolithStarts(t *testing.T) {

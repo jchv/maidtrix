@@ -24,8 +24,8 @@ import (
 	"github.com/jchv/dendrite/userapi/storage/postgres/deltas"
 	"github.com/jchv/dendrite/userapi/storage/tables"
 	"github.com/jchv/dendrite/userapi/types"
-	"github.com/jchv/gomatrixserverlib"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 var crossSigningSigsSchema = `

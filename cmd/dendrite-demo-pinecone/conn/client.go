@@ -22,7 +22,7 @@ import (
 	"strings"
 
 	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/gomatrixserverlib/fclient"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"nhooyr.io/websocket"
 
 	pineconeRouter "github.com/matrix-org/pinecone/router"

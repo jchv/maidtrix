@@ -38,7 +38,7 @@ import (
 	"github.com/jchv/dendrite/test/testrig"
 	"github.com/jchv/dendrite/userapi"
 	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 	"github.com/patrickmn/go-cache"
 	"github.com/stretchr/testify/assert"

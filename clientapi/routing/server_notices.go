@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/jchv/gomatrix"
-	"github.com/jchv/gomatrixserverlib/tokens"
+	"github.com/jchv/dendrite/internal/matrix"
+	"github.com/jchv/dendrite/internal/matrixserver/tokens"
 	"github.com/matrix-org/util"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"
@@ -36,7 +36,7 @@ import (
 	"github.com/jchv/dendrite/roomserver/api"
 	"github.com/jchv/dendrite/setup/config"
 	userapi "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 // Unspecced server notice request

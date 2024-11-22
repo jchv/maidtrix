@@ -23,7 +23,7 @@ import (
 
 	"github.com/jchv/dendrite/federationapi/storage/shared/receipt"
 	"github.com/jchv/dendrite/roomserver/types"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 // AssociatePDUWithDestination creates an association that the

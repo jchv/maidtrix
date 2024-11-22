@@ -32,8 +32,8 @@ import (
 	"github.com/jchv/dendrite/mediaapi/types"
 	"github.com/jchv/dendrite/setup/config"
 	userapi "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/gomatrixserverlib"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 	log "github.com/sirupsen/logrus"
 )
@@ -263,7 +263,7 @@ func (r *uploadRequest) Validate(maxFileSizeBytes config.FileSizeBytes) *util.JS
 	// TODO: Validate filename - what are the valid characters?
 	if r.MediaMetadata.UserID != "" {
 		// TODO: We should put user ID parsing code into gomatrixserverlib and use that instead
-		//       (see https://github.com/jchv/gomatrixserverlib/blob/3394e7c7003312043208aa73727d2256eea3d1f6/eventcontent.go#L347 )
+		//       (see https://github.com/jchv/dendrite/internal/matrixserver/blob/3394e7c7003312043208aa73727d2256eea3d1f6/eventcontent.go#L347 )
 		//       It should be a struct (with pointers into a single string to avoid copying) and
 		//       we should update all refs to use UserID types rather than strings.
 		// https://github.com/matrix-org/synapse/blob/v0.19.2/synapse/types.py#L92

@@ -7,7 +7,7 @@ import (
 
 	"github.com/jchv/dendrite/roomserver/storage/tables"
 	"github.com/jchv/dendrite/roomserver/types"
-	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/matrixserver"
 )
 
 type MembershipUpdater struct {

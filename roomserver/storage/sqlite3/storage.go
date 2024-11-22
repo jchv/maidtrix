@@ -27,7 +27,7 @@ import (
 	"github.com/jchv/dendrite/roomserver/storage/sqlite3/deltas"
 	"github.com/jchv/dendrite/roomserver/types"
 	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/matrixserver"
 )
 
 // A Database is used to store room events and stream offsets.

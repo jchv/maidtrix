@@ -21,7 +21,7 @@ import (
 	"github.com/lib/pq"
 	"github.com/jchv/dendrite/internal"
 	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 const relayServersSchema = `

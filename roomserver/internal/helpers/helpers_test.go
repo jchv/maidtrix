@@ -8,7 +8,7 @@ import (
 	"github.com/jchv/dendrite/internal/caching"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/jchv/dendrite/roomserver/types"

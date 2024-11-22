@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
 	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/userapi/storage/postgres"

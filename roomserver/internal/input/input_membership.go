@@ -18,7 +18,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
 	"github.com/jchv/dendrite/internal"
 	"github.com/jchv/dendrite/roomserver/api"

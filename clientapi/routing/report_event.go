@@ -20,7 +20,7 @@ import (
 	"github.com/jchv/dendrite/clientapi/httputil"
 	"github.com/jchv/dendrite/roomserver/api"
 	userAPI "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 )
 

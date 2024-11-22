@@ -22,7 +22,7 @@ import (
 	"github.com/jchv/dendrite/clientapi/producers"
 	"github.com/jchv/dendrite/internal/transactions"
 	userapi "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 // SendToDevice handles PUT /_matrix/client/r0/sendToDevice/{eventType}/{txnId}

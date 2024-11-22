@@ -14,7 +14,7 @@
 
 package types
 
-import "github.com/jchv/gomatrixserverlib/spec"
+import "github.com/jchv/dendrite/internal/matrixserver/spec"
 
 const MSigningKeyUpdate = "m.signing_key_update" // TODO: move to gomatrixserverlib
 

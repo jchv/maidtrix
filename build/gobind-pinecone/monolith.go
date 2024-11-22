@@ -31,11 +31,11 @@ import (
 	"github.com/jchv/dendrite/cmd/dendrite-demo-yggdrasil/signing"
 	"github.com/jchv/dendrite/federationapi/api"
 	"github.com/jchv/dendrite/internal/httputil"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/setup/process"
 	userapiAPI "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/gomatrixserverlib"
-	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/matrix-org/pinecone/types"
 	"github.com/sirupsen/logrus"
 

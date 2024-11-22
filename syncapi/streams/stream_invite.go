@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
 	"github.com/jchv/dendrite/roomserver/api"
 	"github.com/jchv/dendrite/syncapi/storage"

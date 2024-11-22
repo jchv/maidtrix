@@ -31,9 +31,9 @@ import (
 	"github.com/jchv/dendrite/federationapi/statistics"
 	"github.com/jchv/dendrite/internal/caching"
 	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/gomatrixserverlib"
-	"github.com/jchv/gomatrixserverlib/fclient"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
 	roomserver "github.com/jchv/dendrite/roomserver/api"
 	"github.com/jchv/dendrite/setup/config"

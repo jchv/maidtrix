@@ -19,7 +19,7 @@ import (
 
 	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
 	"github.com/jchv/dendrite/roomserver/version"
-	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/matrix-org/util"
 )
 

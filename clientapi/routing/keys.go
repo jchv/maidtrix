@@ -23,7 +23,7 @@ import (
 
 	"github.com/jchv/dendrite/clientapi/httputil"
 	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 type uploadKeysRequest struct {

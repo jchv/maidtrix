@@ -18,7 +18,7 @@ import (
 	"net/http"
 
 	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
 	"github.com/matrix-org/util"
 )

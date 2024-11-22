@@ -13,7 +13,7 @@ import (
 	"github.com/jchv/dendrite/internal/httputil"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/roomserver/internal/input"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/nats-io/nats.go"
 	"github.com/stretchr/testify/assert"
 	"github.com/tidwall/gjson"
@@ -25,7 +25,7 @@ import (
 
 	userAPI "github.com/jchv/dendrite/userapi/api"
 
-	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/matrixserver"
 
 	"github.com/jchv/dendrite/federationapi"
 	"github.com/jchv/dendrite/setup/jetstream"

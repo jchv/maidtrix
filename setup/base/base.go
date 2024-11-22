@@ -33,7 +33,7 @@ import (
 	"time"
 
 	sentryhttp "github.com/getsentry/sentry-go/http"
-	"github.com/jchv/gomatrixserverlib/fclient"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
 	"github.com/gorilla/mux"

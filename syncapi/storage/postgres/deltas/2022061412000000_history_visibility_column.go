@@ -21,7 +21,7 @@ import (
 	"fmt"
 
 	"github.com/jchv/dendrite/roomserver/types"
-	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/matrixserver"
 )
 
 func UpAddHistoryVisibilityColumnOutputRoomEvents(ctx context.Context, tx *sql.Tx) error {

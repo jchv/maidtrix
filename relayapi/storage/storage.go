@@ -25,7 +25,7 @@ import (
 	"github.com/jchv/dendrite/relayapi/storage/postgres"
 	"github.com/jchv/dendrite/relayapi/storage/sqlite3"
 	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 // NewDatabase opens a new database

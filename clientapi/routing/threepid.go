@@ -23,10 +23,10 @@ import (
 	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/userapi/api"
 	userdb "github.com/jchv/dendrite/userapi/storage"
-	"github.com/jchv/gomatrixserverlib/fclient"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
-	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/matrix-org/util"
 )
 

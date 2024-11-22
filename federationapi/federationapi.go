@@ -21,7 +21,7 @@ import (
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/setup/process"
-	"github.com/jchv/gomatrixserverlib/fclient"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/sirupsen/logrus"
 
 	federationAPI "github.com/jchv/dendrite/federationapi/api"
@@ -36,7 +36,7 @@ import (
 	"github.com/jchv/dendrite/setup/jetstream"
 	userapi "github.com/jchv/dendrite/userapi/api"
 
-	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/matrixserver"
 
 	"github.com/jchv/dendrite/federationapi/routing"
 )

@@ -23,6 +23,8 @@ import (
 	"github.com/jchv/dendrite/internal"
 	"github.com/jchv/dendrite/internal/caching"
 	"github.com/jchv/dendrite/internal/httputil"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/roomserver"
 	"github.com/jchv/dendrite/setup"
@@ -32,8 +34,6 @@ import (
 	"github.com/jchv/dendrite/setup/process"
 	"github.com/jchv/dendrite/test"
 	"github.com/jchv/dendrite/userapi"
-	"github.com/jchv/gomatrixserverlib"
-	"github.com/jchv/gomatrixserverlib/spec"
 	"github.com/sirupsen/logrus"
 
 	_ "golang.org/x/mobile/bind"

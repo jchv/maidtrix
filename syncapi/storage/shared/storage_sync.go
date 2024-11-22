@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/tidwall/gjson"
 
 	"github.com/jchv/dendrite/internal/eventutil"

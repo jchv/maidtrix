@@ -22,7 +22,7 @@ import (
 	"github.com/jchv/dendrite/internal/caching"
 	"github.com/jchv/dendrite/internal/sqlutil"
 	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/matrixserver"
 )
 
 // NewDatabase opens a new database

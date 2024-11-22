@@ -23,9 +23,9 @@ import (
 
 	"github.com/jchv/dendrite/syncapi/synctypes"
 	"github.com/jchv/dendrite/userapi/types"
-	"github.com/jchv/gomatrixserverlib"
-	"github.com/jchv/gomatrixserverlib/fclient"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
 	clientapi "github.com/jchv/dendrite/clientapi/api"
 	"github.com/jchv/dendrite/clientapi/auth/authtypes"

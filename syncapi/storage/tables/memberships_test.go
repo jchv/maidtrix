@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
 	"github.com/jchv/dendrite/internal/sqlutil"
 	rstypes "github.com/jchv/dendrite/roomserver/types"

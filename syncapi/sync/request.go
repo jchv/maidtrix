@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 

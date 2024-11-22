@@ -36,9 +36,9 @@ import (
 	"github.com/jchv/dendrite/internal/eventutil"
 	"github.com/jchv/dendrite/setup/config"
 
-	"github.com/jchv/gomatrixserverlib"
-	"github.com/jchv/gomatrixserverlib/spec"
-	"github.com/jchv/gomatrixserverlib/tokens"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/tokens"
 	"github.com/matrix-org/util"
 	"github.com/prometheus/client_golang/prometheus"
 	log "github.com/sirupsen/logrus"

@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/gomatrixserverlib/fclient"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 )
 
 type yggroundtripper struct {

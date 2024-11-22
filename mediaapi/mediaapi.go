@@ -21,8 +21,8 @@ import (
 	"github.com/jchv/dendrite/mediaapi/storage"
 	"github.com/jchv/dendrite/setup/config"
 	userapi "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/gomatrixserverlib"
-	"github.com/jchv/gomatrixserverlib/fclient"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/sirupsen/logrus"
 )
 

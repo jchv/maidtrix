@@ -23,7 +23,7 @@ import (
 
 	"github.com/blevesearch/bleve/v2"
 	"github.com/jchv/dendrite/setup/process"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
 	// side effect imports to allow all possible languages
 	_ "github.com/blevesearch/bleve/v2/analysis/lang/ar"

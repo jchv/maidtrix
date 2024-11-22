@@ -14,8 +14,8 @@ import (
 	"github.com/jchv/dendrite/roomserver/types"
 	"github.com/jchv/dendrite/setup/jetstream"
 	"github.com/jchv/dendrite/test/testrig"
-	"github.com/jchv/gomatrixserverlib"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/crypto/bcrypt"
 

@@ -5,7 +5,7 @@ import (
 
 	"github.com/jchv/dendrite/roomserver/types"
 	"github.com/jchv/dendrite/test"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/stretchr/testify/assert"
 )
 

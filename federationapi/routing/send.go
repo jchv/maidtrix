@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jchv/gomatrixserverlib"
-	"github.com/jchv/gomatrixserverlib/fclient"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/matrix-org/util"
 
 	"github.com/jchv/dendrite/federationapi/producers"
@@ -30,7 +30,7 @@ import (
 	"github.com/jchv/dendrite/roomserver/api"
 	"github.com/jchv/dendrite/setup/config"
 	userAPI "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 const (

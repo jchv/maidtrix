@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
 	"github.com/jchv/dendrite/internal"
 	"github.com/jchv/dendrite/internal/sqlutil"

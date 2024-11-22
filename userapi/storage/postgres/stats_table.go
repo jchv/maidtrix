@@ -20,7 +20,7 @@ import (
 	"time"
 
 	"github.com/lib/pq"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/sirupsen/logrus"
 
 	"github.com/jchv/dendrite/internal"

@@ -27,7 +27,7 @@ import (
 	"github.com/jchv/dendrite/userapi/api"
 	"github.com/jchv/dendrite/userapi/storage/postgres/deltas"
 	"github.com/jchv/dendrite/userapi/storage/tables"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 const devicesSchema = `

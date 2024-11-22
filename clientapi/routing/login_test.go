@@ -16,8 +16,8 @@ import (
 	"github.com/jchv/dendrite/roomserver"
 	"github.com/jchv/dendrite/setup/config"
 	"github.com/jchv/dendrite/setup/jetstream"
-	"github.com/jchv/gomatrixserverlib"
-	"github.com/jchv/gomatrixserverlib/fclient"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
 	"github.com/matrix-org/util"
 
 	"github.com/jchv/dendrite/test"

@@ -20,7 +20,7 @@ import (
 	"fmt"
 
 	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/gomatrixserverlib"
+	"github.com/jchv/dendrite/internal/matrixserver"
 	"github.com/matrix-org/util"
 )
 

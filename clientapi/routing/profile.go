@@ -20,9 +20,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/jchv/gomatrixserverlib"
-	"github.com/jchv/gomatrixserverlib/fclient"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 
 	appserviceAPI "github.com/jchv/dendrite/appservice/api"
 	"github.com/jchv/dendrite/clientapi/auth/authtypes"
@@ -32,7 +32,7 @@ import (
 	"github.com/jchv/dendrite/roomserver/types"
 	"github.com/jchv/dendrite/setup/config"
 	userapi "github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/gomatrix"
+	"github.com/jchv/dendrite/internal/matrix"
 	"github.com/matrix-org/util"
 )
 

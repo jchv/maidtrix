@@ -26,7 +26,7 @@ import (
 	"github.com/jchv/dendrite/setup/jetstream"
 	"github.com/jchv/dendrite/syncapi/types"
 	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 	"github.com/nats-io/nats.go"
 	log "github.com/sirupsen/logrus"

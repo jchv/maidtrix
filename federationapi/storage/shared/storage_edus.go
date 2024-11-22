@@ -23,8 +23,8 @@ import (
 	"time"
 
 	"github.com/jchv/dendrite/federationapi/storage/shared/receipt"
-	"github.com/jchv/gomatrixserverlib"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 // defaultExpiry for EDUs if not listed below

@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/lib/pq"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 var serverNamesTables = []string{

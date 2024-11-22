@@ -21,8 +21,8 @@ import (
 
 	"github.com/jchv/dendrite/cmd/dendrite-demo-pinecone/defaults"
 	"github.com/jchv/dendrite/federationapi/api"
-	"github.com/jchv/gomatrixserverlib/fclient"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/fclient"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 
 	pineconeRouter "github.com/matrix-org/pinecone/router"

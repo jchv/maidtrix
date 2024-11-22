@@ -3,22 +3,22 @@ package caching
 import (
 	"fmt"
 
-	"github.com/jchv/gomatrixserverlib"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 )
 
 // ServerKeyCache contains the subset of functions needed for
 // a server key cache.
 type ServerKeyCache interface {
 	// request -> timestamp is emulating gomatrixserverlib.FetchKeys:
-	// https://github.com/jchv/gomatrixserverlib/blob/f69539c86ea55d1e2cc76fd8e944e2d82d30397c/keyring.go#L95
+	// https://github.com/jchv/dendrite/internal/matrixserver/blob/f69539c86ea55d1e2cc76fd8e944e2d82d30397c/keyring.go#L95
 	// The timestamp should be the timestamp of the event that is being
 	// verified. We will not return keys from the cache that are not valid
 	// at this timestamp.
 	GetServerKey(request gomatrixserverlib.PublicKeyLookupRequest, timestamp spec.Timestamp) (response gomatrixserverlib.PublicKeyLookupResult, ok bool)
 
 	// request -> result is emulating gomatrixserverlib.StoreKeys:
-	// https://github.com/jchv/gomatrixserverlib/blob/f69539c86ea55d1e2cc76fd8e944e2d82d30397c/keyring.go#L112
+	// https://github.com/jchv/dendrite/internal/matrixserver/blob/f69539c86ea55d1e2cc76fd8e944e2d82d30397c/keyring.go#L112
 	StoreServerKey(request gomatrixserverlib.PublicKeyLookupRequest, response gomatrixserverlib.PublicKeyLookupResult)
 }
 

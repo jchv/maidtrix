@@ -26,7 +26,7 @@ import (
 	"github.com/jchv/dendrite/syncapi/streams"
 	"github.com/jchv/dendrite/syncapi/types"
 	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/gomatrixserverlib/spec"
+	"github.com/jchv/dendrite/internal/matrixserver/spec"
 	"github.com/nats-io/nats.go"
 	"github.com/sirupsen/logrus"
 )
