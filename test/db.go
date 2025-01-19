@@ -15,17 +15,21 @@
 package test
 
 import (
+	"context"
 	"crypto/sha256"
 	"database/sql"
 	"encoding/hex"
 	"fmt"
 	"os"
-	"os/exec"
 	"os/user"
 	"path/filepath"
 	"testing"
+	"time"
 
 	"github.com/lib/pq"
+	"github.com/testcontainers/testcontainers-go"
+	"github.com/testcontainers/testcontainers-go/modules/postgres"
+	"github.com/testcontainers/testcontainers-go/wait"
 )
 
 type DBType int
@@ -44,20 +48,29 @@ func fatalError(t *testing.T, format string, args ...interface{}) {
 	}
 }
 
-func createLocalDB(t *testing.T, dbName string) {
-	if _, err := exec.LookPath("createdb"); err != nil {
-		fatalError(t, "Note: tests require a postgres install accessible to the current user")
-		return
+func createLocalDB(t *testing.T, dbName string) (connStr string) {
+	pgContainer, err := postgres.Run(context.Background(),
+		"docker.io/postgres:alpine",
+		postgres.WithDatabase(dbName),
+		postgres.WithUsername("postgres"),
+		postgres.WithPassword("postgres"),
+		testcontainers.WithWaitStrategy(
+			wait.ForLog("database system is ready to accept connections").
+				WithOccurrence(2).WithStartupTimeout(5*time.Second)),
+	)
+	if err != nil {
+		fatalError(t, "error creating local database: %v", err)
 	}
-	createDB := exec.Command("createdb", dbName)
-	if !Quiet {
-		createDB.Stdout = os.Stdout
-		createDB.Stderr = os.Stderr
+	t.Cleanup(func() {
+		if err := pgContainer.Terminate(context.Background()); err != nil {
+			t.Fatalf("failed to terminate pgContainer: %s", err)
+		}
+	})
+	connStr, err = pgContainer.ConnectionString(context.Background(), "sslmode=disable")
+	if err != nil {
+		fatalError(t, "error getting connection string for local database: %v", err)
 	}
-	err := createDB.Run()
-	if err != nil && !Quiet {
-		fmt.Println("createLocalDB returned error:", err)
-	}
+	return connStr
 }
 
 func createRemoteDB(t *testing.T, dbName, user, connStr string) {
@@ -142,12 +155,12 @@ func PrepareDBConnectionString(t *testing.T, dbType DBType) (connStr string, clo
 	}
 	hash := sha256.Sum256([]byte(wd))
 	dbName := fmt.Sprintf("dendrite_test_%s", hex.EncodeToString(hash[:16]))
-	if postgresDB == "" { // local server, use createdb
-		createLocalDB(t, dbName)
+	if postgresDB == "" { // use testcontainers
+		connStr = createLocalDB(t, dbName)
 	} else { // remote server, shell into the postgres user and CREATE DATABASE
 		createRemoteDB(t, dbName, user, connStr)
+		connStr += fmt.Sprintf(" dbname=%s", dbName)
 	}
-	connStr += fmt.Sprintf(" dbname=%s", dbName)
 
 	return connStr, func() {
 		// Drop all tables on the database to get a fresh instance
