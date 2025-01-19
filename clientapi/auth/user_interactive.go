@@ -21,9 +21,9 @@ import (
 	"sync"
 
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/setup/config"
 	"github.com/jchv/maidtrix/userapi/api"
-	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 	"github.com/tidwall/gjson"
 )

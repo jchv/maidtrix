@@ -19,7 +19,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 
 	"github.com/jchv/maidtrix/clientapi/httputil"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"

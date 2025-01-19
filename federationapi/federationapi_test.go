@@ -20,7 +20,7 @@ import (
 	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/jchv/maidtrix/internal/sqlutil"
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/nats-io/nats.go"
 	"github.com/stretchr/testify/assert"
 	"github.com/tidwall/gjson"

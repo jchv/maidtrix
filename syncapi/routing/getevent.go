@@ -17,7 +17,7 @@ package routing
 import (
 	"net/http"
 
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/sirupsen/logrus"
 
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"

@@ -24,8 +24,8 @@ import (
 	"strings"
 
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/userapi/api"
-	"github.com/matrix-org/util"
 )
 
 // OWASP recommends at least 128 bits of entropy for tokens: https://www.owasp.org/index.php/Insufficient_Session-ID_Length

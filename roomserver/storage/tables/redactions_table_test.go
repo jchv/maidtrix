@@ -5,12 +5,12 @@ import (
 	"testing"
 
 	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/roomserver/storage/postgres"
 	"github.com/jchv/maidtrix/roomserver/storage/sqlite3"
 	"github.com/jchv/maidtrix/roomserver/storage/tables"
 	"github.com/jchv/maidtrix/setup/config"
 	"github.com/jchv/maidtrix/test"
-	"github.com/matrix-org/util"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -25,9 +25,9 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/mediaapi/types"
 	"github.com/jchv/maidtrix/setup/config"
-	"github.com/matrix-org/util"
 	log "github.com/sirupsen/logrus"
 )
 

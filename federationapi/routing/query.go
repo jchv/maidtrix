@@ -23,10 +23,10 @@ import (
 	"github.com/jchv/maidtrix/internal/matrixserver"
 	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/util"
 	roomserverAPI "github.com/jchv/maidtrix/roomserver/api"
 	"github.com/jchv/maidtrix/roomserver/types"
 	"github.com/jchv/maidtrix/setup/config"
-	"github.com/matrix-org/util"
 	log "github.com/sirupsen/logrus"
 )
 

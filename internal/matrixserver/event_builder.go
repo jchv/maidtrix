@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/tidwall/sjson"
 	"golang.org/x/crypto/ed25519"
 )

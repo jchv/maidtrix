@@ -23,11 +23,11 @@ import (
 	"github.com/jchv/maidtrix/clientapi/httputil"
 	"github.com/jchv/maidtrix/clientapi/producers"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/setup/config"
 	"github.com/jchv/maidtrix/setup/jetstream"
 	"github.com/jchv/maidtrix/syncapi/types"
 	"github.com/jchv/maidtrix/userapi/api"
-	"github.com/matrix-org/util"
 	"github.com/nats-io/nats.go"
 	log "github.com/sirupsen/logrus"
 )

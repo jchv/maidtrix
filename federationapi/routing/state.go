@@ -19,9 +19,9 @@ import (
 
 	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/roomserver/api"
 	"github.com/jchv/maidtrix/roomserver/types"
-	"github.com/matrix-org/util"
 )
 
 // GetState returns state events & auth events for the roomID, eventID

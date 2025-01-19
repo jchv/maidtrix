@@ -24,9 +24,9 @@ import (
 	"github.com/jchv/maidtrix/internal/eventutil"
 	"github.com/jchv/maidtrix/internal/matrix"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/util"
 	roomserverAPI "github.com/jchv/maidtrix/roomserver/api"
 	"github.com/jchv/maidtrix/userapi/api"
-	"github.com/matrix-org/util"
 )
 
 func JoinRoomByIDOrAlias(

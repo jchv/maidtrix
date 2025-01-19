@@ -16,7 +16,6 @@ require (
 	github.com/gorilla/mux v1.8.0
 	github.com/kardianos/minwinsvc v1.0.2
 	github.com/lib/pq v1.10.9
-	github.com/matrix-org/util v0.0.0-20221111132719-399730281e66
 	github.com/mattn/go-sqlite3 v1.14.24
 	github.com/miekg/dns v1.1.62
 	github.com/nats-io/nats-server/v2 v2.10.20

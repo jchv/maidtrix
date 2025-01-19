@@ -27,7 +27,7 @@ import (
 	userdb "github.com/jchv/maidtrix/userapi/storage"
 
 	"github.com/jchv/maidtrix/internal/matrixserver"
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 )
 
 type reqTokenResponse struct {

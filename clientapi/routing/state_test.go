@@ -9,11 +9,11 @@ import (
 
 	"github.com/jchv/maidtrix/internal/matrixserver"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/util"
 	rsapi "github.com/jchv/maidtrix/roomserver/api"
 	"github.com/jchv/maidtrix/roomserver/types"
 	"github.com/jchv/maidtrix/setup/config"
 	uapi "github.com/jchv/maidtrix/userapi/api"
-	"github.com/matrix-org/util"
 	"gotest.tools/v3/assert"
 )
 

@@ -20,8 +20,8 @@ import (
 	"fmt"
 
 	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/userapi/api"
-	"github.com/matrix-org/util"
 )
 
 // PerformLoginTokenCreation creates a new login token and associates it with the provided data.

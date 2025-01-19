@@ -18,6 +18,7 @@ import (
 	"context"
 
 	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/roomserver/api"
 	"github.com/jchv/maidtrix/roomserver/internal/helpers"
 	"github.com/jchv/maidtrix/roomserver/internal/input"
@@ -25,7 +26,6 @@ import (
 	"github.com/jchv/maidtrix/roomserver/state"
 	"github.com/jchv/maidtrix/roomserver/storage"
 	"github.com/jchv/maidtrix/roomserver/types"
-	"github.com/matrix-org/util"
 )
 
 type InboundPeeker struct {

@@ -15,8 +15,8 @@ package routing
 import (
 	"net/http"
 
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/userapi/api"
-	"github.com/matrix-org/util"
 )
 
 // whoamiResponse represents an response for a `whoami` request

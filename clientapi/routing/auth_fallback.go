@@ -20,8 +20,8 @@ import (
 	"net/http"
 
 	"github.com/jchv/maidtrix/clientapi/auth/authtypes"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/setup/config"
-	"github.com/matrix-org/util"
 )
 
 // recaptchaTemplate is an HTML webpage template for recaptcha auth

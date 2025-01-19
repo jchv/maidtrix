@@ -20,9 +20,9 @@ import (
 	"time"
 
 	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/userapi/api"
 	"github.com/jchv/maidtrix/userapi/storage/tables"
-	"github.com/matrix-org/util"
 )
 
 const loginTokenSchema = `

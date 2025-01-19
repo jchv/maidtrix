@@ -21,10 +21,10 @@ import (
 	"github.com/jchv/maidtrix/internal/caching"
 	"github.com/jchv/maidtrix/internal/httputil"
 	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/setup"
 	"github.com/jchv/maidtrix/setup/config"
 	"github.com/jchv/maidtrix/setup/mscs/msc2836"
-	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 )
 

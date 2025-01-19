@@ -10,9 +10,9 @@ import (
 	"github.com/jchv/maidtrix/federationapi/storage/tables"
 	"github.com/jchv/maidtrix/internal/matrixserver"
 	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/setup/config"
 	"github.com/jchv/maidtrix/test"
-	"github.com/matrix-org/util"
 	"github.com/stretchr/testify/assert"
 )
 

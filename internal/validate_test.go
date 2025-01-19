@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/setup/config"
-	"github.com/matrix-org/util"
 )
 
 func Test_validatePassword(t *testing.T) {

@@ -32,6 +32,7 @@ import (
 	"github.com/jchv/maidtrix/internal/caching"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/roomserver"
 	"github.com/jchv/maidtrix/setup/config"
 	"github.com/jchv/maidtrix/setup/jetstream"
@@ -39,7 +40,6 @@ import (
 	"github.com/jchv/maidtrix/test/testrig"
 	"github.com/jchv/maidtrix/userapi"
 	"github.com/jchv/maidtrix/userapi/api"
-	"github.com/matrix-org/util"
 	"github.com/patrickmn/go-cache"
 	"github.com/stretchr/testify/assert"
 )

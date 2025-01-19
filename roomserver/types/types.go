@@ -24,8 +24,8 @@ import (
 
 	"github.com/jchv/maidtrix/internal/matrixserver"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/util"
 	userapi "github.com/jchv/maidtrix/userapi/api"
-	"github.com/matrix-org/util"
 	"golang.org/x/crypto/blake2b"
 )
 

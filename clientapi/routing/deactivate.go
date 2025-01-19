@@ -7,8 +7,8 @@ import (
 	"github.com/jchv/maidtrix/clientapi/auth"
 	"github.com/jchv/maidtrix/internal/matrixserver"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/userapi/api"
-	"github.com/matrix-org/util"
 )
 
 // Deactivate handles POST requests to /account/deactivate

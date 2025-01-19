@@ -23,7 +23,7 @@ import (
 	"golang.org/x/crypto/ed25519"
 
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 )
 
 // StateNeeded lists the event types and state_keys needed to authenticate an event.

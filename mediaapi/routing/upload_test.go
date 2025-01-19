@@ -10,11 +10,11 @@ import (
 	"testing"
 
 	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/mediaapi/fileutils"
 	"github.com/jchv/maidtrix/mediaapi/storage"
 	"github.com/jchv/maidtrix/mediaapi/types"
 	"github.com/jchv/maidtrix/setup/config"
-	"github.com/matrix-org/util"
 	log "github.com/sirupsen/logrus"
 )
 

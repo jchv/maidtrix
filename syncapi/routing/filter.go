@@ -20,7 +20,7 @@ import (
 	"net/http"
 
 	"github.com/jchv/maidtrix/internal/matrixserver"
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/tidwall/gjson"
 
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"

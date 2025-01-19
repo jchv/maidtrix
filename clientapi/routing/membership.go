@@ -36,7 +36,7 @@ import (
 	"github.com/jchv/maidtrix/setup/config"
 	userapi "github.com/jchv/maidtrix/userapi/api"
 
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 )
 
 func SendBan(

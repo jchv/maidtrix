@@ -18,9 +18,9 @@ import (
 	"net/http"
 
 	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/util"
 	roomserverAPI "github.com/jchv/maidtrix/roomserver/api"
 	"github.com/jchv/maidtrix/roomserver/version"
-	"github.com/matrix-org/util"
 )
 
 // GetCapabilities returns information about the server's supported feature set

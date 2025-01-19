@@ -30,8 +30,8 @@ import (
 
 	"github.com/jchv/maidtrix/clientapi/httputil"
 	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/setup/config"
-	"github.com/matrix-org/util"
 	log "github.com/sirupsen/logrus"
 )
 

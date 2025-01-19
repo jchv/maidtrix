@@ -26,9 +26,9 @@ import (
 	"github.com/jchv/maidtrix/clientapi/userutil"
 	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/setup/config"
 	uapi "github.com/jchv/maidtrix/userapi/api"
-	"github.com/matrix-org/util"
 )
 
 func TestLoginFromJSONReader(t *testing.T) {

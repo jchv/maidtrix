@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/jchv/maidtrix/internal"
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 	cache "github.com/patrickmn/go-cache"
 )
 

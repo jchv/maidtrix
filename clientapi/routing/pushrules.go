@@ -9,8 +9,8 @@ import (
 
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/jchv/maidtrix/internal/pushrules"
+	"github.com/jchv/maidtrix/internal/util"
 	userapi "github.com/jchv/maidtrix/userapi/api"
-	"github.com/matrix-org/util"
 )
 
 func errorResponse(ctx context.Context, err error, msg string, args ...interface{}) util.JSONResponse {

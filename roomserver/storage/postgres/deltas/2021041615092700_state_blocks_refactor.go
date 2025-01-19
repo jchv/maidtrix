@@ -19,9 +19,9 @@ import (
 	"database/sql"
 	"fmt"
 
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/roomserver/types"
 	"github.com/lib/pq"
-	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 )
 

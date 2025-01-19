@@ -22,7 +22,7 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/nats-io/nats.go"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"

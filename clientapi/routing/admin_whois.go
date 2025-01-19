@@ -20,7 +20,7 @@ import (
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/jchv/maidtrix/userapi/api"
 
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 )
 
 type adminWhoisResponse struct {

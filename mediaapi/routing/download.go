@@ -35,12 +35,12 @@ import (
 
 	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/mediaapi/fileutils"
 	"github.com/jchv/maidtrix/mediaapi/storage"
 	"github.com/jchv/maidtrix/mediaapi/thumbnailer"
 	"github.com/jchv/maidtrix/mediaapi/types"
 	"github.com/jchv/maidtrix/setup/config"
-	"github.com/matrix-org/util"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )

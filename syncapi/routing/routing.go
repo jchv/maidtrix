@@ -19,7 +19,7 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 
 	"github.com/jchv/maidtrix/internal/caching"
 	"github.com/jchv/maidtrix/internal/fulltext"

@@ -21,7 +21,7 @@ import (
 	"fmt"
 
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 )
 
 type HandleMakeJoinInput struct {

@@ -20,8 +20,8 @@ import (
 	"fmt"
 
 	"github.com/jchv/maidtrix/internal"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/lib/pq"
-	"github.com/matrix-org/util"
 )
 
 func UpDropEventReferenceSHAEvents(ctx context.Context, tx *sql.Tx) error {

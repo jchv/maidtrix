@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/jchv/maidtrix/internal/sqlutil"

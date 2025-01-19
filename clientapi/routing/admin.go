@@ -15,7 +15,7 @@ import (
 	"github.com/jchv/maidtrix/internal/eventutil"
 	"github.com/jchv/maidtrix/internal/matrixserver"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/nats-io/nats.go"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/exp/constraints"

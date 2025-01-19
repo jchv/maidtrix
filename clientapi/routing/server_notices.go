@@ -23,7 +23,7 @@ import (
 
 	"github.com/jchv/maidtrix/internal/matrix"
 	"github.com/jchv/maidtrix/internal/matrixserver/tokens"
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"
 

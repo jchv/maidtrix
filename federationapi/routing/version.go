@@ -18,7 +18,7 @@ import (
 	"net/http"
 
 	"github.com/jchv/maidtrix/internal"
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 )
 
 type version struct {

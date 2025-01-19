@@ -22,8 +22,8 @@ import (
 	"github.com/jchv/maidtrix/clientapi/producers"
 	"github.com/jchv/maidtrix/internal/matrix"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/userapi/api"
-	"github.com/matrix-org/util"
 )
 
 // GetTags implements GET /_matrix/client/r0/user/{userID}/rooms/{roomID}/tags

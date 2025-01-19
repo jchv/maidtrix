@@ -8,7 +8,7 @@ import (
 	"github.com/jchv/maidtrix/federationapi/api"
 	"github.com/jchv/maidtrix/internal/matrixserver"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 )
 
 // QueryJoinedHostServerNamesInRoom implements api.FederationInternalAPI

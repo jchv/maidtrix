@@ -26,7 +26,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 
 	"github.com/sirupsen/logrus"
 

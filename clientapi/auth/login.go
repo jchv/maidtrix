@@ -21,9 +21,9 @@ import (
 
 	"github.com/jchv/maidtrix/clientapi/auth/authtypes"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/setup/config"
 	uapi "github.com/jchv/maidtrix/userapi/api"
-	"github.com/matrix-org/util"
 )
 
 // LoginFromJSONReader performs authentication given a login request body reader and

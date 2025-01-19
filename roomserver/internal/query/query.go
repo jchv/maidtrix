@@ -24,8 +24,8 @@ import (
 	//"github.com/jchv/maidtrix/roomserver/internal"
 	"github.com/jchv/maidtrix/internal/matrixserver"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/setup/config"
-	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 
 	"github.com/jchv/maidtrix/roomserver/storage/tables"

@@ -22,7 +22,7 @@ import (
 
 	"github.com/getsentry/sentry-go"
 	"github.com/jchv/maidtrix/internal/matrixserver"
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/sirupsen/logrus"
 
 	"github.com/jchv/maidtrix/internal"

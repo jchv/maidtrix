@@ -22,9 +22,9 @@ import (
 	appserviceAPI "github.com/jchv/maidtrix/appservice/api"
 	"github.com/jchv/maidtrix/internal/eventutil"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/setup/config"
 	userapi "github.com/jchv/maidtrix/userapi/api"
-	"github.com/matrix-org/util"
 )
 
 // GetProfile implements GET /_matrix/federation/v1/query/profile

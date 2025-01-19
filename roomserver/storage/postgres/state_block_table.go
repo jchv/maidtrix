@@ -22,10 +22,10 @@ import (
 
 	"github.com/jchv/maidtrix/internal"
 	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/roomserver/storage/tables"
 	"github.com/jchv/maidtrix/roomserver/types"
 	"github.com/lib/pq"
-	"github.com/matrix-org/util"
 )
 
 const stateDataSchema = `

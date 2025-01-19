@@ -28,13 +28,13 @@ import (
 
 	"github.com/jchv/maidtrix/internal/matrixserver"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/mediaapi/fileutils"
 	"github.com/jchv/maidtrix/mediaapi/storage"
 	"github.com/jchv/maidtrix/mediaapi/thumbnailer"
 	"github.com/jchv/maidtrix/mediaapi/types"
 	"github.com/jchv/maidtrix/setup/config"
 	userapi "github.com/jchv/maidtrix/userapi/api"
-	"github.com/matrix-org/util"
 	log "github.com/sirupsen/logrus"
 )
 

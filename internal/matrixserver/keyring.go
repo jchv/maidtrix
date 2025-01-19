@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/crypto/ed25519"
 )

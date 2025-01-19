@@ -34,12 +34,12 @@ import (
 	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/internal/util"
 	roomserver "github.com/jchv/maidtrix/roomserver/api"
 	"github.com/jchv/maidtrix/roomserver/types"
 	"github.com/jchv/maidtrix/setup/config"
 	"github.com/jchv/maidtrix/syncapi/synctypes"
 	userapi "github.com/jchv/maidtrix/userapi/api"
-	"github.com/matrix-org/util"
 )
 
 const (

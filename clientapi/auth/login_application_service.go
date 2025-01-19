@@ -20,8 +20,8 @@ import (
 	"github.com/jchv/maidtrix/clientapi/auth/authtypes"
 	"github.com/jchv/maidtrix/clientapi/httputil"
 	"github.com/jchv/maidtrix/internal"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/setup/config"
-	"github.com/matrix-org/util"
 )
 
 // LoginTypeApplicationService describes how to authenticate as an

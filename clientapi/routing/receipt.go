@@ -23,8 +23,8 @@ import (
 	"github.com/jchv/maidtrix/clientapi/producers"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 
+	"github.com/jchv/maidtrix/internal/util"
 	userapi "github.com/jchv/maidtrix/userapi/api"
-	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 )
 

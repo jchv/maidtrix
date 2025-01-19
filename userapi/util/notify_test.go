@@ -11,8 +11,8 @@ import (
 	"github.com/jchv/maidtrix/internal/matrixserver"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/syncapi/synctypes"
-	"github.com/matrix-org/util"
 	"golang.org/x/crypto/bcrypt"
 
 	"github.com/jchv/maidtrix/internal/pushgateway"

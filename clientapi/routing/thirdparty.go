@@ -18,7 +18,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 
 	appserviceAPI "github.com/jchv/maidtrix/appservice/api"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"

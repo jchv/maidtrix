@@ -33,7 +33,7 @@ import (
 	gomatrix "github.com/jchv/maidtrix/internal/matrix"
 	gomatrixserverlib "github.com/jchv/maidtrix/internal/matrixserver"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/sirupsen/logrus"
 )
 

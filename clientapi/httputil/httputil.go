@@ -21,7 +21,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 )
 
 // UnmarshalJSONRequest into the given interface pointer. Returns an error JSON response if

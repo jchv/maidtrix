@@ -27,7 +27,7 @@ import (
 	roomserverAPI "github.com/jchv/maidtrix/roomserver/api"
 	"github.com/jchv/maidtrix/userapi/api"
 
-	"github.com/matrix-org/util"
+	"github.com/jchv/maidtrix/internal/util"
 )
 
 // GetAccountData implements GET /user/{userId}/[rooms/{roomid}/]account_data/{type}

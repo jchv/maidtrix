@@ -29,11 +29,11 @@ import (
 	"github.com/jchv/maidtrix/clientapi/httputil"
 	"github.com/jchv/maidtrix/internal/eventutil"
 	"github.com/jchv/maidtrix/internal/matrix"
+	"github.com/jchv/maidtrix/internal/util"
 	"github.com/jchv/maidtrix/roomserver/api"
 	"github.com/jchv/maidtrix/roomserver/types"
 	"github.com/jchv/maidtrix/setup/config"
 	userapi "github.com/jchv/maidtrix/userapi/api"
-	"github.com/matrix-org/util"
 )
 
 // GetProfile implements GET /profile/{userID}
