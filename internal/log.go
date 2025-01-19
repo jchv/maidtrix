@@ -28,9 +28,9 @@ import (
 
 	"github.com/matrix-org/util"
 
-	"github.com/matrix-org/dugong"
 	"github.com/sirupsen/logrus"
 
+	"github.com/jchv/maidtrix/internal/dugong"
 	"github.com/jchv/maidtrix/setup/config"
 )
 
