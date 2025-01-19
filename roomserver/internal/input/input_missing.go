@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jchv/maidtrix/internal/matrixserver"
+	gomatrixserverlib "github.com/jchv/maidtrix/internal/matrixserver"
 	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/jchv/maidtrix/internal/util"
@@ -961,14 +961,17 @@ serverLoop:
 }
 
 func checkAllowedByState(e gomatrixserverlib.PDU, stateEvents []gomatrixserverlib.PDU, userIDForSender spec.UserIDForSender) error {
-	authUsingState := gomatrixserverlib.NewAuthEvents(nil)
+	authUsingState, err := gomatrixserverlib.NewAuthEvents(nil)
+	if err != nil {
+		return err
+	}
 	for i := range stateEvents {
 		err := authUsingState.AddEvent(stateEvents[i])
 		if err != nil {
 			return err
 		}
 	}
-	return gomatrixserverlib.Allowed(e, &authUsingState, userIDForSender)
+	return gomatrixserverlib.Allowed(e, authUsingState, userIDForSender)
 }
 
 func (t *missingStateReq) hadEvent(eventID string) {

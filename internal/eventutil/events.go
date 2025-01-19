@@ -26,7 +26,7 @@ import (
 	"github.com/jchv/maidtrix/roomserver/types"
 	"github.com/jchv/maidtrix/syncapi/synctypes"
 
-	"github.com/jchv/maidtrix/internal/matrixserver"
+	gomatrixserverlib "github.com/jchv/maidtrix/internal/matrixserver"
 )
 
 // ErrRoomNoExists is returned when trying to lookup the state of a room that
@@ -131,7 +131,10 @@ func addPrevEventsToEvent(
 
 	builder.Depth = queryRes.Depth
 
-	authEvents := gomatrixserverlib.NewAuthEvents(nil)
+	authEvents, err := gomatrixserverlib.NewAuthEvents(nil)
+	if err != nil {
+		return err
+	}
 
 	for i := range queryRes.StateEvents {
 		err := authEvents.AddEvent(queryRes.StateEvents[i].PDU)
@@ -140,7 +143,7 @@ func addPrevEventsToEvent(
 		}
 	}
 
-	refs, err := eventsNeeded.AuthEventReferences(&authEvents)
+	refs, err := eventsNeeded.AuthEventReferences(authEvents)
 	if err != nil {
 		return fmt.Errorf("eventsNeeded.AuthEventReferences: %w", err)
 	}

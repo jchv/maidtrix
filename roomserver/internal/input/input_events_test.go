@@ -3,7 +3,7 @@ package input
 import (
 	"testing"
 
-	"github.com/jchv/maidtrix/internal/matrixserver"
+	gomatrixserverlib "github.com/jchv/maidtrix/internal/matrixserver"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 
 	"github.com/jchv/maidtrix/test"
@@ -50,7 +50,10 @@ func Test_EventAuth(t *testing.T) {
 	}, test.WithStateKey(bob.ID), test.WithAuthIDs(authEventIDs))
 
 	// Add the auth events to the allower
-	allower := gomatrixserverlib.NewAuthEvents(nil)
+	allower, err := gomatrixserverlib.NewAuthEvents(nil)
+	if err != nil {
+		t.Fatalf("Unexpected error in NewAuthEvents: %v", err)
+	}
 	for _, a := range authEvents {
 		if err := allower.AddEvent(a); err != nil {
 			t.Fatalf("allower.AddEvent failed: %v", err)
@@ -58,7 +61,7 @@ func Test_EventAuth(t *testing.T) {
 	}
 
 	// Finally check that the event is NOT allowed
-	if err := gomatrixserverlib.Allowed(ev.PDU, &allower, func(roomID spec.RoomID, senderID spec.SenderID) (*spec.UserID, error) {
+	if err := gomatrixserverlib.Allowed(ev.PDU, allower, func(roomID spec.RoomID, senderID spec.SenderID) (*spec.UserID, error) {
 		return spec.NewUserID(string(senderID), true)
 	}); err == nil {
 		t.Fatalf("event should not be allowed, but it was")

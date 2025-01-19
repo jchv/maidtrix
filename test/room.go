@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jchv/maidtrix/internal/matrixserver"
+	gomatrixserverlib "github.com/jchv/maidtrix/internal/matrixserver"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 
 	"github.com/jchv/maidtrix/internal/eventutil"
@@ -63,10 +63,14 @@ func NewRoom(t *testing.T, creator *User, modifiers ...roomModifier) *Room {
 	if creator.srvName == "" {
 		t.Fatalf("NewRoom: creator doesn't belong to a server: %+v", *creator)
 	}
+	authEvents, err := gomatrixserverlib.NewAuthEvents(nil)
+	if err != nil {
+		t.Fatalf("Unexpected error creating room: %v", err)
+	}
 	r := &Room{
 		ID:           fmt.Sprintf("!%d:%s", counter, creator.srvName),
 		creator:      creator,
-		authEvents:   gomatrixserverlib.NewAuthEvents(nil),
+		authEvents:   *authEvents,
 		preset:       PresetPublicChat,
 		Version:      gomatrixserverlib.RoomVersionV9,
 		currentState: make(map[string]*rstypes.HeaderedEvent),

@@ -23,7 +23,7 @@ import (
 
 	"github.com/getsentry/sentry-go"
 	"github.com/jchv/maidtrix/internal/eventutil"
-	"github.com/jchv/maidtrix/internal/matrixserver"
+	gomatrixserverlib "github.com/jchv/maidtrix/internal/matrixserver"
 	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/jchv/maidtrix/internal/util"
@@ -351,9 +351,9 @@ func (c *Creator) PerformCreateRoom(ctx context.Context, userID spec.UserID, roo
 	// TODO: 3pid invite events
 
 	var builtEvents []*types.HeaderedEvent
-	authEvents := gomatrixserverlib.NewAuthEvents(nil)
+	authEvents, err := gomatrixserverlib.NewAuthEvents(nil)
 	if err != nil {
-		util.GetLogger(ctx).WithError(err).Error("rsapi.QuerySenderIDForUser failed")
+		util.GetLogger(ctx).WithError(err).Error("gomatrixserverlib.NewAuthEvents failed")
 		return "", &util.JSONResponse{
 			Code: http.StatusInternalServerError,
 			JSON: spec.InternalServerError{},
@@ -381,7 +381,7 @@ func (c *Creator) PerformCreateRoom(ctx context.Context, userID spec.UserID, roo
 			builder.PrevEvents = []string{builtEvents[i-1].EventID()}
 		}
 		var ev gomatrixserverlib.PDU
-		if err = builder.AddAuthEvents(&authEvents); err != nil {
+		if err = builder.AddAuthEvents(authEvents); err != nil {
 			util.GetLogger(ctx).WithError(err).Error("AddAuthEvents failed")
 			return "", &util.JSONResponse{
 				Code: http.StatusInternalServerError,
@@ -397,7 +397,7 @@ func (c *Creator) PerformCreateRoom(ctx context.Context, userID spec.UserID, roo
 			}
 		}
 
-		if err = gomatrixserverlib.Allowed(ev, &authEvents, func(roomID spec.RoomID, senderID spec.SenderID) (*spec.UserID, error) {
+		if err = gomatrixserverlib.Allowed(ev, authEvents, func(roomID spec.RoomID, senderID spec.SenderID) (*spec.UserID, error) {
 			return c.RSAPI.QueryUserIDForSender(ctx, roomID, senderID)
 		}); err != nil {
 			util.GetLogger(ctx).WithError(err).Error("gomatrixserverlib.Allowed failed")

@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"github.com/jchv/maidtrix/clientapi/httputil"
-	"github.com/jchv/maidtrix/internal/matrixserver"
+	gomatrixserverlib "github.com/jchv/maidtrix/internal/matrixserver"
 	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/jchv/maidtrix/internal/util"
@@ -352,7 +352,10 @@ func buildMembershipEvent(
 	protoEvent.Depth = queryRes.Depth
 	protoEvent.PrevEvents = queryRes.LatestEvents
 
-	authEvents := gomatrixserverlib.NewAuthEvents(nil)
+	authEvents, err := gomatrixserverlib.NewAuthEvents(nil)
+	if err != nil {
+		return nil, err
+	}
 
 	for i := range queryRes.StateEvents {
 		err = authEvents.AddEvent(queryRes.StateEvents[i].PDU)
@@ -361,11 +364,11 @@ func buildMembershipEvent(
 		}
 	}
 
-	if err = fillDisplayName(protoEvent, authEvents); err != nil {
+	if err = fillDisplayName(protoEvent, *authEvents); err != nil {
 		return nil, err
 	}
 
-	refs, err := eventsNeeded.AuthEventReferences(&authEvents)
+	refs, err := eventsNeeded.AuthEventReferences(authEvents)
 	if err != nil {
 		return nil, err
 	}

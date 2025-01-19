@@ -25,7 +25,7 @@ import (
 
 	"github.com/jchv/maidtrix/clientapi/httputil"
 	"github.com/jchv/maidtrix/internal/eventutil"
-	"github.com/jchv/maidtrix/internal/matrixserver"
+	gomatrixserverlib "github.com/jchv/maidtrix/internal/matrixserver"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/jchv/maidtrix/internal/transactions"
 	"github.com/jchv/maidtrix/internal/util"
@@ -422,8 +422,15 @@ func generateSendEvent(
 	for i := range queryRes.StateEvents {
 		stateEvents[i] = queryRes.StateEvents[i].PDU
 	}
-	provider := gomatrixserverlib.NewAuthEvents(gomatrixserverlib.ToPDUs(stateEvents))
-	if err = gomatrixserverlib.Allowed(e.PDU, &provider, func(roomID spec.RoomID, senderID spec.SenderID) (*spec.UserID, error) {
+	provider, err := gomatrixserverlib.NewAuthEvents(gomatrixserverlib.ToPDUs(stateEvents))
+	if err != nil {
+		util.GetLogger(ctx).WithError(err).Error("gomatrixserverlib.NewAuthEvents failed")
+		return nil, &util.JSONResponse{
+			Code: http.StatusInternalServerError,
+			JSON: spec.InternalServerError{},
+		}
+	}
+	if err = gomatrixserverlib.Allowed(e.PDU, provider, func(roomID spec.RoomID, senderID spec.SenderID) (*spec.UserID, error) {
 		return rsAPI.QueryUserIDForSender(ctx, *validRoomID, senderID)
 	}); err != nil {
 		return nil, &util.JSONResponse{

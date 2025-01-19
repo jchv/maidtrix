@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/jchv/maidtrix/internal/matrixserver"
+	gomatrixserverlib "github.com/jchv/maidtrix/internal/matrixserver"
 	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
@@ -46,6 +46,19 @@ type FederationAPI struct {
 
 	// Should we prefer direct key fetches over perspective ones?
 	PreferDirectFetch bool `yaml:"prefer_direct_fetch"`
+
+	// AllowNetworks is a list of network CIDRs to allow connecting to. This is
+	// applied before the DenyNetworks list, so an IP address contained in the
+	// AllowNetworks list of ranges is allowed as long as it is not in the
+	// DenyNetworks list. An IP in neither list is not allowed. If this list is
+	// empty, all IP addresses are allowed.
+	AllowNetworks []string `yaml:"allow_networks"`
+
+	// DenyNetworks is a list of network CIDRs to block connections to. This is
+	// applied after the AllowNetworks list, so any IP address contained in the
+	// DenyNetworks list of ranges will never be allowed. If this list is empty,
+	// all IP addresses allowed by AllowNetworks are allowed.
+	DenyNetworks []string `yaml:"block_networks"`
 }
 
 func (c *FederationAPI) Defaults(opts DefaultOpts) {
