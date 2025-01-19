@@ -5,14 +5,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jchv/dendrite/federationapi/storage/postgres"
-	"github.com/jchv/dendrite/federationapi/storage/sqlite3"
-	"github.com/jchv/dendrite/federationapi/storage/tables"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/test"
+	"github.com/jchv/maidtrix/federationapi/storage/postgres"
+	"github.com/jchv/maidtrix/federationapi/storage/sqlite3"
+	"github.com/jchv/maidtrix/federationapi/storage/tables"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/test"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -18,9 +18,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	userapi "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	userapi "github.com/jchv/maidtrix/userapi/api"
 	"github.com/matrix-org/util"
 )
 

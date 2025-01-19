@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/setup/config"
 )
 
 // ParseFileURI returns the filepath in the given file: URI. Specifically, this will handle

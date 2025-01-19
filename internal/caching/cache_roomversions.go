@@ -1,6 +1,6 @@
 package caching
 
-import "github.com/jchv/dendrite/internal/matrixserver"
+import "github.com/jchv/maidtrix/internal/matrixserver"
 
 // RoomVersionsCache contains the subset of functions needed for
 // a room version cache.

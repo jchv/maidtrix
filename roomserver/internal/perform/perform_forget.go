@@ -17,8 +17,8 @@ package perform
 import (
 	"context"
 
-	"github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/roomserver/storage"
+	"github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/roomserver/storage"
 )
 
 type Forgetter struct {

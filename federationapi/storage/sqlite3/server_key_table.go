@@ -20,9 +20,9 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
 )
 
 const serverSigningKeysSchema = `

@@ -26,10 +26,10 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/userapi/storage"
+	"github.com/jchv/maidtrix/internal"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/userapi/storage"
 )
 
 type phoneHomeStats struct {

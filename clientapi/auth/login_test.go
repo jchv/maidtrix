@@ -23,11 +23,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jchv/dendrite/clientapi/userutil"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/setup/config"
-	uapi "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/clientapi/userutil"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/setup/config"
+	uapi "github.com/jchv/maidtrix/userapi/api"
 	"github.com/matrix-org/util"
 )
 

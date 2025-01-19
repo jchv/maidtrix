@@ -18,8 +18,8 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
 // RelayQueue table contains a mapping of server name to transaction id and the corresponding nid.

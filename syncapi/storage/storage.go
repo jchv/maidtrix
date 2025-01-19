@@ -21,10 +21,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/syncapi/storage/postgres"
-	"github.com/jchv/dendrite/syncapi/storage/sqlite3"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/syncapi/storage/postgres"
+	"github.com/jchv/maidtrix/syncapi/storage/sqlite3"
 )
 
 // NewSyncServerDatasource opens a database connection.

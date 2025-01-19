@@ -23,16 +23,16 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/roomserver/api"
-	rstypes "github.com/jchv/dendrite/roomserver/types"
-	"github.com/jchv/dendrite/syncapi/storage/sqlite3/deltas"
-	"github.com/jchv/dendrite/syncapi/storage/tables"
-	"github.com/jchv/dendrite/syncapi/synctypes"
-	"github.com/jchv/dendrite/syncapi/types"
+	"github.com/jchv/maidtrix/internal"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/roomserver/api"
+	rstypes "github.com/jchv/maidtrix/roomserver/types"
+	"github.com/jchv/maidtrix/syncapi/storage/sqlite3/deltas"
+	"github.com/jchv/maidtrix/syncapi/storage/tables"
+	"github.com/jchv/maidtrix/syncapi/synctypes"
+	"github.com/jchv/maidtrix/syncapi/types"
 
-	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/maidtrix/internal/sqlutil"
 )
 
 const outputRoomEventsSchema = `

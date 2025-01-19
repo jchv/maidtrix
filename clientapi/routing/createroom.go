@@ -22,15 +22,15 @@ import (
 	"strings"
 	"time"
 
-	appserviceAPI "github.com/jchv/dendrite/appservice/api"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
-	roomserverVersion "github.com/jchv/dendrite/roomserver/version"
-	"github.com/jchv/dendrite/userapi/api"
+	appserviceAPI "github.com/jchv/maidtrix/appservice/api"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	roomserverAPI "github.com/jchv/maidtrix/roomserver/api"
+	roomserverVersion "github.com/jchv/maidtrix/roomserver/version"
+	"github.com/jchv/maidtrix/userapi/api"
 
-	"github.com/jchv/dendrite/clientapi/httputil"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/clientapi/httputil"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/setup/config"
 	"github.com/matrix-org/util"
 	log "github.com/sirupsen/logrus"
 )

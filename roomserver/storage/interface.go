@@ -18,14 +18,14 @@ import (
 	"context"
 	"crypto/ed25519"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/roomserver/api"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/roomserver/api"
 
-	"github.com/jchv/dendrite/roomserver/state"
-	"github.com/jchv/dendrite/roomserver/storage/shared"
-	"github.com/jchv/dendrite/roomserver/storage/tables"
-	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/maidtrix/roomserver/state"
+	"github.com/jchv/maidtrix/roomserver/storage/shared"
+	"github.com/jchv/maidtrix/roomserver/storage/tables"
+	"github.com/jchv/maidtrix/roomserver/types"
 )
 
 type Database interface {

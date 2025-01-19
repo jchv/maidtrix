@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/maidtrix/internal"
 	"github.com/matrix-org/util"
 	cache "github.com/patrickmn/go-cache"
 )

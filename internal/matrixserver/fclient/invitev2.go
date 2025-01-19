@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver"
 	"github.com/tidwall/gjson"
 )
 

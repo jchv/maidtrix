@@ -18,16 +18,16 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/nats-io/nats.go"
 	"github.com/sirupsen/logrus"
 
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/setup/jetstream"
-	"github.com/jchv/dendrite/setup/process"
-	"github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/setup/jetstream"
+	"github.com/jchv/maidtrix/setup/process"
+	"github.com/jchv/maidtrix/userapi/api"
 )
 
 // SigningKeyUpdateConsumer consumes signing key updates that came in over federation.

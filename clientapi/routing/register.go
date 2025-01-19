@@ -30,24 +30,24 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/maidtrix/internal"
 	"github.com/tidwall/gjson"
 
-	"github.com/jchv/dendrite/internal/eventutil"
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/internal/eventutil"
+	"github.com/jchv/maidtrix/setup/config"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/matrixserver/tokens"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver/tokens"
 	"github.com/matrix-org/util"
 	"github.com/prometheus/client_golang/prometheus"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/jchv/dendrite/clientapi/auth"
-	"github.com/jchv/dendrite/clientapi/auth/authtypes"
-	"github.com/jchv/dendrite/clientapi/httputil"
-	"github.com/jchv/dendrite/clientapi/userutil"
-	userapi "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/clientapi/auth"
+	"github.com/jchv/maidtrix/clientapi/auth/authtypes"
+	"github.com/jchv/maidtrix/clientapi/httputil"
+	"github.com/jchv/maidtrix/clientapi/userutil"
+	userapi "github.com/jchv/maidtrix/userapi/api"
 )
 
 var (

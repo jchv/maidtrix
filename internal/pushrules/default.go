@@ -1,6 +1,6 @@
 package pushrules
 
-import "github.com/jchv/dendrite/internal/matrixserver/spec"
+import "github.com/jchv/maidtrix/internal/matrixserver/spec"
 
 // DefaultAccountRuleSets is the complete set of default push rules
 // for an account.

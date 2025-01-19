@@ -11,22 +11,22 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/internal/eventutil"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal"
+	"github.com/jchv/maidtrix/internal/eventutil"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 	"github.com/nats-io/nats.go"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/exp/constraints"
 
-	clientapi "github.com/jchv/dendrite/clientapi/api"
-	"github.com/jchv/dendrite/internal/httputil"
-	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/setup/jetstream"
-	"github.com/jchv/dendrite/userapi/api"
-	userapi "github.com/jchv/dendrite/userapi/api"
+	clientapi "github.com/jchv/maidtrix/clientapi/api"
+	"github.com/jchv/maidtrix/internal/httputil"
+	roomserverAPI "github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/setup/jetstream"
+	"github.com/jchv/maidtrix/userapi/api"
+	userapi "github.com/jchv/maidtrix/userapi/api"
 )
 
 var validRegistrationTokenRegex = regexp.MustCompile("^[[:ascii:][:digit:]_]*$")

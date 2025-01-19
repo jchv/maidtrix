@@ -19,13 +19,13 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/jchv/dendrite/federationapi/queue"
-	"github.com/jchv/dendrite/federationapi/statistics"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/setup/process"
-	"github.com/jchv/dendrite/test"
+	"github.com/jchv/maidtrix/federationapi/queue"
+	"github.com/jchv/maidtrix/federationapi/statistics"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/setup/process"
+	"github.com/jchv/maidtrix/test"
 	"github.com/stretchr/testify/assert"
 )
 

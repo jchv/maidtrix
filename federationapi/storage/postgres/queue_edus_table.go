@@ -20,10 +20,10 @@ import (
 
 	"github.com/lib/pq"
 
-	"github.com/jchv/dendrite/federationapi/storage/postgres/deltas"
-	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/maidtrix/federationapi/storage/postgres/deltas"
+	"github.com/jchv/maidtrix/internal"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
 )
 
 const queueEDUsSchema = `

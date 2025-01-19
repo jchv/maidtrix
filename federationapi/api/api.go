@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrix"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrix"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 
-	"github.com/jchv/dendrite/federationapi/types"
-	rstypes "github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/maidtrix/federationapi/types"
+	rstypes "github.com/jchv/maidtrix/roomserver/types"
 )
 
 // FederationInternalAPI is used to query information from the federation sender.

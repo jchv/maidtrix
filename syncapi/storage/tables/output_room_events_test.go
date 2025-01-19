@@ -7,15 +7,15 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/syncapi/storage/postgres"
-	"github.com/jchv/dendrite/syncapi/storage/sqlite3"
-	"github.com/jchv/dendrite/syncapi/storage/tables"
-	"github.com/jchv/dendrite/syncapi/synctypes"
-	"github.com/jchv/dendrite/test"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/syncapi/storage/postgres"
+	"github.com/jchv/maidtrix/syncapi/storage/sqlite3"
+	"github.com/jchv/maidtrix/syncapi/storage/tables"
+	"github.com/jchv/maidtrix/syncapi/synctypes"
+	"github.com/jchv/maidtrix/test"
 )
 
 func newOutputRoomEventsTable(t *testing.T, dbType test.DBType) (tables.Events, *sql.DB, func()) {

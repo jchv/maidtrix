@@ -19,13 +19,13 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 
-	"github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/roomserver/state"
-	"github.com/jchv/dendrite/roomserver/storage"
-	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/roomserver/state"
+	"github.com/jchv/maidtrix/roomserver/storage"
+	"github.com/jchv/maidtrix/roomserver/types"
 )
 
 // CheckForSoftFail returns true if the event should be soft-failed

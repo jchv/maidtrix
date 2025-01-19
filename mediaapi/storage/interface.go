@@ -17,8 +17,8 @@ package storage
 import (
 	"context"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/mediaapi/types"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/mediaapi/types"
 )
 
 type Database interface {

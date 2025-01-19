@@ -4,6 +4,10 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs";
     flake-utils.url = "github:numtide/flake-utils";
+    sytest-src = {
+      url = "github:matrix-org/sytest";
+      flake = false;
+    };
   };
 
   outputs =
@@ -11,15 +15,52 @@
       self,
       nixpkgs,
       flake-utils,
+      sytest-src,
     }:
     flake-utils.lib.eachDefaultSystem (
       system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
-        dendrite = pkgs.buildGoModule {
-          name = "dendrite";
+        inherit (pkgs) perlPackages;
+        maidtrix = pkgs.buildGoModule {
+          name = "maidtrix";
           src = self;
           vendorHash = "sha256-P+F3TkA8627GlXeNg1PTwvpQ+xQYxUk2px0lyqQFV+Q=";
+        };
+        sytest = perlPackages.buildPerlPackage {
+          pname = "sytest";
+          version = "0-unstable";
+          src = sytest-src;
+          propagatedBuildInputs = [
+            perlPackages.ClassMethodModifiers
+            perlPackages.CryptEd25519
+            perlPackages.DataDump
+            perlPackages.DBI
+            perlPackages.DBDPg
+            perlPackages.DigestHMAC_SHA1
+            perlPackages.DigestSHA
+            perlPackages.EmailAddressXS
+            perlPackages.EmailMIME
+            perlPackages.FilePath
+            perlPackages.FileSlurper
+            perlPackages.Future
+            perlPackages.GetoptLong
+            perlPackages.IOAsync
+            perlPackages.IOAsyncSSL
+            perlPackages.IOSocketIP
+            perlPackages.IOSocketSSL
+            perlPackages.JSON
+            perlPackages.JSONPP
+            perlPackages.ListAllUtils
+            perlPackages.MIMEBase64
+            perlPackages.ModulePluggable
+            perlPackages.NetAsyncHTTP
+            perlPackages.NetAsyncHTTPServer
+            perlPackages.NetSSLeay
+            perlPackages.StructDumb
+            perlPackages.URIEscapeXS
+            perlPackages.YAML
+          ];
         };
         format = pkgs.writeShellApplication {
           name = "format";
@@ -76,11 +117,11 @@
       in
       {
         packages = {
-          inherit dendrite format;
-          default = dendrite;
+          inherit maidtrix sytest format;
+          default = maidtrix;
         };
         devShell = pkgs.mkShell {
-          inputsFrom = [ dendrite ];
+          inputsFrom = [ maidtrix ];
           nativeBuildInputs = [
             pkgs.go
             pkgs.gopls

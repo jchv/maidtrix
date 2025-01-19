@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/userapi/storage/sqlite3"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/userapi/storage/sqlite3"
 )
 
 func NewUserDatabase(

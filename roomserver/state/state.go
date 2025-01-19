@@ -23,14 +23,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/maidtrix/internal"
+	"github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/roomserver/types"
 )
 
 type StateResolutionStorage interface {

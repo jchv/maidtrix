@@ -17,9 +17,9 @@ package api
 import (
 	"context"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
 // RelayInternalAPI is used to query information from the relay server.

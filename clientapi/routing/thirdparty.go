@@ -20,9 +20,9 @@ import (
 
 	"github.com/matrix-org/util"
 
-	appserviceAPI "github.com/jchv/dendrite/appservice/api"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/userapi/api"
+	appserviceAPI "github.com/jchv/maidtrix/appservice/api"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/userapi/api"
 )
 
 // Protocols implements

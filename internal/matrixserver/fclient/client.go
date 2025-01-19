@@ -30,9 +30,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrix"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	gomatrix "github.com/jchv/maidtrix/internal/matrix"
+	gomatrixserverlib "github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 )
@@ -523,7 +523,7 @@ func (fc *Client) DoRequestAndParseResponse(
 	}
 
 	if response.StatusCode/100 != 2 { // not 2xx
-		// Adapted from https://github.com/jchv/dendrite/internal/matrix/blob/master/client.go
+		// Adapted from https://github.com/matrix-org/dendrite/internal/matrix/blob/master/client.go
 		var contents []byte
 		contents, err = io.ReadAll(response.Body)
 		if err != nil {

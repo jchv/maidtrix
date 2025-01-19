@@ -11,8 +11,8 @@ import (
 	"github.com/getsentry/sentry-go"
 	"github.com/sirupsen/logrus"
 
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/setup/process"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/setup/process"
 
 	natsserver "github.com/nats-io/nats-server/v2/server"
 	natsclient "github.com/nats-io/nats.go"

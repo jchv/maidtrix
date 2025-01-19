@@ -20,10 +20,10 @@ import (
 	"database/sql"
 
 	// Import the postgres database driver.
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/syncapi/storage/postgres/deltas"
-	"github.com/jchv/dendrite/syncapi/storage/shared"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/syncapi/storage/postgres/deltas"
+	"github.com/jchv/maidtrix/syncapi/storage/shared"
 	_ "github.com/lib/pq"
 )
 

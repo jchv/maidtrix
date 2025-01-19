@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"net/http"
 
-	appserviceAPI "github.com/jchv/dendrite/appservice/api"
-	"github.com/jchv/dendrite/internal/eventutil"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/setup/config"
-	userapi "github.com/jchv/dendrite/userapi/api"
+	appserviceAPI "github.com/jchv/maidtrix/appservice/api"
+	"github.com/jchv/maidtrix/internal/eventutil"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/setup/config"
+	userapi "github.com/jchv/maidtrix/userapi/api"
 	"github.com/matrix-org/util"
 )
 

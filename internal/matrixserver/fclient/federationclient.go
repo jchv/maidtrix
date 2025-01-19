@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jchv/dendrite/internal/matrix"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrix"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"golang.org/x/crypto/ed25519"
 )
 

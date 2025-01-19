@@ -9,11 +9,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/mediaapi/fileutils"
-	"github.com/jchv/dendrite/mediaapi/storage"
-	"github.com/jchv/dendrite/mediaapi/types"
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/mediaapi/fileutils"
+	"github.com/jchv/maidtrix/mediaapi/storage"
+	"github.com/jchv/maidtrix/mediaapi/types"
+	"github.com/jchv/maidtrix/setup/config"
 	"github.com/matrix-org/util"
 	log "github.com/sirupsen/logrus"
 )

@@ -22,17 +22,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrix"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrix"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/sirupsen/logrus"
 
-	"github.com/jchv/dendrite/federationapi/statistics"
-	"github.com/jchv/dendrite/federationapi/storage"
-	"github.com/jchv/dendrite/federationapi/storage/shared/receipt"
-	"github.com/jchv/dendrite/roomserver/types"
-	"github.com/jchv/dendrite/setup/process"
+	"github.com/jchv/maidtrix/federationapi/statistics"
+	"github.com/jchv/maidtrix/federationapi/storage"
+	"github.com/jchv/maidtrix/federationapi/storage/shared/receipt"
+	"github.com/jchv/maidtrix/roomserver/types"
+	"github.com/jchv/maidtrix/setup/process"
 )
 
 const (

@@ -3,9 +3,9 @@ package deltas
 import (
 	"testing"
 
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/test"
-	"github.com/jchv/dendrite/test/testrig"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/test"
+	"github.com/jchv/maidtrix/test/testrig"
 	"github.com/stretchr/testify/assert"
 )
 

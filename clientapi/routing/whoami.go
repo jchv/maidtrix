@@ -15,7 +15,7 @@ package routing
 import (
 	"net/http"
 
-	"github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/userapi/api"
 	"github.com/matrix-org/util"
 )
 

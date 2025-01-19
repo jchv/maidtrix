@@ -17,11 +17,11 @@ package sqlite3
 import (
 	"database/sql"
 
-	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/relayapi/storage/shared"
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/internal/caching"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/relayapi/storage/shared"
+	"github.com/jchv/maidtrix/setup/config"
 )
 
 // Database stores information needed by the federation sender

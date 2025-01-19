@@ -21,21 +21,21 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jchv/dendrite/internal/eventutil"
-	"github.com/jchv/dendrite/internal/matrix"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/eventutil"
+	"github.com/jchv/maidtrix/internal/matrix"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 
-	fsAPI "github.com/jchv/dendrite/federationapi/api"
-	"github.com/jchv/dendrite/roomserver/api"
-	rsAPI "github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/roomserver/internal/helpers"
-	"github.com/jchv/dendrite/roomserver/internal/input"
-	"github.com/jchv/dendrite/roomserver/storage"
-	"github.com/jchv/dendrite/setup/config"
-	userapi "github.com/jchv/dendrite/userapi/api"
+	fsAPI "github.com/jchv/maidtrix/federationapi/api"
+	"github.com/jchv/maidtrix/roomserver/api"
+	rsAPI "github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/roomserver/internal/helpers"
+	"github.com/jchv/maidtrix/roomserver/internal/input"
+	"github.com/jchv/maidtrix/roomserver/storage"
+	"github.com/jchv/maidtrix/setup/config"
+	userapi "github.com/jchv/maidtrix/userapi/api"
 )
 
 type Leaver struct {

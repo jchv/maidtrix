@@ -20,12 +20,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/jchv/dendrite/federationapi/storage/shared/receipt"
-	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/relayapi/storage/tables"
+	"github.com/jchv/maidtrix/federationapi/storage/shared/receipt"
+	"github.com/jchv/maidtrix/internal/caching"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/relayapi/storage/tables"
 )
 
 type Database struct {

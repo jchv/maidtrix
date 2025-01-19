@@ -27,20 +27,20 @@ import (
 	"testing"
 	"time"
 
-	api2 "github.com/jchv/dendrite/federationapi/api"
-	"github.com/jchv/dendrite/federationapi/statistics"
-	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
+	api2 "github.com/jchv/maidtrix/federationapi/api"
+	"github.com/jchv/maidtrix/federationapi/statistics"
+	"github.com/jchv/maidtrix/internal/caching"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
 
-	roomserver "github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/setup/process"
-	"github.com/jchv/dendrite/test"
-	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/userapi/storage"
+	roomserver "github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/setup/process"
+	"github.com/jchv/maidtrix/test"
+	"github.com/jchv/maidtrix/userapi/api"
+	"github.com/jchv/maidtrix/userapi/storage"
 )
 
 var (

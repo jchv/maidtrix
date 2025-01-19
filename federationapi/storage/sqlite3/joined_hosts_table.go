@@ -20,10 +20,10 @@ import (
 	"database/sql"
 	"strings"
 
-	"github.com/jchv/dendrite/federationapi/types"
-	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/maidtrix/federationapi/types"
+	"github.com/jchv/maidtrix/internal"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
 )
 
 const joinedHostsSchema = `

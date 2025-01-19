@@ -23,14 +23,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 
-	"github.com/jchv/dendrite/clientapi/api"
-	"github.com/jchv/dendrite/clientapi/httputil"
-	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/clientapi/api"
+	"github.com/jchv/maidtrix/clientapi/httputil"
+	roomserverAPI "github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/setup/config"
 )
 
 var (

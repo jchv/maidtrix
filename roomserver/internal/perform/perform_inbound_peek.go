@@ -17,14 +17,14 @@ package perform
 import (
 	"context"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/roomserver/internal/helpers"
-	"github.com/jchv/dendrite/roomserver/internal/input"
-	"github.com/jchv/dendrite/roomserver/internal/query"
-	"github.com/jchv/dendrite/roomserver/state"
-	"github.com/jchv/dendrite/roomserver/storage"
-	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/roomserver/internal/helpers"
+	"github.com/jchv/maidtrix/roomserver/internal/input"
+	"github.com/jchv/maidtrix/roomserver/internal/query"
+	"github.com/jchv/maidtrix/roomserver/state"
+	"github.com/jchv/maidtrix/roomserver/storage"
+	"github.com/jchv/maidtrix/roomserver/types"
 	"github.com/matrix-org/util"
 )
 

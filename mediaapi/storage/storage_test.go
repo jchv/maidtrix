@@ -5,11 +5,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/mediaapi/storage"
-	"github.com/jchv/dendrite/mediaapi/types"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/test"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/mediaapi/storage"
+	"github.com/jchv/maidtrix/mediaapi/types"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/test"
 )
 
 func mustCreateDatabase(t *testing.T, dbType test.DBType) (storage.Database, func()) {

@@ -18,14 +18,14 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 
-	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/roomserver/internal/helpers"
-	"github.com/jchv/dendrite/roomserver/storage/shared"
-	"github.com/jchv/dendrite/roomserver/storage/tables"
-	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/maidtrix/internal"
+	"github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/roomserver/internal/helpers"
+	"github.com/jchv/maidtrix/roomserver/storage/shared"
+	"github.com/jchv/maidtrix/roomserver/storage/tables"
+	"github.com/jchv/maidtrix/roomserver/types"
 )
 
 // updateMembership updates the current membership and the invites for each

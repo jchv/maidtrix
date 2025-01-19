@@ -15,16 +15,16 @@
 package roomserver
 
 import (
-	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/setup/jetstream"
-	"github.com/jchv/dendrite/setup/process"
+	"github.com/jchv/maidtrix/internal/caching"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/setup/jetstream"
+	"github.com/jchv/maidtrix/setup/process"
 	"github.com/sirupsen/logrus"
 
-	"github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/roomserver/internal"
-	"github.com/jchv/dendrite/roomserver/storage"
+	"github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/roomserver/internal"
+	"github.com/jchv/maidtrix/roomserver/storage"
 )
 
 // NewInternalAPI returns a concrete implementation of the internal API.

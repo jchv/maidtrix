@@ -18,16 +18,16 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 
-	"github.com/jchv/dendrite/clientapi/httputil"
-	federationAPI "github.com/jchv/dendrite/federationapi/api"
-	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/setup/config"
-	userapi "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/clientapi/httputil"
+	federationAPI "github.com/jchv/maidtrix/federationapi/api"
+	roomserverAPI "github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/setup/config"
+	userapi "github.com/jchv/maidtrix/userapi/api"
 )
 
 type roomDirectoryResponse struct {

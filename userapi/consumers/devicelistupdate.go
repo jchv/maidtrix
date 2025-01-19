@@ -19,15 +19,15 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/userapi/internal"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/userapi/internal"
 	"github.com/nats-io/nats.go"
 	"github.com/sirupsen/logrus"
 
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/setup/jetstream"
-	"github.com/jchv/dendrite/setup/process"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/setup/jetstream"
+	"github.com/jchv/maidtrix/setup/process"
 )
 
 // DeviceListUpdateConsumer consumes device list updates that came in over federation.

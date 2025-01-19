@@ -31,10 +31,10 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/sirupsen/logrus"
 
-	"github.com/jchv/dendrite/clientapi/auth"
-	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	userapi "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/clientapi/auth"
+	"github.com/jchv/maidtrix/internal"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	userapi "github.com/jchv/maidtrix/userapi/api"
 )
 
 // BasicAuth is used for authorization on /metrics handlers

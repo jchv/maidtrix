@@ -7,35 +7,34 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jchv/dendrite/federationapi/statistics"
-	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/internal/eventutil"
-	"github.com/jchv/dendrite/internal/httputil"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/roomserver/internal/input"
+	"github.com/jchv/maidtrix/federationapi/statistics"
+	"github.com/jchv/maidtrix/internal/caching"
+	"github.com/jchv/maidtrix/internal/eventutil"
+	"github.com/jchv/maidtrix/internal/httputil"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/roomserver/internal/input"
 	"github.com/nats-io/nats.go"
 	"github.com/stretchr/testify/assert"
 	"github.com/tidwall/gjson"
 
-	"github.com/jchv/dendrite/roomserver/acls"
-	"github.com/jchv/dendrite/roomserver/state"
-	"github.com/jchv/dendrite/roomserver/types"
-	"github.com/jchv/dendrite/userapi"
+	"github.com/jchv/maidtrix/roomserver/acls"
+	"github.com/jchv/maidtrix/roomserver/state"
+	"github.com/jchv/maidtrix/roomserver/types"
+	"github.com/jchv/maidtrix/userapi"
 
-	userAPI "github.com/jchv/dendrite/userapi/api"
+	userAPI "github.com/jchv/maidtrix/userapi/api"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/maidtrix/federationapi"
+	"github.com/jchv/maidtrix/setup/jetstream"
+	"github.com/jchv/maidtrix/syncapi"
 
-	"github.com/jchv/dendrite/federationapi"
-	"github.com/jchv/dendrite/setup/jetstream"
-	"github.com/jchv/dendrite/syncapi"
-
-	"github.com/jchv/dendrite/roomserver"
-	"github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/roomserver/storage"
-	"github.com/jchv/dendrite/test"
-	"github.com/jchv/dendrite/test/testrig"
+	"github.com/jchv/maidtrix/roomserver"
+	"github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/roomserver/storage"
+	"github.com/jchv/maidtrix/test"
+	"github.com/jchv/maidtrix/test/testrig"
 )
 
 var testIsBlacklistedOrBackingOff = func(s spec.ServerName) (*statistics.ServerStatistics, error) {
@@ -1017,7 +1016,7 @@ func TestUpgrade(t *testing.T) {
 			validateFunc: validate,
 		},
 		{
-			name:        "custom state is not taken to the new room", // https://github.com/jchv/dendrite/issues/2912
+			name:        "custom state is not taken to the new room", // https://github.com/matrix-org/dendrite/issues/2912
 			upgradeUser: charlie.ID,
 			roomFunc: func(rsAPI api.RoomserverInternalAPI) string {
 				r := test.NewRoom(t, alice, test.RoomVersion(gomatrixserverlib.RoomVersionV6))

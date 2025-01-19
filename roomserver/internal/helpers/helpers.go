@@ -7,17 +7,17 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 
-	"github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/roomserver/auth"
-	"github.com/jchv/dendrite/roomserver/state"
-	"github.com/jchv/dendrite/roomserver/storage"
-	"github.com/jchv/dendrite/roomserver/storage/shared"
-	"github.com/jchv/dendrite/roomserver/storage/tables"
-	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/roomserver/auth"
+	"github.com/jchv/maidtrix/roomserver/state"
+	"github.com/jchv/maidtrix/roomserver/storage"
+	"github.com/jchv/maidtrix/roomserver/storage/shared"
+	"github.com/jchv/maidtrix/roomserver/storage/tables"
+	"github.com/jchv/maidtrix/roomserver/types"
 )
 
 // TODO: temporary package which has helper functions used by both internal/perform packages.

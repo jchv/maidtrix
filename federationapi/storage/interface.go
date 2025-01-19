@@ -18,12 +18,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 
-	"github.com/jchv/dendrite/federationapi/storage/shared/receipt"
-	"github.com/jchv/dendrite/federationapi/types"
-	rstypes "github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/maidtrix/federationapi/storage/shared/receipt"
+	"github.com/jchv/maidtrix/federationapi/types"
+	rstypes "github.com/jchv/maidtrix/roomserver/types"
 )
 
 type Database interface {

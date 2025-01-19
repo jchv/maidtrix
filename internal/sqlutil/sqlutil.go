@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/setup/config"
 	"github.com/sirupsen/logrus"
 )
 

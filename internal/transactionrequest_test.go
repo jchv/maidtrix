@@ -23,21 +23,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/nats-io/nats.go"
 	"github.com/stretchr/testify/assert"
 	"gotest.tools/v3/poll"
 
-	"github.com/jchv/dendrite/federationapi/producers"
-	rsAPI "github.com/jchv/dendrite/roomserver/api"
-	rstypes "github.com/jchv/dendrite/roomserver/types"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/setup/jetstream"
-	"github.com/jchv/dendrite/setup/process"
-	"github.com/jchv/dendrite/syncapi/types"
-	"github.com/jchv/dendrite/test"
-	keyAPI "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/federationapi/producers"
+	rsAPI "github.com/jchv/maidtrix/roomserver/api"
+	rstypes "github.com/jchv/maidtrix/roomserver/types"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/setup/jetstream"
+	"github.com/jchv/maidtrix/setup/process"
+	"github.com/jchv/maidtrix/syncapi/types"
+	"github.com/jchv/maidtrix/test"
+	keyAPI "github.com/jchv/maidtrix/userapi/api"
 )
 
 const (

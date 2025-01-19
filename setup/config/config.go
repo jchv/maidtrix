@@ -24,9 +24,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/jchv/dendrite/clientapi/auth/authtypes"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/clientapi/auth/authtypes"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/crypto/ed25519"
 	"gopkg.in/yaml.v2"

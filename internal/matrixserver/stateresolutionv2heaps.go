@@ -17,7 +17,7 @@ package gomatrixserverlib
 import (
 	"strings"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
 // A stateResV2ConflictedPowerLevel is used to sort the events by effective

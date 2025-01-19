@@ -19,10 +19,10 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/syncapi/storage/shared"
-	"github.com/jchv/dendrite/syncapi/storage/sqlite3/deltas"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/syncapi/storage/shared"
+	"github.com/jchv/maidtrix/syncapi/storage/sqlite3/deltas"
 )
 
 // SyncServerDatasource represents a sync server datasource which manages

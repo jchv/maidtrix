@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
 // EventProvider returns the requested list of events.

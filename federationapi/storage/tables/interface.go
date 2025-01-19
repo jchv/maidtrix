@@ -18,9 +18,9 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/jchv/dendrite/federationapi/types"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/federationapi/types"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
 type NotaryID int64

@@ -18,18 +18,18 @@ import (
 	"context"
 	"strings"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	keytypes "github.com/jchv/dendrite/userapi/types"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	keytypes "github.com/jchv/maidtrix/userapi/types"
 	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 	"github.com/tidwall/gjson"
 
-	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/syncapi/storage"
-	"github.com/jchv/dendrite/syncapi/synctypes"
-	"github.com/jchv/dendrite/syncapi/types"
-	"github.com/jchv/dendrite/userapi/api"
+	roomserverAPI "github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/syncapi/storage"
+	"github.com/jchv/maidtrix/syncapi/synctypes"
+	"github.com/jchv/maidtrix/syncapi/types"
+	"github.com/jchv/maidtrix/userapi/api"
 )
 
 // DeviceOTKCounts adds one-time key counts to the /sync response

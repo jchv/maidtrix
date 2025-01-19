@@ -20,14 +20,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/userapi/storage/sqlite3/deltas"
-	"github.com/jchv/dendrite/userapi/storage/tables"
+	"github.com/jchv/maidtrix/internal"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/userapi/api"
+	"github.com/jchv/maidtrix/userapi/storage/sqlite3/deltas"
+	"github.com/jchv/maidtrix/userapi/storage/tables"
 
-	"github.com/jchv/dendrite/clientapi/userutil"
+	"github.com/jchv/maidtrix/clientapi/userutil"
 )
 
 const devicesSchema = `

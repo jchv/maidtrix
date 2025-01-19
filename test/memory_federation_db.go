@@ -21,11 +21,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jchv/dendrite/federationapi/storage/shared/receipt"
-	"github.com/jchv/dendrite/federationapi/types"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	rstypes "github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/maidtrix/federationapi/storage/shared/receipt"
+	"github.com/jchv/maidtrix/federationapi/types"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	rstypes "github.com/jchv/maidtrix/roomserver/types"
 )
 
 var nidMutex sync.Mutex

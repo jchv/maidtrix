@@ -18,17 +18,17 @@ import (
 	"context"
 	"sync"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/setup/jetstream"
-	"github.com/jchv/dendrite/setup/process"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/setup/jetstream"
+	"github.com/jchv/maidtrix/setup/process"
 	"github.com/sirupsen/logrus"
 
-	appserviceAPI "github.com/jchv/dendrite/appservice/api"
-	"github.com/jchv/dendrite/appservice/consumers"
-	"github.com/jchv/dendrite/appservice/query"
-	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/setup/config"
-	userapi "github.com/jchv/dendrite/userapi/api"
+	appserviceAPI "github.com/jchv/maidtrix/appservice/api"
+	"github.com/jchv/maidtrix/appservice/consumers"
+	"github.com/jchv/maidtrix/appservice/query"
+	roomserverAPI "github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/setup/config"
+	userapi "github.com/jchv/maidtrix/userapi/api"
 )
 
 // NewInternalAPI returns a concerete implementation of the internal API. Callers

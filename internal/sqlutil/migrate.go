@@ -23,7 +23,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/maidtrix/internal"
 )
 
 const createDBMigrationsSQL = "" +

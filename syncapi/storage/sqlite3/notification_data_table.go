@@ -19,11 +19,11 @@ import (
 	"database/sql"
 	"strings"
 
-	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/internal/eventutil"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/syncapi/storage/tables"
-	"github.com/jchv/dendrite/syncapi/types"
+	"github.com/jchv/maidtrix/internal"
+	"github.com/jchv/maidtrix/internal/eventutil"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/syncapi/storage/tables"
+	"github.com/jchv/maidtrix/syncapi/types"
 )
 
 func NewSqliteNotificationDataTable(db *sql.DB, streamID *StreamIDStatements) (tables.NotificationData, error) {

@@ -19,18 +19,18 @@ import (
 	"encoding/json"
 
 	"github.com/getsentry/sentry-go"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 	"github.com/nats-io/nats.go"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/jchv/dendrite/federationapi/queue"
-	"github.com/jchv/dendrite/federationapi/storage"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/setup/jetstream"
-	"github.com/jchv/dendrite/setup/process"
-	syncTypes "github.com/jchv/dendrite/syncapi/types"
+	"github.com/jchv/maidtrix/federationapi/queue"
+	"github.com/jchv/maidtrix/federationapi/storage"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/setup/jetstream"
+	"github.com/jchv/maidtrix/setup/process"
+	syncTypes "github.com/jchv/maidtrix/syncapi/types"
 )
 
 // OutputSendToDeviceConsumer consumes events that originate in the clientapi.

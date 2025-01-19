@@ -17,7 +17,7 @@ package eventutil
 import (
 	"strconv"
 
-	"github.com/jchv/dendrite/syncapi/types"
+	"github.com/jchv/maidtrix/syncapi/types"
 )
 
 // AccountData represents account data sent from the client API server to the

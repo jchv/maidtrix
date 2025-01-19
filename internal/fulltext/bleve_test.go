@@ -18,12 +18,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/setup/process"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/setup/process"
 	"github.com/matrix-org/util"
 
-	"github.com/jchv/dendrite/internal/fulltext"
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/internal/fulltext"
+	"github.com/jchv/maidtrix/setup/config"
 )
 
 func mustOpenIndex(t *testing.T, tempDir string) (*fulltext.Search, *process.ProcessContext) {

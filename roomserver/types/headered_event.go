@@ -17,8 +17,8 @@ package types
 import (
 	"unsafe"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
 // HeaderedEvent is an Event which serialises to the headered form, which includes

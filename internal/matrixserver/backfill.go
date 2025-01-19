@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
 // BackfillClient contains the necessary functions from the federation client to perform a backfill request

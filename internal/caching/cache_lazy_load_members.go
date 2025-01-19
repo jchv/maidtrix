@@ -1,7 +1,7 @@
 package caching
 
 import (
-	userapi "github.com/jchv/dendrite/userapi/api"
+	userapi "github.com/jchv/maidtrix/userapi/api"
 )
 
 type lazyLoadingCacheKey struct {

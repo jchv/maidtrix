@@ -20,7 +20,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/jchv/dendrite/test"
+	"github.com/jchv/maidtrix/test"
 )
 
 const usage = `Usage: %s

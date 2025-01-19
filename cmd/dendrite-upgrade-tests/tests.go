@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/Masterminds/semver/v3"
-	"github.com/jchv/dendrite/internal/matrix"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrix"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
 const userPassword = "this_is_a_long_password"

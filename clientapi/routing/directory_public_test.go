@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
 )
 
 func pubRoom(name string) fclient.PublicRoom {

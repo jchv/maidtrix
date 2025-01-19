@@ -17,26 +17,26 @@ package syncapi
 import (
 	"context"
 
-	"github.com/jchv/dendrite/internal/fulltext"
-	"github.com/jchv/dendrite/internal/httputil"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/setup/process"
+	"github.com/jchv/maidtrix/internal/fulltext"
+	"github.com/jchv/maidtrix/internal/httputil"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/setup/process"
 	"github.com/sirupsen/logrus"
 
-	"github.com/jchv/dendrite/internal/caching"
+	"github.com/jchv/maidtrix/internal/caching"
 
-	"github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/setup/jetstream"
-	userapi "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/setup/jetstream"
+	userapi "github.com/jchv/maidtrix/userapi/api"
 
-	"github.com/jchv/dendrite/syncapi/consumers"
-	"github.com/jchv/dendrite/syncapi/notifier"
-	"github.com/jchv/dendrite/syncapi/producers"
-	"github.com/jchv/dendrite/syncapi/routing"
-	"github.com/jchv/dendrite/syncapi/storage"
-	"github.com/jchv/dendrite/syncapi/streams"
-	"github.com/jchv/dendrite/syncapi/sync"
+	"github.com/jchv/maidtrix/syncapi/consumers"
+	"github.com/jchv/maidtrix/syncapi/notifier"
+	"github.com/jchv/maidtrix/syncapi/producers"
+	"github.com/jchv/maidtrix/syncapi/routing"
+	"github.com/jchv/maidtrix/syncapi/storage"
+	"github.com/jchv/maidtrix/syncapi/streams"
+	"github.com/jchv/maidtrix/syncapi/sync"
 )
 
 // AddPublicRoutes sets up and registers HTTP handlers for the SyncAPI

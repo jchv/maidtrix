@@ -21,16 +21,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
 	"github.com/matrix-org/util"
 
-	"github.com/jchv/dendrite/federationapi/producers"
-	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/setup/config"
-	userAPI "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/federationapi/producers"
+	"github.com/jchv/maidtrix/internal"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/setup/config"
+	userAPI "github.com/jchv/maidtrix/userapi/api"
 )
 
 const (

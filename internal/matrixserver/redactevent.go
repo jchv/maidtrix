@@ -3,7 +3,7 @@ package gomatrixserverlib
 import (
 	"encoding/json"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
 // For satisfying "Upon receipt of a redaction event, the server must strip off any keys not in the following list:"

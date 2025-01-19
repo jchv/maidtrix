@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/jchv/dendrite/syncapi/storage"
-	"github.com/jchv/dendrite/syncapi/types"
+	"github.com/jchv/maidtrix/syncapi/storage"
+	"github.com/jchv/maidtrix/syncapi/types"
 )
 
 type DefaultStreamProvider struct {

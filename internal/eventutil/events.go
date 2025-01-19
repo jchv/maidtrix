@@ -20,13 +20,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/roomserver/types"
-	"github.com/jchv/dendrite/syncapi/synctypes"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/roomserver/types"
+	"github.com/jchv/maidtrix/syncapi/synctypes"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver"
 )
 
 // ErrRoomNoExists is returned when trying to lookup the state of a room that

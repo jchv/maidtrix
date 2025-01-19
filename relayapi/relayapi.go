@@ -15,18 +15,18 @@
 package relayapi
 
 import (
-	"github.com/jchv/dendrite/federationapi/producers"
-	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/internal/httputil"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/relayapi/api"
-	"github.com/jchv/dendrite/relayapi/internal"
-	"github.com/jchv/dendrite/relayapi/routing"
-	"github.com/jchv/dendrite/relayapi/storage"
-	rsAPI "github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/federationapi/producers"
+	"github.com/jchv/maidtrix/internal/caching"
+	"github.com/jchv/maidtrix/internal/httputil"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/relayapi/api"
+	"github.com/jchv/maidtrix/relayapi/internal"
+	"github.com/jchv/maidtrix/relayapi/routing"
+	"github.com/jchv/maidtrix/relayapi/storage"
+	rsAPI "github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/setup/config"
 	"github.com/sirupsen/logrus"
 )
 

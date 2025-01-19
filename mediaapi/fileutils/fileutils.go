@@ -25,8 +25,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/jchv/dendrite/mediaapi/types"
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/mediaapi/types"
+	"github.com/jchv/maidtrix/setup/config"
 	"github.com/matrix-org/util"
 	log "github.com/sirupsen/logrus"
 )

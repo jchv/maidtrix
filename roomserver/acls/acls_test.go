@@ -19,9 +19,9 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/roomserver/storage/tables"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/roomserver/storage/tables"
 	"github.com/stretchr/testify/assert"
 )
 

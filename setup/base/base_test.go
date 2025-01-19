@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/internal/httputil"
-	basepkg "github.com/jchv/dendrite/setup/base"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/setup/process"
+	"github.com/jchv/maidtrix/internal"
+	"github.com/jchv/maidtrix/internal/httputil"
+	basepkg "github.com/jchv/maidtrix/setup/base"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/setup/process"
 	"github.com/stretchr/testify/assert"
 )
 

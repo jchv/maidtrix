@@ -22,11 +22,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/userapi/storage/tables"
+	"github.com/jchv/maidtrix/internal"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/userapi/api"
+	"github.com/jchv/maidtrix/userapi/storage/tables"
 )
 
 type notificationsStatements struct {

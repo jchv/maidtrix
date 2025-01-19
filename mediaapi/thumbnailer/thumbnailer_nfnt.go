@@ -35,9 +35,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/jchv/dendrite/mediaapi/storage"
-	"github.com/jchv/dendrite/mediaapi/types"
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/mediaapi/storage"
+	"github.com/jchv/maidtrix/mediaapi/types"
+	"github.com/jchv/maidtrix/setup/config"
 	"github.com/nfnt/resize"
 	log "github.com/sirupsen/logrus"
 )

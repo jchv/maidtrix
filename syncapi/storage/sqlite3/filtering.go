@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/maidtrix/internal/sqlutil"
 )
 
 type FilterOrder int

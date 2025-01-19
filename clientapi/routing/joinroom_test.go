@@ -7,19 +7,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jchv/dendrite/federationapi/statistics"
-	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/setup/jetstream"
+	"github.com/jchv/maidtrix/federationapi/statistics"
+	"github.com/jchv/maidtrix/internal/caching"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/setup/jetstream"
 
-	"github.com/jchv/dendrite/appservice"
-	"github.com/jchv/dendrite/roomserver"
-	"github.com/jchv/dendrite/test"
-	"github.com/jchv/dendrite/test/testrig"
-	"github.com/jchv/dendrite/userapi"
-	uapi "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/appservice"
+	"github.com/jchv/maidtrix/roomserver"
+	"github.com/jchv/maidtrix/test"
+	"github.com/jchv/maidtrix/test/testrig"
+	"github.com/jchv/maidtrix/userapi"
+	uapi "github.com/jchv/maidtrix/userapi/api"
 )
 
 var testIsBlacklistedOrBackingOff = func(s spec.ServerName) (*statistics.ServerStatistics, error) {

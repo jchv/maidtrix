@@ -1,7 +1,7 @@
 package caching
 
 import (
-	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/maidtrix/roomserver/types"
 )
 
 // RoomServerEventsCache contains the subset of functions needed for

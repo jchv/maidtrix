@@ -4,15 +4,15 @@ import (
 	"context"
 	"crypto/ed25519"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 
-	asAPI "github.com/jchv/dendrite/appservice/api"
-	fsAPI "github.com/jchv/dendrite/federationapi/api"
-	"github.com/jchv/dendrite/roomserver/types"
-	userapi "github.com/jchv/dendrite/userapi/api"
+	asAPI "github.com/jchv/maidtrix/appservice/api"
+	fsAPI "github.com/jchv/maidtrix/federationapi/api"
+	"github.com/jchv/maidtrix/roomserver/types"
+	userapi "github.com/jchv/maidtrix/userapi/api"
 )
 
 // ErrInvalidID is an error returned if the userID is invalid

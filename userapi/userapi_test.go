@@ -22,23 +22,23 @@ import (
 	"testing"
 	"time"
 
-	api2 "github.com/jchv/dendrite/appservice/api"
-	"github.com/jchv/dendrite/clientapi/auth/authtypes"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/userapi/producers"
+	api2 "github.com/jchv/maidtrix/appservice/api"
+	"github.com/jchv/maidtrix/clientapi/auth/authtypes"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/userapi/producers"
 	"github.com/matrix-org/util"
 	"github.com/nats-io/nats.go"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/test"
-	"github.com/jchv/dendrite/test/testrig"
-	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/userapi/internal"
-	"github.com/jchv/dendrite/userapi/storage"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/test"
+	"github.com/jchv/maidtrix/test/testrig"
+	"github.com/jchv/maidtrix/userapi/api"
+	"github.com/jchv/maidtrix/userapi/internal"
+	"github.com/jchv/maidtrix/userapi/storage"
 )
 
 const (
@@ -176,7 +176,7 @@ func TestQueryProfile(t *testing.T) {
 
 // TestPasswordlessLoginFails ensures that a passwordless account cannot
 // be logged into using an arbitrary password (effectively a regression test
-// for https://github.com/jchv/dendrite/issues/2780).
+// for https://github.com/matrix-org/dendrite/issues/2780).
 func TestPasswordlessLoginFails(t *testing.T) {
 	ctx := context.Background()
 	test.WithAllDatabases(t, func(t *testing.T, dbType test.DBType) {

@@ -22,12 +22,12 @@ import (
 
 	"github.com/lib/pq"
 
-	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/roomserver/storage/postgres/deltas"
-	"github.com/jchv/dendrite/roomserver/storage/tables"
-	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/maidtrix/internal"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/roomserver/storage/postgres/deltas"
+	"github.com/jchv/maidtrix/roomserver/storage/tables"
+	"github.com/jchv/maidtrix/roomserver/types"
 )
 
 const membershipSchema = `

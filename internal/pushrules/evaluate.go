@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
 // A RuleSetEvaluator encapsulates context to evaluate an event

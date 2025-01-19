@@ -27,9 +27,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/jchv/dendrite/appservice/api"
-	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/appservice/api"
+	"github.com/jchv/maidtrix/internal"
+	"github.com/jchv/maidtrix/setup/config"
 )
 
 // AppServiceQueryAPI is an implementation of api.AppServiceQueryAPI

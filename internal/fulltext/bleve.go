@@ -22,8 +22,8 @@ import (
 	"strings"
 
 	"github.com/blevesearch/bleve/v2"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/setup/process"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/setup/process"
 
 	// side effect imports to allow all possible languages
 	_ "github.com/blevesearch/bleve/v2/analysis/lang/ar"
@@ -49,7 +49,7 @@ import (
 	_ "github.com/blevesearch/bleve/v2/analysis/lang/tr"
 	"github.com/blevesearch/bleve/v2/mapping"
 
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/setup/config"
 )
 
 // Search contains all existing bleve.Index

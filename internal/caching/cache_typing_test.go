@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jchv/dendrite/test"
+	"github.com/jchv/maidtrix/test"
 )
 
 func TestEDUCache(t *testing.T) {

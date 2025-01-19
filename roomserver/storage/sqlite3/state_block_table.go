@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/maidtrix/internal"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/roomserver/types"
 	"github.com/matrix-org/util"
 )
 

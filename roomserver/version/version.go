@@ -17,7 +17,7 @@ package version
 import (
 	"fmt"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver"
 )
 
 // RoomVersions returns a map of all known room versions to this

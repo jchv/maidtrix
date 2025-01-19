@@ -6,9 +6,9 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/syncapi/synctypes"
-	userapi "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/syncapi/synctypes"
+	userapi "github.com/jchv/maidtrix/userapi/api"
 )
 
 type SyncRequest struct {

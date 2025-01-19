@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/pushgateway"
-	"github.com/jchv/dendrite/userapi/storage"
-	"github.com/jchv/dendrite/userapi/storage/tables"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/pushgateway"
+	"github.com/jchv/maidtrix/userapi/storage"
+	"github.com/jchv/maidtrix/userapi/storage/tables"
 	log "github.com/sirupsen/logrus"
 )
 

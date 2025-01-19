@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/syncapi/types"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/syncapi/types"
 )
 
 const streamIDTableSchema = `

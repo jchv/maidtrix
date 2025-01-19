@@ -19,15 +19,15 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver"
 	"github.com/matrix-org/util"
 	"github.com/tidwall/gjson"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/syncapi/storage"
-	"github.com/jchv/dendrite/syncapi/sync"
-	"github.com/jchv/dendrite/syncapi/synctypes"
-	"github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/syncapi/storage"
+	"github.com/jchv/maidtrix/syncapi/sync"
+	"github.com/jchv/maidtrix/syncapi/synctypes"
+	"github.com/jchv/maidtrix/userapi/api"
 )
 
 // GetFilter implements GET /_matrix/client/r0/user/{userId}/filter/{filterId}

@@ -22,12 +22,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrix"
+	"github.com/jchv/maidtrix/internal/matrix"
 	"github.com/matrix-org/util"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/userapi/api"
 )
 
 // RequestTurnServer implements:

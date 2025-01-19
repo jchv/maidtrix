@@ -21,12 +21,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jchv/dendrite/federationapi/storage/postgres"
-	"github.com/jchv/dendrite/federationapi/storage/sqlite3"
-	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/federationapi/storage/postgres"
+	"github.com/jchv/maidtrix/federationapi/storage/sqlite3"
+	"github.com/jchv/maidtrix/internal/caching"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/setup/config"
 )
 
 // NewDatabase opens a new database

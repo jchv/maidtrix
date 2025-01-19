@@ -3,9 +3,9 @@ package tables
 import (
 	"testing"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/roomserver/types"
-	"github.com/jchv/dendrite/test"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/roomserver/types"
+	"github.com/jchv/maidtrix/test"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -25,7 +25,7 @@ import (
 	"github.com/sirupsen/logrus"
 	lSyslog "github.com/sirupsen/logrus/hooks/syslog"
 
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/setup/config"
 )
 
 // SetupHookLogging configures the logging hooks defined in the configuration.

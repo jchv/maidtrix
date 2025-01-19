@@ -5,16 +5,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/roomserver"
-	"github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/roomserver/internal/input"
-	"github.com/jchv/dendrite/roomserver/types"
-	"github.com/jchv/dendrite/setup/jetstream"
-	"github.com/jchv/dendrite/test"
-	"github.com/jchv/dendrite/test/testrig"
+	"github.com/jchv/maidtrix/internal/caching"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/roomserver"
+	"github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/roomserver/internal/input"
+	"github.com/jchv/maidtrix/roomserver/types"
+	"github.com/jchv/maidtrix/setup/jetstream"
+	"github.com/jchv/maidtrix/test"
+	"github.com/jchv/maidtrix/test/testrig"
 )
 
 func TestSingleTransactionOnInput(t *testing.T) {

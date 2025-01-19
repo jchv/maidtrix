@@ -8,19 +8,19 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrix"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrix"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 
-	"github.com/jchv/dendrite/federationapi/api"
-	"github.com/jchv/dendrite/federationapi/consumers"
-	"github.com/jchv/dendrite/federationapi/statistics"
-	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/roomserver/types"
-	"github.com/jchv/dendrite/roomserver/version"
+	"github.com/jchv/maidtrix/federationapi/api"
+	"github.com/jchv/maidtrix/federationapi/consumers"
+	"github.com/jchv/maidtrix/federationapi/statistics"
+	roomserverAPI "github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/roomserver/types"
+	"github.com/jchv/maidtrix/roomserver/version"
 )
 
 // PerformLeaveRequest implements api.FederationInternalAPI

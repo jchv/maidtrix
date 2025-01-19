@@ -18,18 +18,18 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 
-	federationAPI "github.com/jchv/dendrite/federationapi/api"
-	"github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/roomserver/auth"
-	"github.com/jchv/dendrite/roomserver/internal/helpers"
-	"github.com/jchv/dendrite/roomserver/state"
-	"github.com/jchv/dendrite/roomserver/storage"
-	"github.com/jchv/dendrite/roomserver/types"
+	federationAPI "github.com/jchv/maidtrix/federationapi/api"
+	"github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/roomserver/auth"
+	"github.com/jchv/maidtrix/roomserver/internal/helpers"
+	"github.com/jchv/maidtrix/roomserver/state"
+	"github.com/jchv/maidtrix/roomserver/storage"
+	"github.com/jchv/maidtrix/roomserver/types"
 )
 
 // the max number of servers to backfill from per request. If this is too low we may fail to backfill when

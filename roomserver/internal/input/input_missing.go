@@ -7,18 +7,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 
-	fedapi "github.com/jchv/dendrite/federationapi/api"
-	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/roomserver/state"
-	"github.com/jchv/dendrite/roomserver/storage"
-	"github.com/jchv/dendrite/roomserver/types"
+	fedapi "github.com/jchv/maidtrix/federationapi/api"
+	"github.com/jchv/maidtrix/internal"
+	"github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/roomserver/state"
+	"github.com/jchv/maidtrix/roomserver/storage"
+	"github.com/jchv/maidtrix/roomserver/types"
 )
 
 type parsedRespState struct {

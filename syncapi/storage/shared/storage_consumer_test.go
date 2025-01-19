@@ -5,12 +5,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/syncapi/storage"
-	"github.com/jchv/dendrite/syncapi/synctypes"
-	"github.com/jchv/dendrite/syncapi/types"
-	"github.com/jchv/dendrite/test"
-	"github.com/jchv/dendrite/test/testrig"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/syncapi/storage"
+	"github.com/jchv/maidtrix/syncapi/synctypes"
+	"github.com/jchv/maidtrix/syncapi/types"
+	"github.com/jchv/maidtrix/test"
+	"github.com/jchv/maidtrix/test/testrig"
 )
 
 func newSyncDB(t *testing.T, dbType test.DBType) (storage.Database, func()) {

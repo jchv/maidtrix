@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
 // ResolveStateConflicts takes a list of state events with conflicting state keys

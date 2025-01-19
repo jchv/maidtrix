@@ -20,10 +20,10 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/jchv/dendrite/clientapi/userutil"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/clientapi/userutil"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/setup/config"
 	"github.com/matrix-org/util"
 )
 

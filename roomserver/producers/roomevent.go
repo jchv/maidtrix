@@ -17,14 +17,14 @@ package producers
 import (
 	"encoding/json"
 
-	"github.com/jchv/dendrite/roomserver/storage/tables"
+	"github.com/jchv/maidtrix/roomserver/storage/tables"
 	"github.com/nats-io/nats.go"
 	log "github.com/sirupsen/logrus"
 	"github.com/tidwall/gjson"
 
-	"github.com/jchv/dendrite/roomserver/acls"
-	"github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/setup/jetstream"
+	"github.com/jchv/maidtrix/roomserver/acls"
+	"github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/setup/jetstream"
 )
 
 var keyContentFields = map[string]string{

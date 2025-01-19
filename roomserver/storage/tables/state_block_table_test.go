@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/roomserver/storage/postgres"
-	"github.com/jchv/dendrite/roomserver/storage/sqlite3"
-	"github.com/jchv/dendrite/roomserver/storage/tables"
-	"github.com/jchv/dendrite/roomserver/types"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/test"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/roomserver/storage/postgres"
+	"github.com/jchv/maidtrix/roomserver/storage/sqlite3"
+	"github.com/jchv/maidtrix/roomserver/storage/tables"
+	"github.com/jchv/maidtrix/roomserver/types"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/test"
 	"github.com/stretchr/testify/assert"
 )
 

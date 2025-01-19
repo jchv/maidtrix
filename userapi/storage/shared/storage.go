@@ -26,18 +26,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"golang.org/x/crypto/bcrypt"
 
-	clientapi "github.com/jchv/dendrite/clientapi/api"
-	"github.com/jchv/dendrite/clientapi/auth/authtypes"
-	"github.com/jchv/dendrite/internal/pushrules"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/userapi/storage/tables"
-	"github.com/jchv/dendrite/userapi/types"
+	clientapi "github.com/jchv/maidtrix/clientapi/api"
+	"github.com/jchv/maidtrix/clientapi/auth/authtypes"
+	"github.com/jchv/maidtrix/internal/pushrules"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/userapi/api"
+	"github.com/jchv/maidtrix/userapi/storage/tables"
+	"github.com/jchv/maidtrix/userapi/types"
 )
 
 // Database represents an account database

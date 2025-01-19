@@ -4,13 +4,13 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver"
 	"github.com/nats-io/nats.go"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/jchv/dendrite/internal/eventutil"
-	"github.com/jchv/dendrite/setup/jetstream"
-	"github.com/jchv/dendrite/userapi/storage"
+	"github.com/jchv/maidtrix/internal/eventutil"
+	"github.com/jchv/maidtrix/setup/jetstream"
+	"github.com/jchv/maidtrix/userapi/storage"
 )
 
 type JetStreamPublisher interface {

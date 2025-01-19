@@ -20,12 +20,12 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/jchv/dendrite/federationapi/storage/postgres/deltas"
-	"github.com/jchv/dendrite/federationapi/storage/shared"
-	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/federationapi/storage/postgres/deltas"
+	"github.com/jchv/maidtrix/federationapi/storage/shared"
+	"github.com/jchv/maidtrix/internal/caching"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/setup/config"
 )
 
 // Database stores information needed by the federation sender

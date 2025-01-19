@@ -18,10 +18,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/jchv/dendrite/internal/matrix"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/internal/matrix"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	roomserverAPI "github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/userapi/api"
 	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 )

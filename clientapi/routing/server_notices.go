@@ -21,22 +21,22 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrix"
-	"github.com/jchv/dendrite/internal/matrixserver/tokens"
+	"github.com/jchv/maidtrix/internal/matrix"
+	"github.com/jchv/maidtrix/internal/matrixserver/tokens"
 	"github.com/matrix-org/util"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"
 
-	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/maidtrix/roomserver/types"
 
-	appserviceAPI "github.com/jchv/dendrite/appservice/api"
-	"github.com/jchv/dendrite/clientapi/httputil"
-	"github.com/jchv/dendrite/internal/eventutil"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/transactions"
-	"github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/setup/config"
-	userapi "github.com/jchv/dendrite/userapi/api"
+	appserviceAPI "github.com/jchv/maidtrix/appservice/api"
+	"github.com/jchv/maidtrix/clientapi/httputil"
+	"github.com/jchv/maidtrix/internal/eventutil"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/transactions"
+	"github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/setup/config"
+	userapi "github.com/jchv/maidtrix/userapi/api"
 )
 
 // Unspecced server notice request

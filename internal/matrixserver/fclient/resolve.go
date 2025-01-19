@@ -21,7 +21,7 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
 // ResolutionResult is a result of looking up a Matrix homeserver according to

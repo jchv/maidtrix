@@ -21,15 +21,15 @@ import (
 	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/roomserver/api"
-	rstypes "github.com/jchv/dendrite/roomserver/types"
-	"github.com/jchv/dendrite/syncapi/internal"
-	"github.com/jchv/dendrite/syncapi/storage"
-	"github.com/jchv/dendrite/syncapi/synctypes"
-	"github.com/jchv/dendrite/syncapi/types"
-	userapi "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/roomserver/api"
+	rstypes "github.com/jchv/maidtrix/roomserver/types"
+	"github.com/jchv/maidtrix/syncapi/internal"
+	"github.com/jchv/maidtrix/syncapi/storage"
+	"github.com/jchv/maidtrix/syncapi/synctypes"
+	"github.com/jchv/maidtrix/syncapi/types"
+	userapi "github.com/jchv/maidtrix/userapi/api"
 )
 
 type RelationsResponse struct {

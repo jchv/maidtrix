@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
 func queryUserIDForSender(senderID spec.SenderID) (*spec.UserID, error) {

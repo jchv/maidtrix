@@ -19,8 +19,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v2"
 )

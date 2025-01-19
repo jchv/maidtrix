@@ -3,10 +3,10 @@ package input
 import (
 	"testing"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 
-	"github.com/jchv/dendrite/test"
+	"github.com/jchv/maidtrix/test"
 )
 
 func Test_EventAuth(t *testing.T) {

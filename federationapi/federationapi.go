@@ -17,28 +17,28 @@ package federationapi
 import (
 	"time"
 
-	"github.com/jchv/dendrite/internal/httputil"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/setup/process"
+	"github.com/jchv/maidtrix/internal/httputil"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/setup/process"
 	"github.com/sirupsen/logrus"
 
-	federationAPI "github.com/jchv/dendrite/federationapi/api"
-	"github.com/jchv/dendrite/federationapi/consumers"
-	"github.com/jchv/dendrite/federationapi/internal"
-	"github.com/jchv/dendrite/federationapi/producers"
-	"github.com/jchv/dendrite/federationapi/queue"
-	"github.com/jchv/dendrite/federationapi/statistics"
-	"github.com/jchv/dendrite/federationapi/storage"
-	"github.com/jchv/dendrite/internal/caching"
-	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/setup/jetstream"
-	userapi "github.com/jchv/dendrite/userapi/api"
+	federationAPI "github.com/jchv/maidtrix/federationapi/api"
+	"github.com/jchv/maidtrix/federationapi/consumers"
+	"github.com/jchv/maidtrix/federationapi/internal"
+	"github.com/jchv/maidtrix/federationapi/producers"
+	"github.com/jchv/maidtrix/federationapi/queue"
+	"github.com/jchv/maidtrix/federationapi/statistics"
+	"github.com/jchv/maidtrix/federationapi/storage"
+	"github.com/jchv/maidtrix/internal/caching"
+	roomserverAPI "github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/setup/jetstream"
+	userapi "github.com/jchv/maidtrix/userapi/api"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver"
 
-	"github.com/jchv/dendrite/federationapi/routing"
+	"github.com/jchv/maidtrix/federationapi/routing"
 )
 
 // AddPublicRoutes sets up and registers HTTP handlers on the base API muxes for the FederationAPI component.

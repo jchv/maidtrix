@@ -18,8 +18,8 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/roomserver/types"
 )
 
 const purgeEventJSONSQL = "" +

@@ -12,17 +12,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/setup/jetstream"
-	"github.com/jchv/dendrite/setup/process"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/setup/jetstream"
+	"github.com/jchv/maidtrix/setup/process"
 
-	"github.com/jchv/dendrite/federationapi/api"
-	"github.com/jchv/dendrite/federationapi/routing"
-	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/federationapi/api"
+	"github.com/jchv/maidtrix/federationapi/routing"
+	"github.com/jchv/maidtrix/internal/caching"
+	"github.com/jchv/maidtrix/setup/config"
 )
 
 type server struct {

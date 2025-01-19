@@ -3,11 +3,11 @@ package streams
 import (
 	"context"
 
-	"github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/syncapi/internal"
-	"github.com/jchv/dendrite/syncapi/storage"
-	"github.com/jchv/dendrite/syncapi/types"
-	userapi "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/syncapi/internal"
+	"github.com/jchv/maidtrix/syncapi/storage"
+	"github.com/jchv/maidtrix/syncapi/types"
+	userapi "github.com/jchv/maidtrix/userapi/api"
 )
 
 type DeviceListStreamProvider struct {

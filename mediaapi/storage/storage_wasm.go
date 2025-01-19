@@ -17,9 +17,9 @@ package storage
 import (
 	"fmt"
 
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/mediaapi/storage/sqlite3"
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/mediaapi/storage/sqlite3"
+	"github.com/jchv/maidtrix/setup/config"
 )
 
 // Open opens a postgres database.

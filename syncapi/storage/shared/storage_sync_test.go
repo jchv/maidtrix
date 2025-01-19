@@ -3,7 +3,7 @@ package shared
 import (
 	"testing"
 
-	"github.com/jchv/dendrite/syncapi/synctypes"
+	"github.com/jchv/maidtrix/syncapi/synctypes"
 )
 
 func Test_isStatefilterEmpty(t *testing.T) {

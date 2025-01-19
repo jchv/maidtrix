@@ -25,16 +25,16 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/nats-io/nats.go"
 
-	"github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/roomserver/types"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/setup/jetstream"
-	"github.com/jchv/dendrite/setup/process"
-	"github.com/jchv/dendrite/syncapi/synctypes"
+	"github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/roomserver/types"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/setup/jetstream"
+	"github.com/jchv/maidtrix/setup/process"
+	"github.com/jchv/maidtrix/syncapi/synctypes"
 
 	log "github.com/sirupsen/logrus"
 )
@@ -251,7 +251,7 @@ func (s *appserviceState) backoffAndPause(err error) error {
 // appserviceIsInterestedInEvent returns a boolean depending on whether a given
 // event falls within one of a given application service's namespaces.
 //
-// TODO: This should be cached, see https://github.com/jchv/dendrite/issues/1682
+// TODO: This should be cached, see https://github.com/matrix-org/dendrite/issues/1682
 func (s *OutputRoomEventConsumer) appserviceIsInterestedInEvent(ctx context.Context, event *types.HeaderedEvent, appservice *config.ApplicationService) bool {
 	user := ""
 	userID, err := s.rsAPI.QueryUserIDForSender(ctx, event.RoomID(), event.SenderID())

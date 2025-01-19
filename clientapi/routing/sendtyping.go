@@ -17,11 +17,11 @@ import (
 
 	"github.com/matrix-org/util"
 
-	"github.com/jchv/dendrite/clientapi/httputil"
-	"github.com/jchv/dendrite/clientapi/producers"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
-	userapi "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/clientapi/httputil"
+	"github.com/jchv/maidtrix/clientapi/producers"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	roomserverAPI "github.com/jchv/maidtrix/roomserver/api"
+	userapi "github.com/jchv/maidtrix/userapi/api"
 )
 
 type typingContentJSON struct {

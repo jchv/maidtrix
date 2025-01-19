@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/miekg/dns"
 	"gopkg.in/h2non/gock.v1"
 )

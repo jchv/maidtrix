@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/userapi/storage/postgres/deltas"
-	"github.com/jchv/dendrite/userapi/storage/shared"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/userapi/storage/postgres/deltas"
+	"github.com/jchv/maidtrix/userapi/storage/shared"
 
 	// Import the postgres database driver.
 	_ "github.com/lib/pq"

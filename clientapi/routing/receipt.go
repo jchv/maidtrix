@@ -20,10 +20,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/jchv/dendrite/clientapi/producers"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/clientapi/producers"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 
-	userapi "github.com/jchv/dendrite/userapi/api"
+	userapi "github.com/jchv/maidtrix/userapi/api"
 	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 )

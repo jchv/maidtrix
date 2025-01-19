@@ -19,9 +19,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/setup/process"
-	"github.com/jchv/dendrite/test"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/setup/process"
+	"github.com/jchv/maidtrix/test"
 )
 
 func CreateConfig(t *testing.T, dbType test.DBType) (*config.Dendrite, *process.ProcessContext, func()) {

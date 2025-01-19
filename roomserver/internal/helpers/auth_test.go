@@ -17,7 +17,7 @@ package helpers
 import (
 	"testing"
 
-	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/maidtrix/roomserver/types"
 )
 
 func benchmarkStateEntryMapLookup(entries, lookups int64, b *testing.B) {

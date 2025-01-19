@@ -5,16 +5,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/internal/caching"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/setup/config"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jchv/dendrite/roomserver/types"
+	"github.com/jchv/maidtrix/roomserver/types"
 
-	"github.com/jchv/dendrite/roomserver/storage"
-	"github.com/jchv/dendrite/test"
+	"github.com/jchv/maidtrix/roomserver/storage"
+	"github.com/jchv/maidtrix/test"
 )
 
 func mustCreateDatabase(t *testing.T, dbType test.DBType) (storage.Database, func()) {

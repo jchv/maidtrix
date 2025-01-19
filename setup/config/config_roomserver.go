@@ -3,7 +3,7 @@ package config
 import (
 	"fmt"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver"
 	log "github.com/sirupsen/logrus"
 )
 

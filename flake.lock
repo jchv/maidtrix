@@ -36,7 +36,8 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "sytest-src": "sytest-src"
       }
     },
     "systems": {
@@ -51,6 +52,22 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default",
+        "type": "github"
+      }
+    },
+    "sytest-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1732111621,
+        "narHash": "sha256-YDnASVw3OoZJ45xm0RIKNUo1KvPVvk6KBWiHVQfZVv8=",
+        "owner": "matrix-org",
+        "repo": "sytest",
+        "rev": "c678954eae54b2b3f965e79f43cb04c607b8e449",
+        "type": "github"
+      },
+      "original": {
+        "owner": "matrix-org",
+        "repo": "sytest",
         "type": "github"
       }
     }

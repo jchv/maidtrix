@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/pushrules"
-	userapi "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/pushrules"
+	userapi "github.com/jchv/maidtrix/userapi/api"
 	"github.com/matrix-org/util"
 )
 

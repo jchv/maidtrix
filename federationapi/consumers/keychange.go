@@ -19,19 +19,19 @@ import (
 	"encoding/json"
 
 	"github.com/getsentry/sentry-go"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/nats-io/nats.go"
 	"github.com/sirupsen/logrus"
 
-	"github.com/jchv/dendrite/federationapi/queue"
-	"github.com/jchv/dendrite/federationapi/storage"
-	"github.com/jchv/dendrite/federationapi/types"
-	roomserverAPI "github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/setup/jetstream"
-	"github.com/jchv/dendrite/setup/process"
-	"github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/federationapi/queue"
+	"github.com/jchv/maidtrix/federationapi/storage"
+	"github.com/jchv/maidtrix/federationapi/types"
+	roomserverAPI "github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/setup/jetstream"
+	"github.com/jchv/maidtrix/setup/process"
+	"github.com/jchv/maidtrix/userapi/api"
 )
 
 // KeyChangeConsumer consumes events that originate in key server.

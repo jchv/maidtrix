@@ -4,15 +4,15 @@ import (
 	"context"
 	"testing"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/userapi/storage/postgres"
-	"github.com/jchv/dendrite/userapi/storage/sqlite3"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/userapi/storage/postgres"
+	"github.com/jchv/maidtrix/userapi/storage/sqlite3"
 
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/setup/config"
 
-	"github.com/jchv/dendrite/test"
-	"github.com/jchv/dendrite/userapi/storage/tables"
+	"github.com/jchv/maidtrix/test"
+	"github.com/jchv/maidtrix/userapi/storage/tables"
 )
 
 func mustCreateTable(t *testing.T, dbType test.DBType) (tab tables.StaleDeviceLists, close func()) {

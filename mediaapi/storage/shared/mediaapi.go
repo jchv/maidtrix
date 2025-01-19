@@ -19,10 +19,10 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/mediaapi/storage/tables"
-	"github.com/jchv/dendrite/mediaapi/types"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/mediaapi/storage/tables"
+	"github.com/jchv/maidtrix/mediaapi/types"
 )
 
 type Database struct {

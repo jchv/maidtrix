@@ -16,7 +16,7 @@ package gomatrixserverlib
 import (
 	"unsafe"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
 // EDU represents a EDU received via federation

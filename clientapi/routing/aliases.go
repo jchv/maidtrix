@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/roomserver/api"
-	userapi "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/roomserver/api"
+	userapi "github.com/jchv/maidtrix/userapi/api"
 	"github.com/matrix-org/util"
 )
 

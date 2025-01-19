@@ -20,12 +20,12 @@ package storage
 import (
 	"fmt"
 
-	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/relayapi/storage/postgres"
-	"github.com/jchv/dendrite/relayapi/storage/sqlite3"
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/internal/caching"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/relayapi/storage/postgres"
+	"github.com/jchv/maidtrix/relayapi/storage/sqlite3"
+	"github.com/jchv/maidtrix/setup/config"
 )
 
 // NewDatabase opens a new database

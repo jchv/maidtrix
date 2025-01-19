@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/userapi/storage/tables"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/userapi/storage/tables"
 )
 
 const keyBackupVersionTableSchema = `

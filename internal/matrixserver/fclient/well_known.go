@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
 var (

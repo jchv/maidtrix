@@ -3,7 +3,7 @@ package fclient
 import (
 	"encoding/json"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver"
 )
 
 func NewInviteV3Request(event gomatrixserverlib.ProtoEvent, version gomatrixserverlib.RoomVersion, state []gomatrixserverlib.InviteStrippedState) (

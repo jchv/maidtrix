@@ -24,29 +24,29 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jchv/dendrite/roomserver/storage/tables"
+	"github.com/jchv/maidtrix/roomserver/storage/tables"
 	"github.com/tidwall/gjson"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/fclient"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/fclient"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"
 
-	"github.com/jchv/dendrite/roomserver/acls"
-	"github.com/jchv/dendrite/roomserver/internal/helpers"
+	"github.com/jchv/maidtrix/roomserver/acls"
+	"github.com/jchv/maidtrix/roomserver/internal/helpers"
 
-	userAPI "github.com/jchv/dendrite/userapi/api"
+	userAPI "github.com/jchv/maidtrix/userapi/api"
 
-	fedapi "github.com/jchv/dendrite/federationapi/api"
-	"github.com/jchv/dendrite/internal"
-	"github.com/jchv/dendrite/internal/eventutil"
-	"github.com/jchv/dendrite/internal/hooks"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/roomserver/state"
-	"github.com/jchv/dendrite/roomserver/types"
+	fedapi "github.com/jchv/maidtrix/federationapi/api"
+	"github.com/jchv/maidtrix/internal"
+	"github.com/jchv/maidtrix/internal/eventutil"
+	"github.com/jchv/maidtrix/internal/hooks"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/roomserver/state"
+	"github.com/jchv/maidtrix/roomserver/types"
 )
 
 // MaximumMissingProcessingTime is the maximum time we allow "processRoomEvent" to fetch

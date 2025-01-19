@@ -17,23 +17,23 @@ package userapi
 import (
 	"time"
 
-	fedsenderapi "github.com/jchv/dendrite/federationapi/api"
-	"github.com/jchv/dendrite/federationapi/statistics"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/pushgateway"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/setup/process"
+	fedsenderapi "github.com/jchv/maidtrix/federationapi/api"
+	"github.com/jchv/maidtrix/federationapi/statistics"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/pushgateway"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/setup/process"
 	"github.com/sirupsen/logrus"
 
-	rsapi "github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/setup/jetstream"
-	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/userapi/consumers"
-	"github.com/jchv/dendrite/userapi/internal"
-	"github.com/jchv/dendrite/userapi/producers"
-	"github.com/jchv/dendrite/userapi/storage"
-	"github.com/jchv/dendrite/userapi/util"
+	rsapi "github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/setup/jetstream"
+	"github.com/jchv/maidtrix/userapi/api"
+	"github.com/jchv/maidtrix/userapi/consumers"
+	"github.com/jchv/maidtrix/userapi/internal"
+	"github.com/jchv/maidtrix/userapi/producers"
+	"github.com/jchv/maidtrix/userapi/storage"
+	"github.com/jchv/maidtrix/userapi/util"
 )
 
 // NewInternalAPI returns a concrete implementation of the internal API. Callers

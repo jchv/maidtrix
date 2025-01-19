@@ -4,10 +4,10 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/jchv/dendrite/clientapi/auth"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/clientapi/auth"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/userapi/api"
 	"github.com/matrix-org/util"
 )
 

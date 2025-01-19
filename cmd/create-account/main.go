@@ -28,13 +28,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/maidtrix/internal"
 	"github.com/tidwall/gjson"
 
 	"github.com/sirupsen/logrus"
 	"golang.org/x/term"
 
-	"github.com/jchv/dendrite/setup"
+	"github.com/jchv/maidtrix/setup"
 )
 
 const usage = `Usage: %s

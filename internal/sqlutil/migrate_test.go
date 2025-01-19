@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/test"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/test"
 )
 
 var dummyMigrations = []sqlutil.Migration{

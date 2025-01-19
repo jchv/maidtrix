@@ -17,9 +17,9 @@ package sqlite3
 
 import (
 	// Import the postgres database driver.
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/mediaapi/storage/shared"
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/mediaapi/storage/shared"
+	"github.com/jchv/maidtrix/setup/config"
 )
 
 // NewDatabase opens a SQLIte database.

@@ -3,7 +3,7 @@ package gomatrixserverlib
 import (
 	"fmt"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
 // MissingAuthEventError refers to a situation where one of the auth

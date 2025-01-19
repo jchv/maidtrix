@@ -18,12 +18,12 @@ package mscs
 import (
 	"context"
 
-	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/internal/httputil"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/setup"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/setup/mscs/msc2836"
+	"github.com/jchv/maidtrix/internal/caching"
+	"github.com/jchv/maidtrix/internal/httputil"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/setup"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/setup/mscs/msc2836"
 	"github.com/matrix-org/util"
 	"github.com/sirupsen/logrus"
 )

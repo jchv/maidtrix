@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/setup/config"
 
-	"github.com/jchv/dendrite/userapi/storage/shared"
-	"github.com/jchv/dendrite/userapi/storage/sqlite3/deltas"
+	"github.com/jchv/maidtrix/userapi/storage/shared"
+	"github.com/jchv/maidtrix/userapi/storage/sqlite3/deltas"
 )
 
 // NewUserDatabase creates a new accounts and profiles database

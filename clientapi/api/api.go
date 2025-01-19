@@ -14,7 +14,7 @@
 
 package api
 
-import "github.com/jchv/dendrite/internal/matrixserver/fclient"
+import "github.com/jchv/maidtrix/internal/matrixserver/fclient"
 
 // ExtraPublicRoomsProvider provides a way to inject extra published rooms into /publicRooms requests.
 type ExtraPublicRoomsProvider interface {

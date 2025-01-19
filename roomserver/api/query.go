@@ -22,13 +22,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 
-	"github.com/jchv/dendrite/clientapi/auth/authtypes"
-	"github.com/jchv/dendrite/roomserver/types"
-	"github.com/jchv/dendrite/syncapi/synctypes"
+	"github.com/jchv/maidtrix/clientapi/auth/authtypes"
+	"github.com/jchv/maidtrix/roomserver/types"
+	"github.com/jchv/maidtrix/syncapi/synctypes"
 )
 
 // QueryLatestEventsAndStateRequest is a request to QueryLatestEventsAndState

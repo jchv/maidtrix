@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
 // ServerKeys are the ed25519 signing keys published by a matrix server.

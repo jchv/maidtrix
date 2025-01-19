@@ -18,9 +18,9 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/jchv/dendrite/setup/jetstream"
-	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/userapi/storage"
+	"github.com/jchv/maidtrix/setup/jetstream"
+	"github.com/jchv/maidtrix/userapi/api"
+	"github.com/jchv/maidtrix/userapi/storage"
 	"github.com/nats-io/nats.go"
 	"github.com/sirupsen/logrus"
 )

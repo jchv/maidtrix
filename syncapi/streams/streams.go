@@ -3,13 +3,13 @@ package streams
 import (
 	"context"
 
-	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	rsapi "github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/syncapi/notifier"
-	"github.com/jchv/dendrite/syncapi/storage"
-	"github.com/jchv/dendrite/syncapi/types"
-	userapi "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/internal/caching"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	rsapi "github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/syncapi/notifier"
+	"github.com/jchv/maidtrix/syncapi/storage"
+	"github.com/jchv/maidtrix/syncapi/types"
+	userapi "github.com/jchv/maidtrix/userapi/api"
 )
 
 type Streams struct {

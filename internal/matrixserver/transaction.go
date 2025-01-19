@@ -3,7 +3,7 @@ package gomatrixserverlib
 import (
 	"encoding/json"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
 // A Transaction is used to push data from one matrix server to another matrix

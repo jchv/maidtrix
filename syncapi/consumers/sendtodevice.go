@@ -19,21 +19,21 @@ import (
 	"encoding/json"
 
 	"github.com/getsentry/sentry-go"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/matrix-org/util"
 	"github.com/nats-io/nats.go"
 	log "github.com/sirupsen/logrus"
 	"github.com/tidwall/gjson"
 
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/setup/jetstream"
-	"github.com/jchv/dendrite/setup/process"
-	"github.com/jchv/dendrite/syncapi/notifier"
-	"github.com/jchv/dendrite/syncapi/storage"
-	"github.com/jchv/dendrite/syncapi/streams"
-	"github.com/jchv/dendrite/syncapi/types"
-	"github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/setup/jetstream"
+	"github.com/jchv/maidtrix/setup/process"
+	"github.com/jchv/maidtrix/syncapi/notifier"
+	"github.com/jchv/maidtrix/syncapi/storage"
+	"github.com/jchv/maidtrix/syncapi/streams"
+	"github.com/jchv/maidtrix/syncapi/types"
+	"github.com/jchv/maidtrix/userapi/api"
 )
 
 // OutputSendToDeviceEventConsumer consumes events that originated in the EDU server.

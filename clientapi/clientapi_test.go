@@ -13,28 +13,28 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jchv/dendrite/appservice"
-	"github.com/jchv/dendrite/clientapi/auth/authtypes"
-	"github.com/jchv/dendrite/clientapi/routing"
-	"github.com/jchv/dendrite/clientapi/threepid"
-	"github.com/jchv/dendrite/federationapi/statistics"
-	"github.com/jchv/dendrite/internal/caching"
-	"github.com/jchv/dendrite/internal/httputil"
-	"github.com/jchv/dendrite/internal/matrix"
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/pushrules"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/roomserver"
-	"github.com/jchv/dendrite/roomserver/api"
-	"github.com/jchv/dendrite/roomserver/version"
-	"github.com/jchv/dendrite/setup/base"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/setup/jetstream"
-	"github.com/jchv/dendrite/test"
-	"github.com/jchv/dendrite/test/testrig"
-	"github.com/jchv/dendrite/userapi"
-	uapi "github.com/jchv/dendrite/userapi/api"
+	"github.com/jchv/maidtrix/appservice"
+	"github.com/jchv/maidtrix/clientapi/auth/authtypes"
+	"github.com/jchv/maidtrix/clientapi/routing"
+	"github.com/jchv/maidtrix/clientapi/threepid"
+	"github.com/jchv/maidtrix/federationapi/statistics"
+	"github.com/jchv/maidtrix/internal/caching"
+	"github.com/jchv/maidtrix/internal/httputil"
+	gomatrix "github.com/jchv/maidtrix/internal/matrix"
+	gomatrixserverlib "github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/pushrules"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/roomserver"
+	"github.com/jchv/maidtrix/roomserver/api"
+	"github.com/jchv/maidtrix/roomserver/version"
+	"github.com/jchv/maidtrix/setup/base"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/setup/jetstream"
+	"github.com/jchv/maidtrix/test"
+	"github.com/jchv/maidtrix/test/testrig"
+	"github.com/jchv/maidtrix/userapi"
+	uapi "github.com/jchv/maidtrix/userapi/api"
 	"github.com/matrix-org/util"
 	"github.com/stretchr/testify/assert"
 	"github.com/tidwall/gjson"
@@ -1695,7 +1695,7 @@ func TestKeys(t *testing.T) {
 
 		cs := crypto.NewMemoryStore(nil)
 		oc := crypto.NewOlmMachine(cl, nil, cs, dummyStore{})
-		if err = oc.Load(); err != nil {
+		if err = oc.Load(context.Background()); err != nil {
 			t.Fatal(err)
 		}
 
@@ -1705,7 +1705,7 @@ func TestKeys(t *testing.T) {
 		}
 
 		// tests `/keys/device_signing/upload`
-		_, err = oc.GenerateAndUploadCrossSigningKeys(accessTokens[alice].password, "passphrase")
+		_, _, err = oc.GenerateAndUploadCrossSigningKeysWithPassword(context.Background(), accessTokens[alice].password, "passphrase")
 		if err != nil {
 			t.Fatal(err)
 		}
@@ -1726,7 +1726,7 @@ func TestKeys(t *testing.T) {
 		}
 
 		// tests `/keys/signatures/upload`
-		if err = oc.SignOwnMasterKey(); err != nil {
+		if err = oc.SignOwnMasterKey(context.Background()); err != nil {
 			t.Fatal(err)
 		}
 
@@ -1768,16 +1768,16 @@ type claimKeysRequest struct {
 
 type dummyStore struct{}
 
-func (d dummyStore) IsEncrypted(roomID id.RoomID) bool {
-	return true
+func (d dummyStore) IsEncrypted(_ context.Context, roomID id.RoomID) (bool, error) {
+	return true, nil
 }
 
-func (d dummyStore) GetEncryptionEvent(roomID id.RoomID) *event.EncryptionEventContent {
-	return &event.EncryptionEventContent{}
+func (d dummyStore) GetEncryptionEvent(_ context.Context, roomID id.RoomID) (*event.EncryptionEventContent, error) {
+	return &event.EncryptionEventContent{}, nil
 }
 
-func (d dummyStore) FindSharedRooms(userID id.UserID) []id.RoomID {
-	return []id.RoomID{}
+func (d dummyStore) FindSharedRooms(_ context.Context, userID id.UserID) ([]id.RoomID, error) {
+	return []id.RoomID{}, nil
 }
 
 func TestKeyBackup(t *testing.T) {

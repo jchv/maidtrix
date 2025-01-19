@@ -3,7 +3,7 @@ package fclient
 import (
 	"encoding/json"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver"
 )
 
 // A RelayEntry is used to track the nid of an event received from a relay server.

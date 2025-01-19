@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
 // TopologicalOrder represents how to sort a list of events, used primarily in ReverseTopologicalOrdering

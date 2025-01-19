@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
 func UserIDForSenderTest(roomID spec.RoomID, senderID spec.SenderID) (*spec.UserID, error) {

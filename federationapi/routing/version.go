@@ -17,7 +17,7 @@ package routing
 import (
 	"net/http"
 
-	"github.com/jchv/dendrite/internal"
+	"github.com/jchv/maidtrix/internal"
 	"github.com/matrix-org/util"
 )
 

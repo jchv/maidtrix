@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
 
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/userapi/storage/postgres"
-	"github.com/jchv/dendrite/userapi/storage/sqlite3"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/userapi/storage/postgres"
+	"github.com/jchv/maidtrix/userapi/storage/sqlite3"
 )
 
 // NewUserDatabase opens a new Postgres or Sqlite database (based on dataSourceName scheme)

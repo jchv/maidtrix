@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 	"github.com/tidwall/gjson"
 	"github.com/tidwall/sjson"
 )

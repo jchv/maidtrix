@@ -17,7 +17,7 @@ package fulltext
 import (
 	"time"
 
-	"github.com/jchv/dendrite/setup/config"
+	"github.com/jchv/maidtrix/setup/config"
 )
 
 type Search struct{}

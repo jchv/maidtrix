@@ -20,7 +20,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
 )
 
 // Event validation errors

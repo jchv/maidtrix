@@ -18,8 +18,8 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/mediaapi/types"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/mediaapi/types"
 )
 
 type Thumbnails interface {

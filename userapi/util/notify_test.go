@@ -8,19 +8,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
-	"github.com/jchv/dendrite/internal/matrixserver/spec"
-	"github.com/jchv/dendrite/internal/sqlutil"
-	"github.com/jchv/dendrite/syncapi/synctypes"
+	"github.com/jchv/maidtrix/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver/spec"
+	"github.com/jchv/maidtrix/internal/sqlutil"
+	"github.com/jchv/maidtrix/syncapi/synctypes"
 	"github.com/matrix-org/util"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/jchv/dendrite/internal/pushgateway"
-	"github.com/jchv/dendrite/setup/config"
-	"github.com/jchv/dendrite/test"
-	"github.com/jchv/dendrite/userapi/api"
-	"github.com/jchv/dendrite/userapi/storage"
-	userUtil "github.com/jchv/dendrite/userapi/util"
+	"github.com/jchv/maidtrix/internal/pushgateway"
+	"github.com/jchv/maidtrix/setup/config"
+	"github.com/jchv/maidtrix/test"
+	"github.com/jchv/maidtrix/userapi/api"
+	"github.com/jchv/maidtrix/userapi/storage"
+	userUtil "github.com/jchv/maidtrix/userapi/util"
 )
 
 func queryUserIDForSender(senderID spec.SenderID) (*spec.UserID, error) {

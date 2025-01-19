@@ -17,7 +17,7 @@ package test
 import (
 	"context"
 
-	"github.com/jchv/dendrite/internal/matrixserver"
+	"github.com/jchv/maidtrix/internal/matrixserver"
 )
 
 // NopJSONVerifier is a JSONVerifier that verifies nothing and returns no errors.
